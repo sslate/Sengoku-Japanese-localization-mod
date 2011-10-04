@@ -1,0 +1,3073 @@
+1 = {
+	name="à¿ìå"
+	color = { 157  51  167 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 145
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+2 = {
+	name="ë´óò"
+	color = { 246  223  15 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+3 = {
+	name="à∞ñº"
+	color = { 223  198  64 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 18
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+4 = {
+	name="êÁót"
+	color = { 120  77  119 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+5 = {
+	name="ëÂïÛéõ"
+	color = { 166  68  72 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 3
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+6 = {
+	name="à…íB"
+	color = { 113  112  96 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 27
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+7 = {
+	name="î©éR"
+	color = { 30  75  15 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+8 = {
+	name="ñ{ä‘"
+	color = { 81  122  125 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 4
+			color = 3 # Crest
+			color = 2 # Background
+			color = 0
+		}
+	}
+}
+
+9 = {
+	name="ç◊êÏ"
+	color = { 117  161  67 }	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+10 = {
+	name="ç°êÏ"
+	color = { 178  163  143 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+11 = {
+	name="àÍêF"
+	color = { 161  139  40 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 1
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+12 = {
+	name="äãêº"
+	color = { 240  167  130 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 64
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+13 = {
+	name="ãeír"
+	color = { 120  148  140 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 67
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+14 = {
+	name="âÕñÏ"
+	color = { 123  90  90 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 28
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+15 = {
+	name="ãûã…"
+	color = { 193  26  14 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 8
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+16 = {
+	name="ê^ó¢íJ"
+	color = { 118  99  151 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 111
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+17 = {
+	name="éOâY"
+	color = { 116  92  39 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 18
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+18 = {
+	name="ç≈è„"
+	color = { 116  107  140 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+19 = {
+	name="òQâ™"
+	color = { 8  82  165 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 65
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+20 = {
+	name="ìÏïî"
+	color = { 114  70  103 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 100
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+21 = {
+	name="ìﬂê{"
+	color = { 193  171  8 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 103
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+22 = {
+	name="ìÒñ{èº"
+	color = { 166  125  164 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+23 = {
+	name="êmâÍï€"
+	color = { 84  124  48 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 89
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+24 = {
+	name="ìÒäKì∞"
+	color = { 193  237  85 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+25 = {
+	name="è¨ä}å¥"
+	color = { 220  138  57 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 6
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+26 = {
+	name="è¨ñÏéõ"
+	color = { 218  215  56 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 0
+			color = 4 #Crest
+			color = 2 #Background
+			color = 0
+		}
+	}
+}
+
+27 = {
+	name="ëÂçË"
+	color = { 153  0 0 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 22
+			color = 4 # Crest
+			color = 2 # Background
+			color = 0
+		}
+	}
+}
+
+28 = {
+	name="ëÂóF"
+	color = { 78  75  39 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 118
+			color = 3 # Crest
+			color = 2 # Background
+			color = 0
+		}
+	}
+}
+
+29 = {
+	name="ëÂì‡"
+	color = { 93  194  122 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 119
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+30 = {
+	name="òZäp"
+	color = { 34  30  174 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 121
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+31 = {
+	name="ç≤í|"
+	color = { 73  152  76 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 132
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+32 = {
+	name="ó¢å©"
+	color = { 182  134  100 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+33 = {
+	name="ézîg"
+	color = { 43  141  172 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36
+			color = 5 # Crest
+			color = 2 # Background
+			color = 0
+		}
+	}
+}
+
+34 = {
+	name="ìáí√"
+	color = { 165  89  27 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 136
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+35 = {
+	name="è≠ìÛ"
+	color = { 218  215  56 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 139
+			color = 2 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+36 = {
+	name="è@"
+	color = { 36  132  247 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 140
+			color = 2 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+37 = {
+	name="ëäîn"
+	color = { 249  206  173 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+38 = {
+	name="ïêìc"
+	color = { 178  103  5 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 111
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+39 = {
+	name="ïxä~"
+	color = { 103  62  185 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 5
+			color = 2 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+40 = {
+	name="ìyäÚ"
+	color = { 193  171  8 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 156
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+41 = {
+	name="åÀëÚ"
+	color = { 156  179  189 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 6
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+42 = {
+	name="è„êô"
+	color = { 164  217  127 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 159
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+43 = {
+	name="âFãv"
+	color = { 152  85  92 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 154
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+44 = {
+	name="âFìsã{"
+	color = { 104  137  140 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 14
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+45 = {
+	name="éRñº"
+	color = { 117  165  188 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+46 = {
+	name="‚ ìc"
+	color = { 78  75  39 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 7
+			color = 11 # Crest
+			color = 2 # Background
+			color = 0
+		}
+	}
+}
+
+47 = {
+	name="åãèÈ"
+	color = { 173  176  113 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+48 = {
+	name="îíâÕ"
+	color = { 138  193  231 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+49 = {
+	name="è¨éR"
+	color = { 54  167  156 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 53
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+50 = {
+	name="éà‰"
+	color = { 183  176  194 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+51 = {
+	name="ê‘à‰"
+	color = { 4  144  178 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 1
+			color = 2 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+52 = {
+	name="ê‘åä"
+	color = { 212  211  151 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 8
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+53 = {
+	name="èHåé"
+	color = { 97  98  195 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 7
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+54 = {
+	name="ìÚéq"
+	color = { 163  5  77 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 8
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+55 = {
+	name="ìVñÏ"
+	color = { 26  27  154 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+56 = {
+	name="åäéR"
+	color = { 48  149  21 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 9
+			color = 2 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+57 = {
+	name="éoè¨òH"
+	color = { 201  97  74 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 96
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+58 = {
+	name="à¿íÜ"
+	color = { 36  109  194 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+59 = {
+	name="óLîn"
+	color = { 93  180  76 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+60 = {
+	name="ç›ìc"
+	color = { 100  94  125 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 11
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+61 = {
+	name="í©î‰ìﬁ"
+	color = { 129  177  125 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+62 = {
+	name="í©ëq"
+	color = { 41  89  174 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 16
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+63 = {
+	name="à¢ëh"
+	color = { 23  114  143 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 19
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+64 = {
+	name="à¿ëÓ"
+	color = { 94  117  55 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 6
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+65 = {
+	name="àæâÆ"
+	color = { 213  132  76 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 12
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+66 = {
+	name="êÛà‰"
+	color = { 139  131  162 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			color = 4 # Crest
+			color = 2 # Background
+			color = 0
+		}
+	}
+}
+
+67 = {
+	name="ï èä"
+	color = { 87  92  104 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56 #right 3 tomoe
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+68 = {
+	name="í∑"
+	color = { 89  140  176 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 13
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+69 = {
+	name="í∑è@â‰ïî"
+	color = { 108  139  208 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 25
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+70 = {
+	name="ëÂùÅ"
+	color = { 157  200  42 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 14
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+71 = {
+	name="ç]åÀ"
+	color = { 17  16  203 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31 #left 3 tomoe
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+72 = {
+	name="äóê∂"
+	color = { 102  128  52 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 16
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+73 = {
+	name="å„ì°"
+	color = { 191  110  62 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 17
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+74 = {
+	name="ñIê{âÍ"
+	color = { 43  141  172 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 98
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+75 = {
+	name="å¥ìc"
+	color = { 153  21  202 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 66
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+76 = {
+	name="îgëΩñÏ"
+	color = { 193  179  127 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 60
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+77 = {
+	name="å¥ìc"
+	color = { 231  224  107 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 38
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+78 = {
+	name="àÌå©"
+	color = { 139  179  207 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36 #ashikaga
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+79 = {
+	name="ñkãΩ"
+	color = { 83  167  56 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 19
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+80 = {
+	name="ñ{èØ"
+	color = { 80  165  10 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 99
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+81 = {
+	name="ñxâz"
+	color = { 178  139  60 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+82 = {
+	name="ñxì‡"
+	color = { 125  92  110 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 99
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+83 = {
+	name="êØñÏ"
+	color = { 153  138  161 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 20
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+84 = {
+	name="à…íÎ"
+	color = { 79  89  182 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 21
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+85 = {
+	name="àÍã{"
+	color = { 194  53  60 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 174
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+86 = {
+	name="à‰à…"
+	color = { 30  131  162 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 47
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+87 = {
+	name="à…èWâ@"
+	color = { 153  141  117 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 48
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+88 = {
+	name="írìc"
+	color = { 63  150  30 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 49
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+89 = {
+	name="ç°à‰"
+	color = { 112  194  63 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 32
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+90 = {
+	name="àÓót"
+	color = { 97  102  135 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 28
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+91 = {
+	name="ì¸ç]"
+	color = { 138  151  103 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 22
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+92 = {
+	name="à…íO"
+	color = { 121  159  109 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 58
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+93 = {
+	name="à…ìå"
+	color = { 130  168  224 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 23
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+94 = {
+	name="ê_ï€"
+	color = { 106  127  183 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 60
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+95 = {
+	name="çÅêÏ"
+	color = { 98  140  84 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 95
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+96 = {
+	name="çbî„"
+	color = { 199  160  139}
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 17 #circle feathers
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+97 = {
+	name="ä`çË"
+	color = { 26  53  177 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 49
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+98 = {
+	name="äóír"
+	color = { 121  162  109 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+99 = {
+	name="ã‡éq"
+	color = { 74  92  128 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 24
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+100 = {
+	name="é≠ìá"
+	color = { 210  46  28 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31 #left 3 tomoe
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+101 = {
+	name="èÈà‰"
+	color = { 101  102  163 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31 #left 3 tomoe
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+102 = {
+	name="ãgêÏ"
+	color = { 179  29  100 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 66
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+103 = {
+	name="äÃït"
+	color = { 200  202  85 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 68
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+104 = {
+	name="ãgó«"
+	color = { 93  147  88 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36 #ashikaga
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+105 = {
+	name="ãÀê∂"
+	color = { 190  180  93 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56 #right 3 tomoe
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+106 = {
+	name="ñÿë]"
+	color = { 67  124  181 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 65
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+107 = {
+	name="ñkî©"
+	color = { 201  28  54 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 65
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+108 = {
+	name="ñÿëÚ"
+	color = { 117  179  128 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 151
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+109 = {
+	name="è¨éRìc"
+	color = { 100  96  197 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 87
+			color = 2 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+110 = {
+	name="çÅêº"
+	color = { 165  80  10 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 26
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+111 = {
+	name="ã„ãS"
+	color = { 215  135  125 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 72
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+112 = {
+	name="ãÄñ‘"
+	color = { 165  132  57 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 17
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+113 = {
+	name="âvìc"
+	color = { 227  162  94 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 40
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+114 = {
+	name="èºìc"
+	color = { 94  136  191 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 78
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+115 = {
+	name="èºïΩ"
+	color = { 195  149  155 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 154
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+116 = {
+	name="èºâY"
+	color = { 219  124  139 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 19
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+117 = {
+	name="éOñÿ"
+	color = { 179  128  104 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 27
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+118 = {
+	name="éOë∫"
+	color = { 108  153  65 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 83
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+120 = {
+	name="éOçD"
+	color = { 154  133  153 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 28
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+121 = {
+	name="ñ—óò"
+	color = { 35  110  195 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 89
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+122 = {
+	name="è@ëú"
+	color = { 186  164  78 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 29
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+123 = {
+	name="ë∫è„"
+	color = { 184  193  89 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 92
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+124 = {
+	name="í∑ñÏ"
+	color = { 175  122  10 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 94
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+125 = {
+	name="í∑îˆ"
+	color = { 107  94  169 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 95
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+126 = {
+	name="ì‡ì°"
+	color = { 176  72  77 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 30
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+127 = {
+	name="ìÏè"
+	color = { 204  184  177 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 31
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+128 = {
+	name="êmñÿ"
+	color = { 98  134  153 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36 #ashikaga
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+129 = {
+	name="êmâ»"
+	color = { 122  179  97 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 50
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+130 = {
+	name="î\ê®"
+	color = { 211  184  179 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 33
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+131 = {
+	name="Nukâ∑à‰ui"
+	color = { 211  220  178 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 64
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+132 = {
+	name="è¿ä‘"
+	color = { 75  188  60 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 110
+			color = 2 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+133 = {
+	name="è¨î¶"
+	color = { 162  134  164 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 34
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+134 = {
+	name="êDìc"
+	color = { 199  177  128 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			color = 2 # Crest
+			color = 0 # Background
+			color = 0
+		}
+	}
+}
+
+135 = {
+	name="ëÂå¥"
+	color = { 124  140  162 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 82
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+136 = {
+	name="ëÂïΩ"
+	color = { 255  213  51 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+137 = {
+	name="ëÂë∫"
+	color = { 187  79  86 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 114
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+138 = {
+	name="ëÂã¥"
+	color = { 116  153  8 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 50
+			color = 2 # Crest
+			color = 0 # Background
+			color = 0
+		}
+	}
+}
+
+139 = {
+	name="ëÂà‰"
+	color = { 82  135  124 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 174
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+140 = {
+	name="ó¥ë¢éõ"
+	color = { 140  169  183 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+141 = {
+	name="ç≤îå"
+	color = { 194  140  86 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+142 = {
+	name="ëäó«"
+	color = { 119  151  122 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 63
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+143 = {
+	name="êºãΩ"
+	color = { 138  126  53 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 67
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+144 = {
+	name="êºâÄéõ"
+	color = { 39  100  157 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56 #right 3 tomoe
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+145 = {
+	name="ç÷ì°"
+	color = { 121  106  108 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 189
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+146 = {
+	name="ç≤é°"
+	color = { 90  138  133 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 132
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+147 = {
+	name="ä÷"
+	color = { 97  209  251 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 133
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+148 = {
+	name="êVî≠ìc"
+	color = { 0  123  12 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 51
+			color = 2 # Crest
+			color = 0 # Background
+			color = 0
+		}
+	}
+}
+
+149 = {
+	name="ìåãΩ"
+	color = { 62  122  189 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 135
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+150 = {
+	name="éuâÍ"
+	color = { 153  122  108 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 93
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+151 = {
+	name="í≈ñº"
+	color = { 189  123  130 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 135
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+152 = {
+	name="âññË"
+	color = { 64  120  172 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 147
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+153 = {
+	name="èØ"
+	color = { 212  105  118 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 38
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+154 = {
+	name="ì©"
+	color = { 89  134  166 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 39
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+155 = {
+	name="êô"
+	color = { 135  104  85 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 24
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+156 = {
+	name="ìcå¥"
+	color = { 55  108  158 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 93
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+157 = {
+	name="ëΩâÍ"
+	color = { 201  19  70 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 41
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+158 = {
+	name="çÇã¥"
+	color = { 60  133  142 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 20
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+159 = {
+	name="ã íu"
+	color = { 89  164  144 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 38
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+160 = {
+	name="íWó÷"
+	color = { 81  141  85 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 33
+			color = 2 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+161 = {
+	name="ìå"
+	color = { 35  220  30   }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24 #hosokawa
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+163 = {
+	name="âìéR"
+	color = { 242  149  0 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+164 = {
+	name="ìyéù"
+	color = { 165  151  80 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 156
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+165 = {
+	name="ì‡Éñìá"
+	color = { 146  155  156}
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 45
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+166 = {
+	name="éÅâ∆"
+	color = { 177  207  205 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56 #right 3 tomoe
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+167 = {
+	name="äCè„"
+	color = { 81  144  126 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 40
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+168 = {
+	name="âYè„"
+	color = { 211  207  173 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 94
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+169 = {
+	name="âPà‰"
+	color = { 134  166  117 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24 #hosokawa
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+171 = {
+	name="ñÓïî"
+	color = { 131  101  85 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 194
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+172 = {
+	name="ñÚétéõ"
+	color = { 202 202 202}
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 47
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+173 = {
+	name="éRì‡"
+	color = { 204  186  201 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 46
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+174 = {
+	name="à¿å©"
+	color = { 61  152  180 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 96
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+175 = {
+	name="à¿ïx"
+	color = { 69  157  208 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 48
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+176 = {
+	name="ãgå©"
+	color = { 213  82  109 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+177 = {
+	name="ìíêÏ"
+	color = { 151  174  28 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 111
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+179 = {
+	name="óVç≤"
+	color = { 166  189  199 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 115
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+180 = {
+	name="ê‘èº"
+	color = { 20  50  210 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 10
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+181 = {
+	name="ëæìc"
+	color = { 161  126  128 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 37
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+182 = {
+	name="ëÂêŒ"
+	color = { 231  230  138 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 36
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+183 = {
+	name="ê¨ìc"
+	color = { 209  212  126 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 102
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+184 = {
+	name="çÇóú"
+	color = { 111  162  128 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 42
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+185 = {
+	name="ëÂêX"
+	color = { 147  146  106 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 168
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+186 = {
+	name="éOìc"
+	color = { 140  183  154 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31 #left 3 tomoe
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+187 = {
+	name="ñLìá"
+	color = { 131  141  142 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24 #hosokawa
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+188 = {
+	name="å√âÕë´óò"
+	color = { 156  96  100 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+189 = {
+	name="å¥"
+	color = { 213  155  81 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 18
+			color = 1 # Crest
+			color = 11 # Background
+			color = 0
+		}
+	}
+}
+
+190 = {
+	name="ïxâi"
+	color = { 107  170  77 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 43
+			color = 2 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+191 = {
+	name="éÎñÏ"
+	color = { 117  112  131 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+192 = {
+	name="ìõà‰"
+	color = { 20  100  220 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 44
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+193 = {
+	name="è\és"
+	color = { 154  69  116 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 96
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+194 = {
+	name="å√és"
+	color = { 224  146  113 } 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 15
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+195 = {
+	name="âzíq"
+	color = { 102  105  104 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 35
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+196 = {
+	name="è¨éõ"
+	color = { 158  118  120 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 25
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+197 = {
+	name="åÀìc"
+	color = { 170 43 21 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 39
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+198 = {
+	name="ìåè"
+	color = { 127  170  146 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+199 = {
+	name="êõè¿"
+	color = { 211  207  173 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 40
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+200 = {
+	name="çHì°"
+	color = { 149  119  9 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 66
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+201 = {
+	name="êzñK"
+	color = { 117  146  167 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 143
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+202 = {
+	name="à…ê®"
+	color = { 61  136  66 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 14
+			color = 7 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+203 = {
+	name="ÂêêÏ"
+	color = { 177  150  109 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 32
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+204 = {
+	name="ì˙ñÏ"
+	color = { 255  213  51 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 90
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+205 = {
+	name="çúîÁ"
+	color = { 57  151  142 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 110
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+206 = {
+	name="ïßã≥èO"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			color = -1 # Crest
+			color = -1 # Background
+			color = -1
+			emblem = 3
+		}
+	}
+}
+
+207 = {
+	name="ê_ìπèO"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			color = -1 # Crest
+			color = -1 # Background
+			color = -1
+			emblem = 4
+		}
+	}
+}
+
+208 = {
+	name="ãgóòéxíO"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			color = -1 # Crest
+			color = -1 # Background
+			color = -1
+			emblem = 5
+		}
+	}
+}
+
+209 = {
+	name="àÍå¸àÍùÑèO"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			color = -1 # Crest
+			color = -1 # Background
+			color = -1
+			emblem = 6
+		}
+	}
+}
