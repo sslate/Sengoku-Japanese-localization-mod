@@ -1,0 +1,237 @@
+# 2011/10/03 暫定版 by 510
+# （Tips文(LOADING_TIP_xx)には改行文字(\n)が必要ですが、現時点で日本語化環境がなく、調整できないため改行が入っていません）
+#
+# ・異論が出そうな訳
+# （怪しげな訳をここにまとめます。「この訳はねえよｗ」みたいなのもあるかと思いますが暫定版ということで許してね。）
+#
+#   >用語
+#   clan=家, Ninja Clans=忍者衆, form a new clan=新たな家を興す
+#   (clan) leader=棟梁, vassal=直参, son=男子
+#   Daimyo=大名, Kokujin=国人, kokujin title=国人職
+#   kuni=国, kori=郡, province=プロヴィンス
+#   grant landed title=所領を与える（知行する？）
+#   plot=調略
+#   {martial, diplomacy, intrigue}skill={武芸,外交,陰謀}能力
+#   Master of {Arms, Ceremonies, Guard}={軍事,内政,防衛}担当
+#   retinue=寄子, levy=雑兵, raise the levys=雑兵を動員する
+#   Samurai=侍（騎馬隊？）, Ashigaru=足軽, Arquebusier=鉄砲隊
+#
+#   >その他
+#   {daimyo, kokujin, leader} of=次の{大名,国人,棟梁}
+#   （表示上では"Daimyo of Echigo"のように出現するが、システム上"Daimyo of"と"Echigo"は別のテキストで前後に入れ替えられないための苦肉の策。）
+#
+#
+# ここから text.csv
+#
+LIEGE_NAME;主君：ｧY$LIEGE$ｧW;Liege: ｧY$LIEGE$ｧW;;;;;;;;;;;;x
+CLAN_NAME;ｧY$CLAN$ｧW家;Clan ｧY$CLAN$ｧW;;;;;;;;;;;;x
+county_of;次の国人;Kokujin of;;;;;;;;;;;;x
+duchy_of;次の大名;Daimyo of;;;;;;;;;;;;x
+STAT_MARTIAL;武芸;Martial;;;;;;;;;;;;x
+STAT_MARTIAL_DESC;武芸能力は武将にとって重要であり、また軍事担当に与えた仕事の結果にも影響します。;Martial skill is important for generals, and it also affects the outcome of tasks given to your Master of Arms.;;;;;;;;;;;;x
+STAT_DIPLOMACY;外交;Diplomacy;;;;;;;;;;;;x
+STAT_DIPLOMACY_DESC;外交能力は他キャラクターとの交渉の成功可能性に影響し、また内政担当に与えた仕事の成否にとっても重要です。;Diplomatic skill affects the likelihood of success in negotiations with other characters, and it is important for tasks given to your Master of Ceremonies.;;;;;;;;;;;;x
+STAT_INTRIGUE;陰謀;Intrigue;;;;;;;;;;;;x
+STAT_INTRIGUE_DESC;陰謀能力は防衛担当にとって最も重要な資質です。高い陰謀能力は、調略の察知や暗殺のような裏工作の成功性を高めます。;Intrigue skill is the primary attribute of your Master of the Guard. High intrigue improves the chances of uncovering plots and carrying out skulduggery, such as assassinations.;;;;;;;;;;;;x
+STAT_HONOR;名誉;Honor;;;;;;;;;;;;x
+STAT_HONOR_DESC;名誉は周囲からの名声を表します。;Honor is your standing among your peers.;;;;;;;;;;;;x
+STAT_WEALTH;富;Wealth;;;;;;;;;;;;x
+STAT_WEALTH_DESC;富は税で得られる金のことであり、軍や建築に費やします。;Your wealth is the gold that you gain through taxes and spend on armies and buildings.;;;;;;;;;;;;x
+emperor_deed;次の棟梁;Leader of;;;;;;;;;;;;x
+emperor;棟梁;Leader;;;;;;;;;;;;x
+king_deed;次の棟梁;Leader of;;;;;;;;;;;;x
+count_deed;次の国人;Kokujin of;;;;;;;;;;;;x
+duke_deed;次の大名;Daimyo of;;;;;;;;;;;;x
+duke;大名;Daimyo;;;;;;;;;;;;x
+count;国人;Kokujin;;;;;;;;;;;;x
+VASSALS;直参;Vassals;;;;;;;;;;;;x
+INDEPENDENT;独立;Independent;;;;;;;;;;;;x
+VASSAL_SUBJECT;$LORD$の直参;Vassal of $LORD$;;;;;;;;;;;;x
+SM_SETTINGS;設定;Settings;;;;;;;;;;;;x
+SM_GAME;ゲーム;Game;;;;;;;;;;;;x
+SM_VIDEO;ビデオ;Video;;;;;;;;;;;;x
+SM_AUDIO;オーディオ;Audio;;;;;;;;;;;;x
+SM_CONTROLS;操作;Controls;;;;;;;;;;;;x
+SM_MASTER_VOLUME;主音量;Master Volume;;;;;;;;;;;;x
+SM_EFFECT_VOLUME;効果音;Effects Volume;;;;;;;;;;;;x
+SM_MUSIC_VOLUME;音楽;Music Volume;;;;;;;;;;;;x
+SM_SCROLL_SPEED;スクロール速度;Scroll Speed;;;;;;;;;;;;x
+SM_ZOOM_SPEED;ズーム速度;Zoom Speed;;;;;;;;;;;;x
+SM_MOUSE_SPEED;マウス速度;Mouse Speed;;;;;;;;;;;;x
+SM_RESOLUTION;解像度;Resolution;;;;;;;;;;;;x
+SM_REFRESH_RATE;リフレッシュレート;Refresh Rate;;;;;;;;;;;;x
+SM_GAMMA;ガンマ;Gamma;;;;;;;;;;;;x
+SM_SHADOWS;影;Shadows;;;;;;;;;;;;x
+SM_TREES;ツリー;Trees;;;;;;;;;;;;x
+SM_DIFFICULTY;難易度;Difficulty;;;;;;;;;;;;x
+SM_AUTOSAVE_INTERVAL;オートセーブ間隔;Autosave Interval;;;;;;;;;;;;x
+SM_APPLY;適用;Apply;;;;;;;;;;;;x
+SM_BACK;戻る;Back;;;;;;;;;;;;x
+SM_ALERT;警告;Alert;;;;;;;;;;;;x
+SM_RESTART;変更を適用するにはゲームの再起動が必要です。;You need to restart the game for any changes to take effect.;;;;;;;;;;;;x
+SM_WP;設定ファイル書き込みエラー。ファイルが読み取り専用になっていないか確認し再試行してください。;Error writing to the settings file. Verify that the file is not write protected and try again.;;;;;;;;;;;;x
+SM_MULTISAMPLE;マルチサンプルレベル;Multisample Level;;;;;;;;;;;;x
+RESTART_REQ;再起動が必要;Restart Required;;;;;;;;;;;;x
+RESTART_REQ_DESC;変更を適用するにはゲームの再起動が必要です。;You must restart the game for any changes to take effect.;;;;;;;;;;;;x
+AMBIENT;環境音;Ambient;;;;;;;;;;;;x
+CLOSE;閉じる;Close;;;;;;;;;;;;x
+MONTHLY;毎月;Monthly;;;;;;;;;;;;x
+HALFYEAR;半年毎;Biannual;;;;;;;;;;;;x
+YEARLY;毎年;Annuel;;;;;;;;;;;;x
+FIVE_YEAR;5年毎;Every Five Years;;;;;;;;;;;;x
+strait;海峡;Strait;;;;;;;;;;;;x
+crossing;河川横断;River crossing;;;;;;;;;;;;x
+mountain;山;Mountains;;;;;;;;;;;;x
+hills;丘;Hills;;;;;;;;;;;;x
+impassable_mountains;進入できない山;Impassable mountains;;;;;;;;;;;;x
+plains;平原;Plains;;;;;;;;;;;;x
+farmlands;農地;Farmlands;;;;;;;;;;;;x
+FE_SINGLE_PLAYER;シングルプレイヤー;Single Player;;;;;;;;;;;;x
+FE_MULTI_PLAYER;マルチプレイヤー;Multiplayer;;;;;;;;;;;;x
+FE_OPTIONS;オプション;Options;;;;;;;;;;;;x
+FE_CREDITS;クレジット;Credits;;;;;;;;;;;;x
+FE_EXIT;終了;Exit;;;;;;;;;;;;x
+FE_NEW_GAME;ニューゲーム;New Game;;;;;;;;;;;;x
+FE_SAVE_GAME;セーブ;Save Games;;;;;;;;;;;;x
+FE_HISTORICAL_START;歴史の開始;Historical Start;;;;;;;;;;;;x
+FE_SAVED_GAMES;セーブされたゲーム;Saved Games;;;;;;;;;;;;x
+FE_SELECT_NATION;地図をクリックしてキャラクターを選択してください。;Click on the map to select a character.;;;;;;;;;;;;x
+FE_DIFFICULTY;難易度:;Difficulty:;;;;;;;;;;;;x
+FE_BOOKEDMARKED;おすすめのスタート:;Starting Suggestions:;;;;;;;;;;;;x
+JAPAN_YEAR;日本, $YEAR$;Japan, $YEAR$;;;;;;;;;;;;x
+FE_VASSALS;直参;Vassals;;;;;;;;;;;;x
+FE_CLANS;家;Clans;;;;;;;;;;;;x
+FE_DAIMYO;大名;Daimyo;;;;;;;;;;;;x
+FE_CHARACTERS;キャラクター;Characters;;;;;;;;;;;;x
+FE_TERRAIN;地形;Terrain;;;;;;;;;;;;x
+FE_DIPLOMACY;外交;Diplomatic;;;;;;;;;;;;x
+FE_SELECT_CHARACTER;キャラクター;Character;;;;;;;;;;;;x
+FE_PLAYERS;プレイヤー;Players;;;;;;;;;;;;x
+ATPEACE;平時 ;At peace ;;;;;;;;;;;;x
+ATWAR;戦時 ;At war ;;;;;;;;;;;;x
+HINT_SPLASH_TITLE;Sengokuへようこそ！;Welcome to Sengoku!;;;;;;;;;;;;x
+HINT_SPLASH_TEXT;Sengokuでは、あなたは日本の封建君主となり、将軍となるため最高権力を得ることを目指します。左上隅でキャラクターの肖像を見られます。;In Sengoku, you play a Japanese feudal lord struggling for ultimate power in a quest to become Shogun. You can see your character portrait in the upper-left corner.;;;;;;;;;;;;x
+HINT_SPLASH_START;新たな封建君主としては、まず家臣団ビューからアドバイザーを任命し、彼らに仕事をさせることから始めるべきでしょう。次に、敵味方を確認するために隣国や直参たちを見てみましょう… あなたに敵対するものへの調略の準備を始めてもよいかもしれません。;As a new feudal lord, you should start by appointing advisors via the Court View and putting them to work. Then take a look at your neighbours and vassals to see who your friends and enemies are... and maybe launch a plot against those who would oppose you.;;;;;;;;;;;;x
+HINT_SPLASH_TIME;Sengokuはポーズ可能なリアルタイムゲームです。これはゲームをポーズしている間も時間が進んでいる時と同様に命令を出すことができることを意味しています。ゲームをポーズまたは解除するには、右上隅の日付をクリックするか、Spaceキーを押してください。時間が進むのを早くしたり遅くするには、プラスとマイナスボタンを使用します。;Sengoku is a Pausable Real-Time game. This means that you can issue commands both while the game is paused as well as when the clock is running. To pause or unpause the game, click the date in the upper-right corner or press the Spacebar. Use the plus and minus symbols to speed time up or to slow it down.;;;;;;;;;;;;x
+HINT_PROVINCEVIEW_TITLE;郡;Kori;;;;;;;;;;;;x
+HINT_PROVINCEVIEW_OWNER;各郡にはそれぞれ対応する国人の職名があり、これが郡の所有権を意味しています。このビューでは、職を誰が持っているのか、またその人物にとって最重要な外交関係を確認できます。;Each kori has a corresponding kokujin title, which implies ownership of the kori. In this view, you can see the title holder and his most important diplomatic relationships.;;;;;;;;;;;;x
+HINT_PROVINCEVIEW_BUILDINGS;各郡は建築物により改良することができます。あなたが建てられる建築物は3タイプ存在します。;Each kori can be upgraded with buildings. There are three types of buildings you can construct.;;;;;;;;;;;;x
+HINT_PROVINCEVIEW_REVOLT;またここでは、プロヴィンスの反乱リスクも確認することができます。つまり地元農民が立ち上がる危険性です。あなたが民にとって酷い仕打ちをすれば増加する可能性があります。ですが危険性があまりにも高すぎる場合には、防衛担当を派遣し反乱を鎮圧することができます。;Here you can also see the revolt risk in the province. This is the risk that the local peasants will rise up. This chance can increase if you treat your population badly. If it gets too high, however, you can send your Master of Arms to suppress the rebels.;;;;;;;;;;;;x
+HINT_PROVINCEVIEW_REVOLT_TWO;民が反乱を起こした場合、反乱軍は各宗教派閥の支援を受けます。近隣にある寺院は反乱を援護し、影響を及ぼすでしょう。反乱の大きさはあなたと宗派との関係に影響されます。例えば、あなたと宗派との関係がすごく悪ければ反乱は大規模になるかもしれません。反乱リスクが0でない時にマウスホバーすることで、どの宗派が扇動しているかと、その支援の程度を確認できます。;If the population revolts, they can receive support from any of the religious factions. The nearby temples will influence which faction supports the rebels. The strength of the revolt is influenced by your relation with the specific faction: if you have really bad relations with a faction, the revolt may grow quite large. Hover your mouse over a non-zero revolt risk to see which faction is agitating there and the extent of their support.;;;;;;;;;;;;x
+HINT_PROVINCEVIEW_TEMPLES;各郡には各宗派から1つだけ宗教的建築物を建てることができます。寺院を建築すると、その宗派との関係が向上するでしょう。;Each kori can have one religious building from one of the factions. If you build a temple, you will increase your relationship with that faction.;;;;;;;;;;;;x
+BM_THE_ONIN_WAR;応仁の乱;The Onin War;;;;;;;;;;;;x
+BM_THE_KANTO_WAR;享徳の乱;The Kanto War;;;;;;;;;;;;x
+BM_THE_KANTO_WAR_DESC;1439年、将軍・足利義教に敗れた足利成氏の兄と、父の足利持氏らは自害させられました。にもかかわらず、次の将軍・足利義政は鎌倉公方として成氏を任命しました。義政は彼を全く信頼しておらず、上杉憲忠に成氏を監視させました。1454年、成氏が持氏の死に関わった上杉家の者を殺害すると、上杉家は報復攻撃を行い、関東地方は混乱に陥いりました。義政は弟の政知を派遣し秩序を回復させようとしましたが、状況の速やかな解決には至らず、政知は伊豆プロヴィンスに留まらねばなりませんでした。;Having been defeated by Shogun Ashikaga Yoshinari in 1439, Shigeuji's older brothers and father, Ashikaga Mochiuji, were forced to commit seppuku. Despite this, the new Shogun, Ashikaga Yoshimasa, later appointed Shigeuji as his deputy in the Kanto region. Not trusting him entirely, Yoshimasa had his ally Uesugi Noritada keep an eye on Shigeuji. When Uesugi, who had played a part in Mochiuji's death, was murdered by Shigeuji in 1454, the Kanto region fell into chaos as the Uesugi clan attacked in revenge. Yoshimasa sent his younger brother Masatomo to help restore order, but, unable to resolve the situation quickly, he had to settle down in Izu Province.;;;;;;;;;;;;x
+#
+# ここから text1.csv
+#
+forest;森林;;;;;;;;;;;;;x
+SM_CAMERA_SPEED;カメラの滑らかさ;Camera Smoothness;;;;;;;;;;;;x
+SM_CENTERED_ZOOM_IN;カーソルへのズームイン;Zoom In to Cursor;;;;;;;;;;;;x
+SM_CAMERA_TILT;カメラの傾き;Camera Tilt;;;;;;;;;;;;x
+CHAR_TOOLTIP_AGE;年齢：$AGE$;Age: $AGE$;;;;;;;;;;;;x
+#
+# ここから text2.csv
+#
+#翻訳済みなし
+#
+# ここから text3.csv
+#
+#xxxxxxxxxxxx;You have to use '\'n to set manual line breaks in the\n text. And use no more than 110 characters.;You have to use '\'n to set manual line breaks in the\n text. And use no more than 110 characters.;;;You have to use '\'n to set manual line breaks in the\n text. And use no more than 110 characters.;;;;;;;;;x;
+#LOADING_TIP_0
+LOADING_TIP_1;名誉が0まで減少すると、プレイヤーキャラクターは切腹を命じられ、プレイヤーはゲームオーバーとなります…;If your honor is reduced to zero, your character will be forced to commit seppuku.\nAs a player, this means game over...;;;;;;;;;;;;x
+LOADING_TIP_2;プレイヤーはいつでも自分の寄子を雇用することができますが、各プロヴィンスから雑兵を動員できるのは棟梁のみです…;You can always have your own personal retinue, but only the clan leader can raise\nthe levys from each province...;;;;;;;;;;;;x
+LOADING_TIP_3;本ゲームには足軽、侍、鉄砲隊の3タイプの軍事ユニットが存在します…;There are three types of military units in the game.\nAshigaru, Samurai and Arquebusiers...;;;;;;;;;;;;x
+#LOADING_TIP_4
+LOADING_TIP_5;婚姻は後継者作りのためだけのものではありません。他家との強固な繋がりを作ることにも用いることができるでしょう。;A marriage is not just for heir making. It can be used to create a stronger bond with another clan.;;;;;;;;;;;;x
+LOADING_TIP_6;直参たちとは常に良い関係を保つようにしてください。さもなければ、彼らは独立して新たな家を興そうとするかもしれません。;Try to keep a good relation with your vassals or they might try to form a new clan.;;;;;;;;;;;;x
+LOADING_TIP_7;直参たちとは常に良い関係を保つようにしてください。さもなければ、彼らはあなたの代わりに棟梁になろうとするかもしれません。;Try to keep a good relation with your vassals or they might try to usurp your clan leader title.;;;;;;;;;;;;x
+LOADING_TIP_8;調略に注意！調略に荷担すれば露見する可能性があります…;Beware of plots! If you join one it might be exposed...;;;;;;;;;;;;x
+LOADING_TIP_9;計画的な婚姻を。男子の数が多く、かつ全員に対して十分な郡を所有していない場合、不幸なことが起こる可能性があります。;Marry wise. If you have too many sons and not enough koris for all of them, bad things might happen.;;;;;;;;;;;;x
+LOADING_TIP_10;高い武芸能力を持った女性は郡の防衛で活躍することができるでしょう。;Women with good Martial skill will be able to defend your koris and do it well.;;;;;;;;;;;;x
+LOADING_TIP_11;内政担当には街の拡張、関係向上、徴税を行うことのできる、高い外交能力が必要とされます。;Your Master of Ceremonies needs a high Diplomacy skill to help you improve Villages, relations and collect taxes.;;;;;;;;;;;;x
+LOADING_TIP_12;軍事担当には城の拡張、浪人登用、反乱鎮圧を行うことのできる、高い武芸能力が必要とされます。;Your Master of Arms need a high Martial skill to help you improve Castles, recruit Ronin and restore order.;;;;;;;;;;;;x
+LOADING_TIP_13;防衛担当には工房の拡張、流言、忍者雇用を行うことのできる、高い陰謀能力が必要とされます。;Your Master of the Guard need a high Intrigue skill to expand Guild slots, sow dissent or hire Ninjas.;;;;;;;;;;;;x
+LOADING_TIP_14;忍者衆は色々と便利です。彼らを利用するのを躊躇わないこと！;Ninja Clans are helpful in many ways, don't hesitate to use them!;;;;;;;;;;;;x
+LOADING_TIP_15;誰かへ贈り物をすれば、好感度が上がり、さらに一定の名誉も獲得することができるでしょう。;If you send a gift to someone they will like you more and you will gain some honor.;;;;;;;;;;;;x
+LOADING_TIP_16;人質交換を行った上でさらに別の他家を攻撃した場合、人質交換を行わなかった場合よりも大きな名誉を得ることができるでしょう。;If you exchange hostages and then attack the other clan, you will take a greater honor hit\nthan if you had not exhanged hostages with the clan.;;;;;;;;;;;;x
+LOADING_TIP_17;種々の宗派はそれぞれ別のことに役立ちます。賢く選択してください。;The different factions is useful for different things, choose wisely.;;;;;;;;;;;;x
+LOADING_TIP_18;神道は名誉を毎月増加させます。;Shintoism increases your monthly honor.;;;;;;;;;;;;x
+LOADING_TIP_19;仏教は雑兵と寄子の増強速度を向上します。;Buddhism increases your levies and retinues reinforce speed.;;;;;;;;;;;;x
+LOADING_TIP_20;キリスト教は国の税収入を増加させます。;Christianity increases your national tax income.;;;;;;;;;;;;x
+LOADING_TIP_21;棟梁となる男子を指名しておくことを忘れないように！;Don't forget to nominate a son of your own to become clan leader!;;;;;;;;;;;;x
+LOADING_TIP_22;他家と人質交換を行うことで、その家のあなたへの敵対的行動の機会を奪うことができるでしょう。;Exchanging hostages with another clan will reduce the chance\nof hostile actions taken against you.;;;;;;;;;;;;x
+LOADING_TIP_23;勝てば官軍。戦の間にプロヴィンスを占領した者が自動的にその所有者となるでしょう…;Might is right. Whoever captures a province during war\nautomatically owns it...;;;;;;;;;;;;x
+LOADING_TIP_24;収支には注意を払ってください。さもないと、直参たちや軍からの信頼を失うことになるでしょう。;Balance your economy with care or your vassals and troops\nwill lose faith in you.;;;;;;;;;;;;x
+LOADING_TIP_25;資金が0を下回ると軍は士気が低下し、直参たちも動揺します。;Your armies have lower morale when your money is less than zero, you vassals will also be upset.;;;;;;;;;;;;x
+LOADING_TIP_26;反乱プロヴィンスに隣接する全プロヴィンスは反乱リスクが増加します。;All provinces neighboring a rebel province have their revolt risk increased.;;;;;;;;;;;;x
+LOADING_TIP_27;反乱プロヴィンスは誰にも宣戦布告せずに奪取することができます。;Rebel provinces can be taken without having to declare war on anyone.;;;;;;;;;;;;x
+LOADING_TIP_28;幕府：この時代の日本において施行されていた封建制度における政府。将軍政治とも呼ばれる。;Bakufu: Feudal system of government prevalent in Japan in this era. Also known as Shogunate.;;;;;;;;;;;;x
+LOADING_TIP_29;将軍：日本の世襲の軍事独裁者。名目上は天皇に従う。;Shogun: Hereditary military dictator of Japan. Nominally subject to the Emperor.;;;;;;;;;;;;x
+LOADING_TIP_30;大名：1つ以上の国を統治する強力な封建制君主。;Daimyo: Powerful feudal lord in control of one or more Kuni.;;;;;;;;;;;;x
+LOADING_TIP_31;国人：1つ以上の国を統治する地方武士。;Kokujin: Local samurai warrior in control of one or more Kori.;;;;;;;;;;;;x
+LOADING_TIP_32;郡：歴史上の区画。;Kori: historical district.;;;;;;;;;;;;x
+LOADING_TIP_33;国：歴史上のプロヴィンスであり、いくつかの郡から構成される。;Kuni: historical province, consisting of several Kori.;;;;;;;;;;;;x
+LOADING_TIP_34;一向一揆：侍の支配に対して立ち上がった地方の暴動。;Ikko-ikki: Local mobs who rose up against Samurai rule.;;;;;;;;;;;;x
+LOADING_TIP_35;忍者：諜報や破壊活動、暗殺に特化した兵。;Ninja: Warrior specialized in espionage, sabotage and assassination.;;;;;;;;;;;;x
+LOADING_TIP_36;侍：大名の軍事的家来。;Samurai: Military retainer of a Daimyo.;;;;;;;;;;;;x
+LOADING_TIP_37;足軽：農民歩兵。;Ashigaru: Peasant foot-soldier.;;;;;;;;;;;;x
+LOADING_TIP_38;鉄砲隊：火縄銃で武装した歩兵。;Arquebusier: Foot-soldier armed with an arquebus.;;;;;;;;;;;;x
+LOADING_TIP_39;火縄銃：15世紀の先込めマッチロック式銃。;Arquebus: 15th-century muzzle-loaded matchlock firearm.;;;;;;;;;;;;x
+LOADING_TIP_40;本国には常に予備の軍隊を維持するようにしてください。反乱があったり、昨日の友人に後ろから刺されるかもしれません…;Always keep some troops at home in reserve. There might be a revolt, or a stab in the back\nfrom a former friend...;;;;;;;;;;;;x
+LOADING_TIP_41;一度反乱軍がプロヴィンスに入ってしまうと、追い出すのが困難になってしまいます…;Once rebels are nested into a province, they can be really hard to root out...;;;;;;;;;;;;x
+LOADING_TIP_42;碁：2人で行う中国発祥のボードゲーム。;Go: traditional Chinese board game for two players.;;;;;;;;;;;;x
+#LOADING_TIP_43
+LOADING_TIP_44;全ユニットタイプがプロヴィンスを包囲することができますが、攻撃できるのは鉄砲隊及び歩兵のみです。;All unit types can siege provinces, but only Arquebusiers and Infantry can assault.;;;;;;;;;;;;x
+#LOADING_TIP_45
+#LOADING_TIP_46
+LOADING_TIP_47;5つ以上の郡（プロヴィンス）を所有していると、あなたの民は動揺するようになります。;Your people will get restless if you own more than 5 kori (provinces).;;;;;;;;;;;;x
+LOADING_TIP_48;所領を与えることで家中での名声を上げることができます。;Granting landed titles will make you popular among your clan.;;;;;;;;;;;;x
+LOADING_TIP_49;和平交渉を軽視しないように。;Do not underestimate peace negotiations. ;;;;;;;;;;;;x
+LOADING_TIP_50;最も強大な家でさえ、後継者なしでは存続できません。;Even the most powerful clan won't survive without an heir.;;;;;;;;;;;;x
+LOADING_TIP_51;徴兵軍は多くのコストがかかります。;Raised armies cost a lot of money.;;;;;;;;;;;;x
+LOADING_TIP_52;徴兵が可能な軍は一切の維持費がかからず、郡が包囲された場合に便利です。;Armies that are available to be raised do not cost any upkeep and are useful when your kori is sieged.;;;;;;;;;;;;x
+LOADING_TIP_53;起伏の激しい地形では一度に戦闘可能なユニットが少ないため、戦場はより小さくなります。;Battlefields are smaller in rough terrain, meaning less units can fight at one time.;;;;;;;;;;;;x
+#LOADING_TIP_54
+LOADING_TIP_55;家督の後継者が自家の出であることを確かめてください。必要であればあなたの息子を指名することを忘れないでください。;Make sure your clan heir is someone from your own family, don't forget to nominate your son if needed.;;;;;;;;;;;;x
+LOADING_TIP_56;直参たちは常に幸せにしておきましょう。;Keep your vassals happy;;;;;;;;;;;;x
+LOADING_TIP_57;城の外に居る敵は挑発しましょう。多数の直参が居る大きな城を包囲するのは「ほぼ間違いなく」多大なコストを払うでしょう。;Try to lure your enemy out from his castle. A siege on a well-developed castle with a maxed levy inside WILL be costly for you.;;;;;;;;;;;;x
+#LOADING_TIP_58
+LOADING_TIP_59;他家があなたを攻撃しないことを保証するために人質を交換しましょう。Sengokuでは同盟は存在しません。;Exchange hostages to make sure another clan won't attack you. There are no alliances in Sengoku.;;;;;;;;;;;;x
+LOADING_TIP_60;資金さえ持っていれば、浪人はいつでも現れ、あなたの家を助けてくれるでしょう。;Ronins can appear at any time, ready to assist your clan as long as you have the gold for it.;;;;;;;;;;;;x
+LOADING_TIP_61;あなたを高く評価する直参はあなたが指名したのと同じ後継者を支持する可能性が高くなります。;Vassals who have a high opinion of you are more likely to vote for the same heir as you.;;;;;;;;;;;;x
+LOADING_TIP_62;名誉が低い場合は、天皇へ贈り物を送ってください。;Send gifts to the emperor if your honor is low.;;;;;;;;;;;;x
+LOADING_TIP_63;家臣団を用いてプロヴィンスの城や街を拡張してください。戦時に大変な助けとなるでしょう。;Use your court members to improve the castles and villages in your provinces. It will help you greatly in times of war.;;;;;;;;;;;;x
+#LOADING_TIP_64
+LOADING_TIP_65;一度に建設や増築できるのは、1プロヴィンスにつき1つの建築物のみです。;You can't build or improve more than one thing in a province at a time.;;;;;;;;;;;;x
+LOADING_TIP_66;婚姻することを忘れずに。後継者がないまま死んでしまうと、ゲームオーバーとなります。;Don't forget to get married. If you die without an heir, the game is over.;;;;;;;;;;;;x
+LOADING_TIP_67;名誉は100以上にはなりません。;Your honor cannot exceed 100.;;;;;;;;;;;;x
+LOADING_TIP_68;名誉が高いと、直参たちからの評価が向上します。;Your vassal's opinion of you improves if you have high honor.;;;;;;;;;;;;x
+LOADING_TIP_69;歩兵と鉄砲隊だけが攻撃を行うことができますが、包囲は全タイプが可能です。;Only infantry and arquebusiers will be used in assaults, but all types can siege.;;;;;;;;;;;;x
+LOADING_TIP_70;プロヴィンスを効果的に包囲するには、防御側より多くの部隊群が必要となります。;To effectively siege a province, you must have more combined troops than the defending army.;;;;;;;;;;;;x
+LOADING_TIP_71;あなたの家から独立するためには、家中の軍の少なくとも10％をあなたが所有していること、それと棟梁よりも高い名誉が必要です。;To be able to break free from your own clan, you need at least 10% of you clans military and you must have higher honor then your clan leader.;;;;;;;;;;;;x
+#LOADING_TIP_72
+LOADING_TIP_73;直参たちからの評価を向上させる良い方法は、贈り物を与えたり、戦で奪った所領を与えることです。;A good way to increase your vassal's opinion of you is to send them gifts and grant them landed titles claimed in war.;;;;;;;;;;;;x
+LOADING_TIP_74;直参があなたにとって脅威となっている場合は、あなたへの評価を向上させるか、または、排除しましょう。;If a vassal is becoming a threat to you, either increase his opinion of you or try to eliminate him.;;;;;;;;;;;;x
+LOADING_TIP_75;家ビューでは直参が誰を支持しているかを確認することができます。誰を懐柔すれば良いか知るのに便利でしょう。;In the clan view you are able to see how the vassals have voted and so know which characters you'll need to convince to change their vote.;;;;;;;;;;;;x
+LOADING_TIP_76;より強大な敵と戦を行うなら、他家への調略を行うのが上策です。;Plotting with other clans is an excellent way to engage in war with a stronger enemy.;;;;;;;;;;;;x
+LOADING_TIP_77;多方面に敵を作るのは不利となることを肝に銘じておいてください。;Keep in mind that a clan with enemies on several fronts is at disadvantage.;;;;;;;;;;;;x
+LOADING_TIP_78;台帳では他家の統計を確認することができます。;You can keep track of the other clan's statistics in the ledger.;;;;;;;;;;;;x
+LOADING_TIP_79;1520年以後、西洋人が現れるようになります。派閥マップモードで彼らの進出を確認することができます。;Westerners can start showing up after 1520, you can track their progress on the faction mapmode.;;;;;;;;;;;;x
+LOADING_TIP_80;西洋の影響範囲が日本の50％に達すると、周知の事実となったと判断され、誰でもその知識を利用可能になります。;Once western influence has spread to 50% of Japan it is considered common knowledge and so available to everyone.;;;;;;;;;;;;x
+LOADING_TIP_81;妻は4人まで持つことができます。後継者を作るのに良いでしょう。;You can have up to four wives, which can give you a better chance to produce an heir.;;;;;;;;;;;;x
+LOADING_TIP_82;知行画面では一度に複数の所領を与えることができます。;You can grant multiple landed titles at once on the Grant landed title screen.;;;;;;;;;;;;x
+LOADING_TIP_83;軍が山を移動する際には、行軍速度が低下します。;Your armies will travel much slower in mountains.;;;;;;;;;;;;x
+LOADING_TIP_84;山地の郡において防戦する場合には、大きな防衛ボーナスを得ることができます。;When your army defend in a mountain kori, they get a big defensive bonus.;;;;;;;;;;;;x
+LOADING_TIP_85;城は攻撃によりダメージを受ける可能性があります。;Castles may be damaged by assaults.;;;;;;;;;;;;x
+BM_KYUSHU_REGION;九州地方;Kyushu Region;;;;;;;;;;;;x
+BM_KYUSHU_REGION_DESC;西部の島である九州には、数百年に及ぶ長い歴史を持ったいくつかの家が存在していました。南部3国を統治する島津家棟梁が時節の到来を待っている頃、大内家と少弐家、大友家は九州北部の覇権をかけて争っていました。;In Kyushu, the western island, there were several clans with rich histories spanning over hundreds of years. The Ouchi, Shoni and Otomo were fighting for the hegemony of the northern Kyushu while the clan leader of Shimazu, who owned three Kuni in the southern area, bided his time.;;;;;;;;;;;;x
+BM_TOHOKU_REGION;東北地方;Tohoku Region;;;;;;;;;;;;x
+BM_TOHOKU_REGION_DESC;大崎家と最上家は将軍によって任命された奥州管領でしたが、伊達家や南部家などの他家も同様に強大であり、このパワーバランスによりこの地域全体を1つの家が支配することは不可能になっていました。;The Osaki and Mogami clan had been assigned by the shogunate as regional governers of Tohoku but other clans like Date and Nanbu were equally strong and this power balance made it impossible for any one clan to control this region entirely.;;;;;;;;;;;;x
+HINT_SPLASH_VICTORY;将軍になるためには、あなたと直参たちで日本の50％を支配下に置かねばなりません。その後、将軍職を要求した上で、さらに3年間支配を維持しなければなりません。注意：この間に、あなたの敵たちはあなたを打倒する行動を激化させることでしょう。;To become Shogun, you and your vassals must together control at least 50% of Japan. After gaining control, you must claim the title of Shogun and maintain control for 3 years. Beware: during this time, your enemies will redouble their efforts to topple you.;;;;;;;;;;;;x
+HINT_SPLASH_MAP;Sengokuは全て3Dマップ上で進行します。マウスホイールを使いズーム、Ctrlキーを押しながらマウスを動かすことで回転できます。マウスホイールを押しながらマウスを動かすとパンします。BackSpaceキーでいつでもマップをリセットできます。;Sengoku takes place on a fully 3D map. You can zoom in and out using your mouse scroll wheel and rotate the map by moving the mouse while pressing Control. Holding down the scroll wheel and moving the mouse lets you pan. You can always reset the map by pressing Backspace.;;;;;;;;;;;;x
+#
+# ここから text4.csv
+#
+BM_THE_ONIN_WAR;応仁の乱;The Onin War;;;;;;;;;;;;x
+BM_THE_ONIN_WAR_DESC;将軍・足利義政の跡継ぎ争い（義政の息子か、兄弟の足利義視か）は、日本における2つの有力家、細川家と山名家の戦争の口実となりました。後に応仁の乱として知られるこの内乱は、5月末に首都において戦闘が発生し開始されました。今や多くの他家に支持された両軍は何年にも渡り衝突し続けるでしょう。またこの争いは日本中の家を巻き込み、国は「内戦状態」、つまり戦国時代へと突入していくことになるでしょう。;The controversy over who would succeed Ashikaga Yoshimasa as Shogun - his son or his brother Ashikaga Yoshimi - was used as a pretext for war by the two most powerful clans in Japan: the Hosokawa and the Yamana. The conflict which would eventually be known as the Onin War started in late May when fighting broke out in the capital. The two sides, now backed by a number of other clans, would continue to clash for years and the war would eventually draw in most of the warrior clans in Japan and plunge the country into 'The Warring States Period' - the Sengoku jidai.;;;;;;;;;;;;x
