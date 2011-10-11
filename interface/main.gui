@@ -1,0 +1,954 @@
+guiTypes = {
+		
+	iconType = {
+		name ="minimap_pic"
+		spriteType = "GFX_minimap_area"
+		position = { x=-233 y=-186 }
+		Orientation = "LOWER_RIGHT"
+	}
+	
+	# TODO: we should use a button instead for minimap... 
+	# or its own type, this is a ahck to deal with transparency
+    # in the minimap icon
+	positionType = {
+		name = "minimap_size"
+		position = { x=175 y=175 }
+	}
+	
+	
+	
+	
+	windowType = {
+		name = "main"
+		backGround =""
+		position = { x=0 y=-1 }	
+		size = { x=205 y=100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""	
+		verticalBorder = ""
+		fullScreen = yes
+
+		### TOPBAR		
+
+		iconType =
+		{
+			name ="topbar_1"
+			spriteType = "GFX_topbar_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="progress_enemy"
+			spriteType = "GFX_topbar_progress_enemy"
+			position = { x= 132 y = 110 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="progress_you"
+			spriteType = "GFX_topbar_progress_you"
+			position = { x= 132 y = 110 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="game_progress_overlay"
+			spriteType = "GFX_topbar_progress_overlay"
+			position = { x= 127 y = 104 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		guiButtonType = {
+			name ="topbar_ruler_portrait"
+			quadTextureSprite = "GFX_char_75"
+			position = { x = 26 y = 20 }
+			shortcut = "F1"
+		}
+		guiButtonType =
+		{
+			name ="ruler_frame"
+			quadTextureSprite = "GFX_charframe_75"
+			position = { x= -7 y = -13 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="topbar_endgame_bg"
+			spriteType = "GFX_topbar_endgame_bg"
+			position = { x= 13 y = 97 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType =
+		{
+			name ="topbar_endgame_button"
+			quadTextureSprite = "GFX_topbar_endgame_button"
+			position = { x= 27 y = 93 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		instantTextBoxType = {
+			name = "topbar_country_name"
+			position = { x = 120 y = 14 }
+			textureFile = ""
+			font = "vic_22_black"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 265
+			maxHeight = 32	
+			fixedsize = yes
+
+			format = centre
+		}
+		
+
+		guiButtonType =
+		{
+			name = "icon_topbar_court"
+			position = { x=127 y=72}
+			quadTextureSprite ="GFX_topbar_button_court"	
+			shortcut = "F2"
+		}
+
+		guiButtonType =
+		{
+			name = "icon_topbar_technology"
+			position = { x=159 y=72}
+			quadTextureSprite ="GFX_topbar_button_clan"	
+			shortcut = "F3"
+		}
+		
+		guiButtonType =
+		{
+			name = "icon_topbar_military"
+			position = { x=191 y=72 }
+			quadTextureSprite ="GFX_topbar_button_military"	
+			shortcut = "F4"
+		}
+		
+		guiButtonType =	{
+			name = "icon_topbar_plots"
+			position = { x=223 y=72}
+			quadTextureSprite ="GFX_topbar_button_plots"	
+			shortcut = "F5"
+		}
+
+		guiButtonType =
+		{
+			name = "icon_topbar_diplomacy"
+			position = { x=255 y=72}
+			quadTextureSprite ="GFX_topbar_button_diplomacy"	
+			shortcut = "F6"
+		}
+		
+		guiButtonType =	{
+			name = "icon_topbar_religion"
+			position = { x=351 y=72}
+			quadTextureSprite ="GFX_topbar_button_religion"	
+			shortcut = "F9"
+		}
+				
+		guiButtonType =	{
+			name = "icon_topbar_characters"
+			position = { x=287 y=72}
+			quadTextureSprite ="GFX_topbar_button_characters"	
+			shortcut = "F7"
+		}
+		
+		guiButtonType =	{
+			name = "icon_topbar_ninja"
+			position = { x=319 y=72}
+			quadTextureSprite ="GFX_topbar_button_ninja"	
+			shortcut = "F8"
+		}
+	
+		### resource icons
+		
+		iconType =
+		{
+			name ="icon_topbar_gold"
+			spriteType = "GFX_icon_topbar_gold"
+			position = { x= 115 y = 35 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "gold"
+			position = { x =147 y = 42 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "§W 99999"	
+			maxWidth = 50
+			maxHeight = 32	
+			format = right
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		iconType =
+		{
+			name ="icon_topbar_demesne"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 212 y = 36 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "demesne"
+			position = { x =243 y = 42 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "§W 99999"	
+			maxWidth = 50
+			maxHeight = 32	
+			format = right
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		iconType =
+		{
+			name ="icon_topbar_honor"
+			spriteType = "GFX_icon_honor"
+			position = { x= 309 y = 35 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "top_honor"
+			position = { x =339 y = 42 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 50
+			maxHeight = 32	
+			format = right
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		
+		guiButtonType = {
+			name ="topbar_realm"
+			quadTextureSprite = "GFX_shield_big"
+			position = { x= 404 y = 10 }
+			Orientation = "UPPER_LEFT"
+			shortcut = "F11"
+		}
+		
+
+		
+		### DATE (upper right)
+		
+		iconType =
+		{
+			name ="topbar_date_bg"
+			spriteType = "GFX_topbar_date_bg"
+			position = { x= -272 y = 0 }
+			Orientation = "UPPER_RIGHT"
+		}
+		
+		guiButtonType =
+		{
+			name = "icon_topbar_pause"
+			position = { x=-236 y=11}
+			quadTextureSprite ="GFX_topbar_date_pausebutton"
+			Orientation = "UPPER_RIGHT"			
+		}
+
+		instantTextBoxType = {
+			name = "topbar_date"
+			position = { x = -227 y = 16 }
+			textureFile = ""
+			font = "vic_18_black_date"
+			borderSize = {x = 0 y = 0}
+			text = "§W AD 1066"	
+			maxWidth = 140
+			maxHeight = 32	
+			format = left
+			Orientation = "UPPER_RIGHT"
+			allwaystransparent = yes			
+		}
+
+		iconType =
+		{
+			name ="strip_gamespeed"
+			spriteType = "GFX_topbar_date_speed"
+			position = { x= -91 y = 15 }
+			frame = 1
+			Orientation = "UPPER_RIGHT"
+		}
+
+		guiButtonType =
+		{
+			name = "icon_topbar_speedup"
+			position = { x=-68 y=9}
+			quadTextureSprite ="GFX_topbar_date_speedup"
+			Orientation = "UPPER_RIGHT"
+		}
+
+		guiButtonType =
+		{
+			name = "icon_topbar_speeddown"
+			position = { x=-41 y=9}
+			quadTextureSprite ="GFX_topbar_date_speeddown"
+			Orientation = "UPPER_RIGHT"
+
+		}
+
+		guiButtonType =
+		{
+			name = "icon_topbar_outliner"
+			position = { x=-30 y=45}
+			quadTextureSprite ="GFX_topbar_open_outliner"
+			Orientation = "UPPER_RIGHT"
+		}
+
+
+		### TOOL PANE
+
+		windowType = {
+			name = "toolpane"
+			backGround =""
+			position = { x=0 y=-128 }	
+			size = { x=2048 y=128 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+
+			Orientation = "LOWER_LEFT"
+
+			
+			windowType = {
+				name = "messagelog_window"
+				backGround=""
+				position = { x=0 y=-100 }	
+				size = { x=720 y=100 }	
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+				Orientation = "LOWER_LEFT"
+				
+				#iconType =
+				#{
+				#	name ="log_bg"
+				#	spriteType = "GFX_log_bg"
+				#	position = { x= 0 y = -10 }
+				#	Orientation = "UPPER_LEFT"
+				#}
+
+				listboxType = 
+				{
+					name ="messagelog"
+					position = { x = 0 y = 14 }
+					backGround=""
+					size = { x= 720 y = 80}
+					Orientation = "UPPER_LEFT"
+					horisontal = 0
+					spacing = 1
+					scrollbartype = "standardlistbox_slider"
+					borderSize = {x = 0 y = 0}
+				}
+				
+				# USE "icon_toolpane_minimize" in window "toolpane_right" instead of this
+				
+				#guiButtonType = {
+				#	name = "closebutton"
+				#	position = { x = 720 y = 5 }
+				#	quadTextureSprite ="GFX_closelog_button"
+				#	tooltip = ""
+				#	tooltipText =""
+				#	delayedTooltipText = ""
+				#	buttonText = "  "
+				#	buttonFont = "Main_14_black"
+				#
+				#	Orientation = "UPPER_LEFT"
+				#	shortcut = "<"
+				#	}
+				
+			}
+
+
+			windowType = {
+			name = "chat_window"
+			backGround=""
+			position = { x=0 y=515 }	
+			size = { x=720 y=150 }	
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "LOWER_LEFT"
+	
+
+				iconType =
+				{
+					name ="chat_bg"
+					spriteType = "GFX_chatwindow_bg"
+					position = { x= 0 y = -13 }
+
+				}
+				
+
+
+			#listboxType = 
+			#{
+			#	name ="playerlist"
+			#	position = { x = 90 y = 10 }
+			#	backGround=""
+			#	size = { x= 720 y = 80}
+			#	Orientation = "UPPER_LEFT"
+			#	horisontal = 0
+			#	spacing = 1
+			#	scrollbartype = "standardlistbox_slider"
+			#	borderSize = {x = 0 y = 0}
+			#}
+			
+				guiButtonType = {
+					name = "allies"
+					position = { x = 20 y = 2 }
+					quadTextureSprite ="GFX_standard_button_black_58"
+					buttonText = "CHAT_ALLIES"
+					buttonFont = "vic_18"
+				}
+			
+				guiButtonType = {
+					name = "enemies"
+					position = { x = 20 y = 27 }
+					quadTextureSprite ="GFX_standard_button_black_58"
+					buttonText = "CHAT_FOES"
+					buttonFont = "vic_18"
+				}
+			
+				guiButtonType = {
+					name = "all"
+					position = { x = 20 y = 52 }
+					quadTextureSprite ="GFX_standard_button_black_58"
+					buttonText = "CHAT_ALL"
+					buttonFont = "vic_18"
+				}
+				
+				guiButtonType = {
+					name = "none"
+					position = { x = 20 y = 77 }
+					quadTextureSprite ="GFX_standard_button_black_58"
+					buttonText = "CHAT_NONE"
+					buttonFont = "vic_18"
+				}
+			
+				guiButtonType = {
+					name = "closebutton"
+					position = { x = 695 y = -8 }
+					quadTextureSprite ="GFX_main_close_button"
+					shortcut = "ESCAPE"
+				}
+			
+				editBoxType = {
+					position = { x = 90 y = 56 }
+					name = "chat_message"
+					#textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+					textureFile = "" 
+					font = "Arial12_black"
+					borderSize = { x = 8 y = 8 }	
+					size = { x=600 y=32 }
+					text = ""	
+					maxWidth = 600
+					maxHeight = 26
+					orientation = "UPPER_LEFT"
+				}
+			}
+
+			
+		}
+		
+
+		# TOOL PANE RIGHT
+		# This needs to be a separate window since we windows cannot be scaled to screenwidth alone
+		
+		windowType = {
+			name = "toolpane_right"
+			backGround =""
+			position = { x=-600 y=9998 }	
+			size = { x=512 y=128 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+
+			Orientation = "LOWER_RIGHT"
+
+			guiButtonType =
+			{
+				name = "icon_toolpane_minimize"
+#				position = { x=70 y=0}
+				position = { x=2070 y=0}
+				quadTextureSprite ="GFX_icon_toolpane_minimize"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = ""
+				buttonFont = "small_bold"
+
+				Orientation = "UPPER_LEFT"
+			}
+		}
+
+		
+		### MINIMAP AREA
+		windowType = {
+			name = "minimap"
+			backGround =""
+			position = { x=-296 y=-228 }	
+			size = { x=256 y=125 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "LOWER_RIGHT"
+
+			iconType = {
+				name ="minimap_bg"
+				spriteType = "GFX_minimap_bg"
+				position = { x=0 y=0 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			## map modes
+			
+			guiButtonType = {
+				name = "mapmode_1"
+				position = { x = -240 y = -80 }
+				quadTextureSprite ="GFX_minimap_terrain"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "q"
+			}
+
+			guiButtonType = {
+				name = "mapmode_2"
+				position = { x = -240 y = -58 }
+				quadTextureSprite ="GFX_minimap_clan"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "w"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_3"
+				position = { x = -240 y = -36 }
+				quadTextureSprite ="GFX_minimap_demesne"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "e"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_4"
+				position = { x = -240 y = -14 }
+				quadTextureSprite ="GFX_minimap_kuni"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "r"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_5"
+				position = { x = -240 y = 8 }
+				quadTextureSprite ="GFX_minimap_diplomacy"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "t"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_6"
+				position = { x = -240 y = 30 }
+				quadTextureSprite ="GFX_minimap_relationship"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "y"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_7"
+				position = { x = -240 y = 52 }
+				quadTextureSprite ="GFX_minimap_religion"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "u"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_8"
+				position = { x = -240 y = 74 }
+				quadTextureSprite ="GFX_minimap_revolt"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "i"
+			}
+			
+			guiButtonType = {
+				name = "mapmode_9"
+				position = { x = -240 y = -102 }
+				quadTextureSprite ="GFX_minimap_players"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "p"
+			}
+						
+			instantTextBoxType = {
+				position = {x = 33 y = 18 }
+				name = "mapmode_text"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 232
+				maxHeight = 20
+				text = "Political Mapmode"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			
+			## menubutton etc.
+			guiButtonType = {
+				name = "minimap_menu"
+				position = { x = -10 y = -76 }
+				quadTextureSprite ="GFX_minimap_menu"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "ESCAPE"
+			}
+			guiButtonType = {
+				name = "minimap_ledger"
+				position = { x = -10 y = -41 }
+				quadTextureSprite ="GFX_minimap_ledger"
+				Orientation = "LOWER_RIGHT"
+				shortcut = "o"
+			}
+			guiButtonType = {
+				name = "minimap_gotohome"
+				position = { x = -10 y = -6 }
+				quadTextureSprite ="GFX_minimap_gotohome"
+				Orientation = "LOWER_RIGHT"
+			}
+			guiButtonType = {
+				name = "minimap_findprov"
+				position = { x = -10 y = 29 }
+				quadTextureSprite ="GFX_minimap_findprov"
+				Orientation = "LOWER_RIGHT"
+			}
+			guiButtonType = {
+				name = "minimap_zoomin"
+				position = { x = -10 y = 64 }
+				quadTextureSprite ="GFX_minimap_zoomin"
+				Orientation = "LOWER_RIGHT"
+			}
+			guiButtonType = {
+				name = "minimap_zoomout"
+				position = { x = 11 y = 64 }
+				quadTextureSprite ="GFX_minimap_zoomout"
+				Orientation = "LOWER_RIGHT"
+			}
+			
+			### message window stuff.
+			
+			iconType = 
+			{
+				name ="messagewindow_fixed_bg"
+				spriteType = "GFX_messagewindow_fixed_bg"
+				position = { x=260 y=-165 }
+			}
+			guiButtonType = 
+			{
+				name = "HighPriorityTab"
+				position = { x = 265 y = -135 }
+				quadTextureSprite ="GFX_messagewindow_button_tab"	
+				pdx_tooltip = MSG_HIGH
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+			iconType = 
+			{
+				name ="HighPriorityTabFlash"
+				spriteType = "GFX_messagewindow_button_glow"
+				position = { x= 265 y= -135 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+				pdx_tooltip = MSG_HIGH
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}		
+			iconType = 
+			{
+				name ="HighPriorityTab_icon"
+				spriteType = "GFX_messagewindow_high_prio"
+				position = { x= 271 y= -123 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+				pdx_tooltip = MSG_HIGH
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+			instantTextBoxType =
+			{
+				name = "HighPriorityTabAmmount"
+				position = { x = 260  y = -100 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "26"	
+				maxWidth = 40
+				maxHeight = 20	
+				format = centre
+				allwaystransparent = yes
+				pdx_tooltip = MSG_HIGH
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+			
+			guiButtonType = 
+			{
+				name = "LowPriorityTab"
+				position = { x = 265 y = -68 }
+				quadTextureSprite ="GFX_messagewindow_button_tab"	
+				pdx_tooltip = MSG_LOW
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+			iconType = 
+			{
+				name ="LowPriorityTabFlash"
+				spriteType = "GFX_messagewindow_button_glow"
+				position = { x=265 y= -68 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+				pdx_tooltip = MSG_LOW
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+			iconType = 
+			{
+				name ="LowPriorityTab_icon"
+				spriteType = "GFX_messagewindow_low_prio"
+				position = { x=271 y= -56 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+				pdx_tooltip = MSG_LOW
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+			instantTextBoxType =
+			{
+				name = "LowPriorityTabAmmount"
+				position = { x = 260  y = -33 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "0"	
+				maxWidth = 40
+				maxHeight = 20	
+				format = centre
+				allwaystransparent = yes
+				pdx_tooltip = MSG_LOW
+				pdx_tooltip_delayed = MSG_TAB_DELAYED
+			}
+
+		}
+		######
+		######
+		
+		listBoxType = 
+		{
+			name ="chat_list"
+			background = ""
+			position = { x=5 y=-655 }
+			orientation = "LOWER_LEFT"
+			priority = 100
+			size = { x=265 y=246 }
+			borderSize = {x = 32 y = 32}
+			allwaystransparent = yes
+		}
+
+ }
+		
+		#########################################################################
+		#### Listbox entries
+		#########################################################################
+		
+		windowType = {
+		name = "logtext"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=700 y= 16 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+			guiButtonType = {
+				name = "messagelogbutton"
+				position = { x = 10 y = -6 }
+				quadTextureSprite =""
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "  "
+
+				Orientation = "UPPER_LEFT"
+				size = { x = 700 y = 16  }
+				buttonFont = "small_white"
+				format = left
+			}		
+		
+		}
+		
+		windowType = {
+		name = "chat_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=512 y= 18 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+			iconType = {
+				name = "shield"
+				position = { x = 0 y = -2 }
+				spriteType = "GFX_shield_small"
+			}
+
+			instantTextBoxType={
+				position = {x = 33 y = 5 }
+				name = "text_shadow"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 512
+				maxHeight = 18
+				text = ""	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+		
+			instantTextBoxType={
+				position = {x = 32 y = 4 }
+				name = "text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 512
+				maxHeight = 18
+				text = ""	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+		}
+		
+		windowType = {
+		name = "diplomessageicons_window"
+		backGround=""
+		position = { x=-335 y=-46 }	
+		size = { x=96 y= 240 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = "LOWER_RIGHT"
+		}
+		
+		positionType = {
+		name = "chat_shield_start"
+		position = { x = 90 y = 10 }
+		}
+
+		positionType = {
+		name = "toolbar_maximized_lower_left"
+		position = { x = 0 y = -128 }
+		}
+		
+		positionType = {
+		name = "toolbar_minimized_lower_left"
+		position = { x = 0 y = -32 }
+		}
+
+		positionType = {
+		name = "toolbar2_maximized_lower_right"
+		position = { x = -600 y = -128 }
+		}
+		
+		positionType = {
+		name = "toolbar2_minimized_lower_right"
+		position = { x = -600 y = -32 }
+		}
+
+		positionType = {
+			name = "chat_shield_offset"
+			position = { x = 26 y = 0 }
+		}
+
+		positionType = {
+			name = "chat_shield_offset_long"
+			position = { x = 150 y = 0 }
+		}
+
+		windowType = {
+		name = "short_player_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x = 26 y = 26 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+	
+			checkboxType = 
+			{
+				name = "shield"
+				position = { x=0 y =0}
+				quadTextureSprite ="GFX_shield_small"
+			}
+			
+			iconType =
+			{
+				name ="minishield_strikeout"
+				spriteType = "GFX_minishield_strikeout"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+		
+		windowType = {
+			name = "player_entry"
+			backGround=""
+			position = { x=0 y=0 }	
+			size = { x=128 y= 18 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+				guiButtonType = {
+					name = "name"
+					position = { x=16 y =14}
+					quadTextureSprite ="GFX_standard_button_black_137"
+					buttonText = "..."
+					buttonFont = "vic_18"
+				}
+			
+				checkboxType = {
+					name = "shield"
+					position = { x=0 y =0}
+					quadTextureSprite ="GFX_shield_small"
+				}
+				
+				iconType =
+				{
+					name ="minishield_strikeout"
+					spriteType = "GFX_minishield_strikeout"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+			}
+	
+}
