@@ -1934,7 +1934,7 @@
 }
 
 131 = {
-	name="Nuk‰·ˆäui"
+	name="‰·ˆä"
 	color = { 211  220  178 }
 	coat_of_arms = {
 		template = 0
