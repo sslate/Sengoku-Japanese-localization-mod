@@ -347,6 +347,28 @@ font = {#need but date and color
 	color = 0xff000000
 }
 	bitmapfont = {
+		name = "vic_18_black_date"
+		fontname = "vic_18"
+		color = 0xff000000	
+		
+		color_override = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 155 89 0 }
+		}
+	}
+	bitmapfont = {
+		name = "vic_18_black_color"
+		fontname = "vic_18"
+		color = 0xff000000	
+		
+		color_override = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 155 89 0 }
+		}
+	}
+	bitmapfont = {
 		name = "vic_18_black_y"
 		fontname = "vic_18"
 		color = 0xff000000	
@@ -544,6 +566,18 @@ font = {#need but color
 	charset = "SHIFTJIS_CHARSET"
 	color = 0xff000000
 }
+	bitmapfont = {
+		name = "Arial12_black_color"
+		fontname = "Arial12"
+		color = 0xff000000
+		
+		color_override = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 155 89 0 }
+		}
+		
+	}
 
 #	bitmapfont = {
 #		name = "Arial12"
