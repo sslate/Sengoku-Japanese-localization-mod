@@ -1,0 +1,1422 @@
+###################################
+#
+# Events for Factions
+#
+# Id 8500-8999 is reserved
+#
+###################################
+#
+# Written by Niklas Strid
+
+
+### Shintoism ###
+
+# Ask your permission to build a shrine in the province
+province_event = {
+	id = 8500
+	desc = "EVTDESC8500"
+		
+	trigger = {
+		owner = {
+			has_sided_with_faction = shinto
+			shinto_relation = 50
+		}
+		NOT = { has_building = shinto_shrine }
+		NOT = { has_building = buddhist_temple }
+		NOT = { has_building = christian_church }
+	}
+	
+	mean_time_to_happen = {
+		months = 2000
+		
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 90 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8500"
+		add_province_modifier = {
+			name = building_shinto_shrine
+			duration = 730
+		}
+		set_province_flag = building_shinto_shrine
+	}
+	option = {
+		name = "EVTOPTB8500"
+		owner = {
+			add_inherited_modifier = {
+				name = denied_shintoists_building_shrine
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Shinto shrine completed
+province_event = {
+	id = 8501
+	desc = "EVTDESC8501"
+	
+	trigger = {
+		has_province_flag = building_shinto_shrine
+		NOT = { has_province_modifier = building_shinto_shrine }
+		NOT = { has_building = shinto_shrine }
+		NOT = { has_building = buddhist_temple }
+		NOT = { has_building = christian_church }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA8501"
+		add_building = shinto_shrine
+		clr_province_flag = building_shinto_shrine
+	}
+}
+
+# Shinto faction demands that Buddhist Temple/Christian Church is razed
+province_event = {
+	id = 8502
+	desc = "EVTDESC8502"
+
+	trigger = {
+		owner = { has_sided_with_faction = shinto }
+		OR = {
+			has_building = buddhist_temple
+			has_building = christian_church
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 90 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8502"
+		spawn_rebels = {
+			type = ê_êl
+			size = 4
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = refused_shintoist_demands
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB8502"
+		trigger = { has_building = buddhist_temple }
+		remove_building = buddhist_temple
+		owner = {
+			add_inherited_modifier = {
+				name = razed_buddhist_temple
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC8502"
+		trigger = { has_building = christian_church }
+		remove_building = christian_church
+		owner = {
+			add_inherited_modifier = {
+				name = razed_christian_church
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Shinto Shrine destroyed
+province_event = {
+	id = 8503
+	desc = "EVTDESC8503"
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_tooltip = {
+			random_list = {
+				60 = { set_province_flag = option_a }
+				30 = { set_province_flag = option_b }
+				10 = { set_province_flag = option_c }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8503"
+		trigger = { has_province_flag = option_a }
+		owner = {
+			add_inherited_modifier = {
+				name = razed_shinto_shrine
+				duration = 1825
+			}
+		}
+		clr_province_flag = option_a
+	}
+	option = {
+		name = "EVTOPTA8503"
+		trigger = { has_province_flag = option_b }
+		spawn_rebels = {
+			type = ê_êl
+			size = 2
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = razed_shinto_shrine
+				duration = 1825
+			}
+		}
+		clr_province_flag = option_b
+	}
+	option = {
+		name = "EVTOPTA8503"
+		trigger = { has_province_flag = option_c }
+		spawn_rebels = {
+			type = ê_êl
+			size = 4
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = razed_shinto_shrine
+				duration = 3650
+			}
+		}
+		clr_province_flag = option_c
+	}
+}
+
+# Character leaves Shinto Faction
+character_event = {
+	id = 8504
+	desc = "EVTDESC8504"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA8504"
+		add_inherited_modifier = {
+			name = left_shinto_faction
+			duration = 3650
+		}
+	}
+}
+
+
+### Buddhism ###
+
+# Ask your permission to build a temple in the province
+province_event = {
+	id = 8510
+	desc = "EVTDESC8510"
+	
+	trigger = {
+		owner = {
+			has_sided_with_faction = buddhist
+			buddhist_relation = 50
+		}
+		NOT = { has_building = shinto_shrine }
+		NOT = { has_building = buddhist_temple }
+		NOT = { has_building = christian_church }
+	}
+	
+	mean_time_to_happen = {
+		months = 2000
+		
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 90 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8510"
+		add_province_modifier = {
+			name = building_buddhist_temple
+			duration = 730
+		}
+		set_province_flag = building_buddhist_temple
+	}
+	option = {
+		name = "EVTOPTB8510"
+		owner = {
+			add_inherited_modifier = {
+				name = denied_buddhists_building_temple
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Buddhist temple completed
+province_event = {
+	id = 8511
+	desc = "EVTDESC8511"
+	
+	trigger = {
+		has_province_flag = building_buddhist_temple
+		NOT = { has_province_modifier = building_buddhist_temple }
+		NOT = { has_building = shinto_shrine }
+		NOT = { has_building = buddhist_temple }
+		NOT = { has_building = christian_church }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA8511"
+		add_building = buddhist_temple
+		clr_province_flag = building_buddhist_temple
+	}
+}
+
+# Buddhist faction demands that Shinto Shrine/Christian Church is razed
+province_event = {
+	id = 8512
+	desc = "EVTDESC8512"
+	
+	trigger = {
+		owner = { has_sided_with_faction = buddhist }
+		OR = {
+			has_building = shinto_shrine
+			has_building = christian_church
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 90 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8512"
+		spawn_rebels = {
+			type = ëmï∫
+			size = 4
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = refused_buddhist_demands
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB8512"
+		trigger = { has_building = shinto_shrine }
+		remove_building = shinto_shrine
+		owner = {
+			add_inherited_modifier = {
+				name = razed_shinto_shrine
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB8512"
+		trigger = { has_building = christian_church }
+		remove_building = christian_church
+		owner = {
+			add_inherited_modifier = {
+				name = razed_christian_church
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Buddhist Temple destroyed
+province_event = {
+	id = 8513
+	desc = "EVTDESC8513"
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_tooltip = {
+			random_list = {
+				60 = { set_province_flag = option_a }
+				30 = { set_province_flag = option_b }
+				10 = { set_province_flag = option_c }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8513"
+		trigger = { has_province_flag = option_a }
+		owner = {
+			add_inherited_modifier = {
+				name = razed_buddhist_temple
+				duration = 1825
+			}
+		}
+		clr_province_flag = option_a
+	}
+	option = {
+		name = "EVTOPTA8513"
+		trigger = { has_province_flag = option_b }
+		spawn_rebels = {
+			type = ëmï∫
+			size = 2
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = razed_buddhist_temple
+				duration = 1825
+			}
+		}
+		clr_province_flag = option_b
+	}
+	option = {
+		name = "EVTOPTA8513"
+		trigger = { has_province_flag = option_c }
+		spawn_rebels = {
+			type = ëmï∫
+			size = 4
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = razed_buddhist_temple
+				duration = 3650
+			}
+		}
+		clr_province_flag = option_c
+	}
+}
+
+# Character leaves Buddhist Faction
+character_event = {
+	id = 8514
+	desc = "EVTDESC8514"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA8514"
+		add_inherited_modifier = {
+			name = left_buddhist_faction
+			duration = 3650
+		}
+	}
+}
+
+
+### Christian ###
+
+# Ask your permission to build a church in the province
+province_event = {
+	id = 8515
+	desc = "EVTDESC8515"
+	
+	trigger = {
+		owner = {
+			has_sided_with_faction = christian
+			christian_relation = 50
+		}
+		NOT = { has_building = shinto_shrine }
+		NOT = { has_building = buddhist_temple }
+		NOT = { has_building = christian_church }
+	}
+	
+	mean_time_to_happen = {
+		months = 2000
+		
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 90 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8515"
+		add_province_modifier = {
+			name = building_christian_church
+			duration = 730
+		}
+		set_province_flag = building_christian_church
+	}
+	option = {
+		name = "EVTOPTB8515"
+		owner = {
+			add_inherited_modifier = {
+				name = denied_christians_building_church
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Christian church completed
+province_event = {
+	id = 8516
+	desc = "EVTDESC8516"
+	
+	trigger = {
+		has_province_flag = building_christian_church
+		NOT = { has_province_modifier = building_christian_church }
+		NOT = { has_building = shinto_shrine }
+		NOT = { has_building = buddhist_temple }
+		NOT = { has_building = christian_church }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA8516"
+		add_building = christian_church
+		clr_province_flag = building_christian_church
+	}
+}
+
+# Christian faction demands that Shinto Shrine/Buddhist Temple is razed
+province_event = {
+	id = 8517
+	desc = "EVTDESC8517"
+	
+	trigger = {
+		owner = { has_sided_with_faction = christian }
+		OR = {
+			has_building = shinto_shrine
+			has_building = buddhist_temple
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 90 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8517"
+		spawn_rebels = {
+			type = ãgóòéxíO
+			size = 4
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = refused_christian_demands
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB8517"
+		trigger = { has_building = shinto_shrine }
+		remove_building = shinto_shrine
+		owner = {
+			add_inherited_modifier = {
+				name = razed_shinto_shrine
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB8517"
+		trigger = { has_building = buddhist_temple }
+		remove_building = buddhist_temple
+		owner = {
+			add_inherited_modifier = {
+				name = razed_buddhist_temple
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Buddhist Temple destroyed
+province_event = {
+	id = 8518
+	desc = "EVTDESC8518"
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_tooltip = {
+			random_list = {
+				60 = { set_province_flag = option_a }
+				30 = { set_province_flag = option_b }
+				10 = { set_province_flag = option_c }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8518"
+		trigger = { has_province_flag = option_a }
+		owner = {
+			add_inherited_modifier = {
+				name = razed_christian_church
+				duration = 1825
+			}
+		}
+		clr_province_flag = option_a
+	}
+	option = {
+		name = "EVTOPTA8518"
+		trigger = { has_province_flag = option_b }
+		spawn_rebels = {
+			type = ãgóòéxíO
+			size = 2
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = razed_christian_church
+				duration = 1825
+			}
+		}
+		clr_province_flag = option_b
+	}
+	option = {
+		name = "EVTOPTA8518"
+		trigger = { has_province_flag = option_c }
+		spawn_rebels = {
+			type = ãgóòéxíO
+			size = 4
+		}
+		owner = {
+			add_inherited_modifier = {
+				name = razed_christian_church
+				duration = 3650
+			}
+		}
+		clr_province_flag = option_c
+	}
+}
+
+# Character leaves Christian Faction
+character_event = {
+	id = 8519
+	desc = "EVTDESC8519"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA8519"
+		add_inherited_modifier = {
+			name = left_christian_faction
+			duration = 3650
+		}
+	}
+}
+
+
+### Rebel Events ###
+
+# On action event
+# Province taken back from rebels
+province_event = {
+	id = 8600
+	desc = "EVTDESC8600"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_province_flag = taken_by_shinto_rebels
+			has_province_flag = taken_by_buddhist_rebels
+			has_province_flag = taken_by_christian_rebels
+			has_province_flag = taken_by_ikko_ikki
+		}
+		NOT = {
+			OR = {
+				owned_by_rebels = ê_êl
+				owned_by_rebels = ëmï∫
+				owned_by_rebels = ãgóòéxíO
+				owned_by_rebels = àÍå¸àÍùÑèO
+			}
+		}
+	}
+
+	immediate = {
+		hidden_tooltip = {
+			# Clear flags and modifiers
+			clr_province_flag = taken_by_shinto_rebels
+			clr_province_flag = taken_by_buddhist_rebels
+			clr_province_flag = taken_by_christian_rebels
+
+			clr_province_flag = shinto_destruction_timer
+			clr_province_flag = buddhist_destruction_timer
+			clr_province_flag = christian_destruction_timer
+			
+			clr_province_flag = shinto_rebels_building_shrine
+			clr_province_flag = buddhist_rebels_building_temple
+			clr_province_flag = christian_rebels_building_church
+
+			remove_province_modifier = shinto_destruction_timer
+			remove_province_modifier = buddhist_destruction_timer
+			remove_province_modifier = christian_destruction_timer
+			
+			remove_province_modifier = shinto_rebels_building_shrine
+			remove_province_modifier = buddhist_rebels_building_temple
+			remove_province_modifier = christian_rebels_building_church
+
+			### If previously held by Ikko-ikki
+			
+			# Remove Gunsmith
+			if = {
+				limit = { has_province_flag = ikko_ikki_gunsmith }
+				remove_building = gunsmith
+			}
+			
+			# Remove City Buildings
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 1 } NOT = { check_variable = { which = ikko_ikki_city_level value = 2 } } }
+				add_city_level = -1
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 2 } NOT = { check_variable = { which = ikko_ikki_city_level value = 3 } } }
+				add_city_level = -2
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 3 } NOT = { check_variable = { which = ikko_ikki_city_level value = 4 } } }
+				add_city_level = -3
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 4 } NOT = { check_variable = { which = ikko_ikki_city_level value = 5 } } }
+				add_city_level = -4
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 5 } NOT = { check_variable = { which = ikko_ikki_city_level value = 6 } } }
+				add_city_level = -5
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 6 } NOT = { check_variable = { which = ikko_ikki_city_level value = 7 } } }
+				add_city_level = -6
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 7 } NOT = { check_variable = { which = ikko_ikki_city_level value = 8 } } }
+				add_city_level = -7
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_city_level value = 8 } }
+				add_city_level = -8
+			}
+
+			# Remove Castle Levels
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 1 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 2 } } }
+				add_castle_level = -1
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 2 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 3 } } }
+				add_castle_level = -2
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 3 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 4 } } }
+				add_castle_level = -3
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 4 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 5 } } }
+				add_castle_level = -4
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 5 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 6 } } }
+				add_castle_level = -5
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 6 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 7 } } }
+				add_castle_level = -6
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 7 } NOT = { check_variable = { which = ikko_ikki_castle_level value = 8 } } }
+				add_castle_level = -7
+			}
+			if = {
+				limit = { check_variable = { which = ikko_ikki_castle_level value = 8 } }
+				add_castle_level = -8
+			}
+			
+			# Clear Ikko-ikki variables
+			set_variable = { which = ikko_ikki_city_level value = 0 }
+			set_variable = { which = ikko_ikki_castle_level value = 0 }
+			
+			# Clear Ikko-ikki flags and modifiers
+			clr_province_flag = ikko_ikki_gunsmith
+			clr_province_flag = ikko_ikki_stronghold
+			clr_province_flag = taken_by_ikko_ikki
+			
+			remove_province_modifier = ikko_ikki_stronghold
+			remove_province_modifier = ikko_ikki_building_timer
+		}
+	}
+
+	option = {
+		name = "EVTOPTA8600"
+	}
+}
+
+# On action event
+# Rebels take province
+province_event = {
+	id = 8610
+	desc = "ai"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			owned_by_rebels = ê_êl
+			owned_by_rebels = ëmï∫
+			owned_by_rebels = ãgóòéxíO
+		}
+	}
+
+	immediate = {
+		# Clear flags and modifiers
+		clr_province_flag = taken_by_shinto_rebels
+		clr_province_flag = taken_by_buddhist_rebels
+		clr_province_flag = taken_by_christian_rebels
+
+		clr_province_flag = shinto_destruction_timer
+		clr_province_flag = buddhist_destruction_timer
+		clr_province_flag = christian_destruction_timer
+		
+		clr_province_flag = shinto_rebels_building_shrine
+		clr_province_flag = buddhist_rebels_building_temple
+		clr_province_flag = christian_rebels_building_church
+
+		remove_province_modifier = shinto_destruction_timer
+		remove_province_modifier = buddhist_destruction_timer
+		remove_province_modifier = christian_destruction_timer
+		
+		remove_province_modifier = shinto_rebels_building_shrine
+		remove_province_modifier = buddhist_rebels_building_temple
+		remove_province_modifier = christian_rebels_building_church
+		
+		# Set flags
+		if = {
+			limit = { owned_by_rebels = ê_êl }
+			set_province_flag = taken_by_shinto_rebels
+		}
+		if = {
+			limit = { owned_by_rebels = ëmï∫ }
+			set_province_flag = taken_by_buddhist_rebels
+		}
+		if = {
+			limit = { owned_by_rebels = ãgóòéxíO }
+			set_province_flag = taken_by_christian_rebels
+		}
+		
+
+		# If building from different faction, start destruction timer
+		if = {
+			limit = {
+				owned_by_rebels = ê_êl
+				OR = {
+					has_building = buddhist_temple
+					has_building = christian_church
+				}
+			}
+			set_province_flag = shinto_destruction_timer
+			add_province_modifier = {
+				name = shinto_destruction_timer
+				duration = 365
+				hidden = yes
+			}
+		}
+		if = {
+			limit = {
+				owned_by_rebels = ëmï∫
+				OR = {
+					has_building = shinto_shrine
+					has_building = christian_church
+				}
+			}
+			set_province_flag = buddhist_destruction_timer
+			add_province_modifier = {
+				name = buddhist_destruction_timer
+				duration = 365
+				hidden = yes
+			}
+		}
+		if = {
+			limit = {
+				owned_by_rebels = ãgóòéxíO
+				OR = {
+					has_building = shinto_shrine
+					has_building = buddhist_temple
+				}
+			}
+			set_province_flag = christian_destruction_timer
+			add_province_modifier = {
+				name = christian_destruction_timer
+				duration = 365
+				hidden = yes
+			}
+		}
+	}
+	
+	option = {
+		name = ""
+	}
+}
+
+# Religious rebels destroy building from another faction and build their own
+province_event = {
+	id = 8615
+	desc = "ai"
+	
+	trigger = {
+		OR = {
+			AND = {
+				owned_by_rebels = ê_êl
+				has_province_flag = taken_by_shinto_rebels
+				has_province_flag = shinto_destruction_timer
+				NOT = { has_province_modifier = shinto_destruction_timer }
+			}
+			AND = {
+				owned_by_rebels = ëmï∫
+				has_province_flag = taken_by_buddhist_rebels
+				has_province_flag = buddhist_destruction_timer
+				NOT = { has_province_modifier = buddhist_destruction_timer }
+
+			}
+			AND = {
+				owned_by_rebels = ãgóòéxíO
+				has_province_flag = taken_by_christian_rebels
+				has_province_flag = christian_destruction_timer
+				NOT = { has_province_modifier = christian_destruction_timer }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = ""
+		if = {
+			limit = {
+				has_province_flag = taken_by_shinto_rebels
+				has_province_flag = shinto_destruction_timer
+				NOT = { has_province_modifier = shinto_destruction_timer }
+			}
+			clr_province_flag = shinto_destruction_timer
+			remove_building = buddhist_temple
+			remove_building = christian_church
+			# Add new building
+			add_building = shinto_shrine
+		}
+		if = {
+			limit = {
+				has_province_flag = taken_by_buddhist_rebels
+				has_province_flag = buddhist_destruction_timer
+				NOT = { has_province_modifier = buddhist_destruction_timer }
+			}
+			clr_province_flag = buddhist_destruction_timer
+			remove_building = shinto_shrine
+			remove_building = christian_church
+			# Add new building
+			add_building = buddhist_temple
+		}
+		if = {
+			limit = {
+				has_province_flag = taken_by_christian_rebels
+				has_province_flag = christian_destruction_timer
+				NOT = { has_province_modifier = christian_destruction_timer }
+			}
+			clr_province_flag = christian_destruction_timer
+			remove_building = shinto_shrine
+			remove_building = buddhist_temple
+			# Add new building
+			add_building = christian_church
+		}
+	}
+}		
+
+
+### Ikko-ikki
+
+# Ikko-ikki uprising
+province_event = {
+	id = 8620
+	title = "EVTTITLE8620"
+	desc = "EVTDESC8620"
+	
+	trigger = {
+		year = 1480
+		NOT = {
+			OR = {
+				owned_by_rebels = ê_êl
+				owned_by_rebels = ëmï∫
+				owned_by_rebels = ãgóòéxíO
+				owned_by_rebels = àÍå¸àÍùÑèO
+			}
+		}
+		has_siege = no
+		OR = {
+			owner = { war = yes }
+			owner = { NOT = { honor = 20 } }
+			revolt_risk = 10
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 30000
+		
+		modifier = {
+			factor = 0.9
+			revolt_risk = 8
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 10
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 12
+		}
+		modifier = {
+			factor = 0.95
+			year = 1490
+		}
+		modifier = {
+			factor = 0.95
+			year = 1500
+		}
+		modifier = {
+			factor = 0.95
+			year = 1510
+		}
+		modifier = {
+			factor = 0.95
+			year = 1520
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8620"
+		spawn_rebels = {
+			type = àÍå¸àÍùÑèO
+			size = 10
+		}
+	}
+}
+
+# Ikko-ikki take control over a province
+province_event = {
+	id = 8621
+	desc = "ai"
+	
+	is_triggered_only = yes
+
+	trigger = {
+		owned_by_rebels = àÍå¸àÍùÑèO
+	}
+	
+	option = {
+		name = ""
+		set_province_flag = taken_by_ikko_ikki
+		set_variable = { which = ikko_ikki_city_level value = 0 }
+		set_variable = { which = ikko_ikki_castle_level value = 0 }
+		
+		
+		if = {
+			limit = {
+				NOT = {
+					any_neighbor_province = {
+						has_province_flag = ikko_ikki_stronghold
+					}
+					any_kori_in_kuni = {
+						has_province_flag = ikko_ikki_stronghold
+					}
+				}
+			}
+			random_list = {
+				# Ikko-ikki stronghold
+				75 = {
+					set_province_flag = ikko_ikki_stronghold
+					add_province_modifier = {
+						name = ikko_ikki_stronghold
+						duration = -1
+					}
+					spawn_regiment = {
+						type = ashigaru_spearman
+						size = 20	# 5000
+					}
+					add_province_modifier = {
+						name = ikko_ikki_building_timer
+						duration = 180
+						hidden = yes
+					}
+				}
+				25 = {
+					add_province_modifier = {
+						name = ikko_ikki_building_timer
+						duration = 365
+						hidden = yes
+					}
+				}
+			}
+			set_province_flag = ikko_ikki_setup_done
+		}
+		if = {
+			limit = {
+				NOT = { has_province_flag = ikko_ikki_setup_done }
+			}
+			add_province_modifier = {
+				name = ikko_ikki_building_timer
+				duration = 365
+				hidden = yes
+			}
+		}
+		clr_province_flag = ikko_ikki_setup_done
+		hidden_tooltip = {
+			if = {
+				limit = { NOT = { has_global_flag = ikko_ikki_rise } }
+				set_global_flag = ikko_ikki_rise
+				any_character = {
+					limit = { ai = no }
+					character_event = { id = 8622 days = 10 }
+				}
+			}
+		}
+	}
+}
+
+# The news spreads throughout Japan
+character_event = {
+	id = 8622
+	title = "EVTTITLE8622"
+	desc = "EVTDESC8622"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA8622"
+	}
+}
+
+# Ikko-ikki build Gunsmith, upgrade Castle or upgrade Village
+province_event = {
+	id = 8625
+	desc = "ai"
+	
+	trigger = {
+		owned_by_rebels = àÍå¸àÍùÑèO
+		has_province_flag = taken_by_ikko_ikki
+		has_siege = no
+		NOT = { has_province_modifier = ikko_ikki_building_timer }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.5
+			has_province_flag = ikko_ikki_stronghold
+		}
+	}
+	
+	option = {
+		name = ""
+		ai_chance = { factor = 100 }
+		trigger = {
+			western = yes
+			NOT = { has_building = gunsmith }
+		}
+		add_building = gunsmith
+		set_province_flag = ikko_ikki_gunsmith
+		add_province_modifier = {
+			name = ikko_ikki_building_timer
+			duration = 365
+			hidden = yes
+		}
+	}
+	option = {
+		name = ""
+		ai_chance = { factor = 70 }
+		trigger = {
+			OR = {
+				NOT = { western = yes }
+				has_building = gunsmith
+			}
+			NOT = { has_building = guard_towers }
+		}
+		add_castle_level = 1
+		change_variable = { which = ikko_ikki_castle_level value = 1 }
+		add_province_modifier = {
+			name = ikko_ikki_building_timer
+			duration = 730
+			hidden = yes
+		}
+	}
+	option = {
+		name = ""
+		ai_chance = { factor = 30 }
+		trigger = {
+			OR = {
+				NOT = { western = yes }
+				has_building = gunsmith
+			}
+			NOT = { has_building = geisha_district }
+		}
+		add_city_level = 1
+		change_variable = { which = ikko_ikki_city_level value = 1 }
+		add_province_modifier = {
+			name = ikko_ikki_building_timer
+			duration = 730
+			hidden = yes
+		}
+	}
+}
+
+# Ikko-ikki tighten their grip
+province_event = {
+	id = 8630
+	desc = "ai"
+	
+	trigger = {
+		owned_by_rebels = àÍå¸àÍùÑèO
+		has_province_flag = taken_by_ikko_ikki
+		has_siege = no
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		
+		modifier = {
+			factor = 0.5
+			has_province_flag = ikko_ikki_stronghold
+		}
+	}
+	
+	option = {
+		name = ""
+		if = {
+			limit = { has_province_flag = ikko_ikki_stronghold }
+			spawn_regiment = {
+				type = ashigaru_spearman
+				size = 8	# 2000
+			}
+		}
+		if = {
+			limit = { NOT = { has_province_flag = ikko_ikki_stronghold } }
+			spawn_regiment = {
+				type = ashigaru_spearman
+				size = 4	# 1000
+			}
+		}
+	}
+}
+
+# Ikko-ikki arm themselves with arquebuses
+province_event = {
+	id = 8635
+	desc = "ai"
+	
+	trigger = {
+		owned_by_rebels = àÍå¸àÍùÑèO
+		has_province_flag = taken_by_ikko_ikki
+		has_siege = no
+		owner = { arquebus = 250 }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.1
+			has_province_flag = ikko_ikki_stronghold
+		}
+	}
+
+	option = {
+		name = ""
+		owner = { arquebus = -250 }
+		spawn_regiment = {
+			type = ashigaru_arquebusier
+			size = 1
+		}
+		if = {
+			limit = { NOT = { has_global_flag = ikko_ikki_arquebuses } }
+			set_global_flag = ikko_ikki_arquebuses
+			any_character = {
+				limit = { ai = no }
+				character_event = { id = 8636 days = 10 }
+			}
+		}
+	}
+}
+
+# News about Ikko-ikki using arquebuses
+character_event = {
+	id = 8636
+	title = "EVTTITLE8636"
+	desc = "EVTDESC8636"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA8636"
+	}
+}
+
+# Ikko-ikki spread within the Kuni
+province_event = {
+	id = 8640
+	desc = "EVTDESC8640"
+	
+	trigger = {
+		year = 1480
+		NOT = {
+			OR = {
+				owned_by_rebels = ê_êl
+				owned_by_rebels = ëmï∫
+				owned_by_rebels = ãgóòéxíO
+				owned_by_rebels = àÍå¸àÍùÑèO
+			}
+		}
+		has_siege = no
+		any_kori_in_kuni = {
+			owned_by_rebels = àÍå¸àÍùÑèO
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		
+		modifier = {
+			factor = 0.9
+			revolt_risk = 8
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 10
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 12
+		}
+		modifier = {
+			factor = 0.95
+			year = 1490
+		}
+		modifier = {
+			factor = 0.95
+			year = 1500
+		}
+		modifier = {
+			factor = 0.95
+			year = 1510
+		}
+		modifier = {
+			factor = 0.95
+			year = 1520
+		}
+		modifier = {
+			factor = 0.8
+			owner = { NOT = { honor = 20 } }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { war = yes }
+		}
+	}
+
+
+	option = {
+		name = "EVTOPTA8640"
+		spawn_rebels = {
+			type = àÍå¸àÍùÑèO
+			size = 10
+		}
+	}
+}

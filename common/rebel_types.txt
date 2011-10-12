@@ -1,0 +1,344 @@
+ê_êl = {
+	unit_gfx = Warrior_Monk_Shinto_sprite
+	unit = SHINTOIST_warriors
+	
+	# The size of an the uprising
+	size = {
+		factor = 1
+		
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { shinto_relation = -10 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-20 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-30 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-40 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-60 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-70 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-80 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-90 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { shinto_relation =-100 } }
+		}
+	}
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 2
+		modifier = {
+			factor = 2.0
+			has_building = shinto_shrine
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				has_building = shinto_shrine
+				}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				has_sided_with_faction = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_sided_with_faction = yes
+			owner = {
+				top_liege = {
+					is_faction_leader = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { shinto_relation = 90 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { shinto_relation =-10 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { shinto_relation =-20 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { shinto_relation =-30 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { shinto_relation =-40 } }
+		}
+	}
+}
+
+ëmï∫ = {
+	unit = BUDDHIST_warriors
+	unit_gfx = Warrior_Monk_Buddist_sprite
+	
+	# The size of an the uprising
+	size = {
+		factor = 1
+		
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { buddhist_relation =-10 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-20 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-30 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-40 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-60 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-70 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-80 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-90 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { buddhist_relation =-100 } }
+		}
+	}
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 2
+
+		modifier = {
+			factor = 2.0
+			has_building = buddhist_temple
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				has_building = buddhist_temple
+				}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				has_sided_with_faction = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_sided_with_faction = yes
+			owner = {
+				top_liege = {
+					is_faction_leader = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { buddhist_relation = 90 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { buddhist_relation =-10 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { buddhist_relation =-20 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { buddhist_relation =-30 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { buddhist_relation =-40 } }
+		}
+	}
+}
+
+ãgóòéxíO = {
+	western = yes
+	unit_gfx = Warrior_Monk_Christian_sprite
+	unit = CHRISTIAN_warriors
+	
+	# The size of an the uprising
+	size = {
+		factor = 1
+		
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { christian_relation =-10 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-20 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-30 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-40 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-60 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-70 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-80 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-90 } }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { christian_relation =-100 } }
+		}
+	}
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 2
+
+		modifier = {
+			factor = 2.0
+			has_building = christian_church
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				has_building = christian_church
+				}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				has_sided_with_faction = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_sided_with_faction = yes
+			owner = {
+				top_liege = {
+					is_faction_leader = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 60 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { christian_relation = 90 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { christian_relation =-10 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { christian_relation =-20 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { christian_relation =-30 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { NOT = { christian_relation =-40 } }
+		}
+	}
+}
+
+àÍå¸àÍùÑèO = {
+	unit_gfx = Warrior_Monk_IkkoIkki_sprite
+	unit = IKKOIKKI_warriors
+	
+	# The size of an the uprising
+	size = {
+		factor = 1
+	}
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0
+	}
+}
