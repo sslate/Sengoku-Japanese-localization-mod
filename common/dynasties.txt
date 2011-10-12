@@ -1,5 +1,5 @@
 1 = {
-	name="ˆÀ“Œ"
+	name=".ˆÀ“Œ"
 	color = { 157  51  167 }
 	coat_of_arms = {
 		template = 0
@@ -14,7 +14,7 @@
 }
 
 2 = {
-	name="‘«—˜"
+	name=".‘«—˜"
 	color = { 246  223  15 }
 	coat_of_arms = {
 		template = 0
@@ -29,7 +29,7 @@
 }
 
 3 = {
-	name="ˆ°–¼"
+	name=".ˆ°–¼"
 	color = { 223  198  64 }
 	coat_of_arms = {
 		template = 0
@@ -44,7 +44,7 @@
 }
 
 4 = {
-	name="ç—t"
+	name=".ç—t"
 	color = { 120  77  119 }
 	coat_of_arms = {
 		template = 0
@@ -59,7 +59,7 @@
 }
 
 5 = {
-	name="‘å•ó›"
+	name=".‘å•ó›"
 	color = { 166  68  72 }
 	coat_of_arms = {
 		template = 0
@@ -74,7 +74,7 @@
 }
 
 6 = {
-	name="ˆÉ’B"
+	name=".ˆÉ’B"
 	color = { 113  112  96 }
 	coat_of_arms = {
 		template = 0
@@ -89,7 +89,7 @@
 }
 
 7 = {
-	name="”©R"
+	name=".”©R"
 	color = { 30  75  15 }
 	coat_of_arms = {
 		template = 0
@@ -104,7 +104,7 @@
 }
 
 8 = {
-	name="–{ŠÔ"
+	name=".–{ŠÔ"
 	color = { 81  122  125 }
 	coat_of_arms = {
 		template = 0
@@ -119,7 +119,7 @@
 }
 
 9 = {
-	name="×ì"
+	name=".×ì"
 	color = { 117  161  67 }	
 	coat_of_arms = {
 		template = 0
@@ -134,13 +134,13 @@
 }
 
 10 = {
-	name="¡ì"
+	name=".¡ì"
 	color = { 178  163  143 }
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 0
-			texture_internal = 23
+			texture = 1
+			texture_internal = 270
 			color = 1 # Crest
 			color = 3 # Background
 			color = 0
@@ -149,7 +149,7 @@
 }
 
 11 = {
-	name="ˆêF"
+	name=".ˆêF"
 	color = { 161  139  40 }
 	coat_of_arms = {
 		template = 0
@@ -164,7 +164,7 @@
 }
 
 12 = {
-	name="Š‹¼"
+	name=".Š‹¼"
 	color = { 240  167  130 }
 	coat_of_arms = {
 		template = 0
@@ -179,7 +179,7 @@
 }
 
 13 = {
-	name="‹e’r"
+	name=".‹e’r"
 	color = { 120  148  140 }
 	coat_of_arms = {
 		template = 0
@@ -194,7 +194,7 @@
 }
 
 14 = {
-	name="‰Í–ì"
+	name=".‰Í–ì"
 	color = { 123  90  90 }
 	coat_of_arms = {
 		template = 0
@@ -209,7 +209,7 @@
 }
 
 15 = {
-	name="‹‹É"
+	name=".‹‹É"
 	color = { 193  26  14 }
 	coat_of_arms = {
 		template = 0
@@ -224,7 +224,7 @@
 }
 
 16 = {
-	name="^—¢’J"
+	name=".^—¢’J"
 	color = { 118  99  151 }
 	coat_of_arms = {
 		template = 0
@@ -239,7 +239,7 @@
 }
 
 17 = {
-	name="O‰Y"
+	name=".O‰Y"
 	color = { 116  92  39 }
 	coat_of_arms = {
 		template = 0
@@ -254,7 +254,7 @@
 }
 
 18 = {
-	name="Åã"
+	name=".Åã"
 	color = { 116  107  140 }
 	coat_of_arms = {
 		template = 0
@@ -269,7 +269,7 @@
 }
 
 19 = {
-	name="˜Q‰ª"
+	name=".˜Q‰ª"
 	color = { 8  82  165 }
 	coat_of_arms = {
 		template = 0
@@ -284,7 +284,7 @@
 }
 
 20 = {
-	name="“ì•”"
+	name=".“ì•”"
 	color = { 114  70  103 }
 	coat_of_arms = {
 		template = 0
@@ -299,7 +299,7 @@
 }
 
 21 = {
-	name="“ß{"
+	name=".“ß{"
 	color = { 193  171  8 }
 	coat_of_arms = {
 		template = 0
@@ -314,7 +314,7 @@
 }
 
 22 = {
-	name="“ñ–{¼"
+	name=".“ñ–{¼"
 	color = { 166  125  164 }
 	coat_of_arms = {
 		template = 0
@@ -329,7 +329,7 @@
 }
 
 23 = {
-	name="m‰ê•Û"
+	name=".m‰ê•Û"
 	color = { 84  124  48 }
 	coat_of_arms = {
 		template = 0
@@ -344,7 +344,7 @@
 }
 
 24 = {
-	name="“ñŠK“°"
+	name=".“ñŠK“°"
 	color = { 193  237  85 }
 	coat_of_arms = {
 		template = 0
@@ -359,7 +359,7 @@
 }
 
 25 = {
-	name="¬Š}Œ´"
+	name=".¬Š}Œ´"
 	color = { 220  138  57 }
 	coat_of_arms = {
 		template = 0
@@ -374,7 +374,7 @@
 }
 
 26 = {
-	name="¬–ì›"
+	name=".¬–ì›"
 	color = { 218  215  56 }
 	coat_of_arms = {
 		template = 0
@@ -389,7 +389,7 @@
 }
 
 27 = {
-	name="‘åè"
+	name=".‘åè"
 	color = { 153  0 0 }
 	coat_of_arms = {
 		template = 0
@@ -404,7 +404,7 @@
 }
 
 28 = {
-	name="‘å—F"
+	name=".‘å—F"
 	color = { 78  75  39 }
 	coat_of_arms = {
 		template = 0
@@ -419,7 +419,7 @@
 }
 
 29 = {
-	name="‘å“à"
+	name=".‘å“à"
 	color = { 93  194  122 }
 	coat_of_arms = {
 		template = 0
@@ -434,7 +434,7 @@
 }
 
 30 = {
-	name="˜ZŠp"
+	name=".˜ZŠp"
 	color = { 34  30  174 }
 	coat_of_arms = {
 		template = 0
@@ -449,7 +449,7 @@
 }
 
 31 = {
-	name="²’|"
+	name=".²’|"
 	color = { 73  152  76 }
 	coat_of_arms = {
 		template = 0
@@ -464,7 +464,7 @@
 }
 
 32 = {
-	name="—¢Œ©"
+	name=".—¢Œ©"
 	color = { 182  134  100 }
 	coat_of_arms = {
 		template = 0
@@ -479,7 +479,7 @@
 }
 
 33 = {
-	name="z”g"
+	name=".z”g"
 	color = { 43  141  172 }
 	coat_of_arms = {
 		template = 0
@@ -494,7 +494,7 @@
 }
 
 34 = {
-	name="“‡’Ã"
+	name=".“‡’Ã"
 	color = { 165  89  27 }
 	coat_of_arms = {
 		template = 0
@@ -509,7 +509,7 @@
 }
 
 35 = {
-	name="­“ó"
+	name=".­“ó"
 	color = { 218  215  56 }
 	coat_of_arms = {
 		template = 0
@@ -524,7 +524,7 @@
 }
 
 36 = {
-	name="@"
+	name=".@"
 	color = { 36  132  247 }
 	coat_of_arms = {
 		template = 0
@@ -539,7 +539,7 @@
 }
 
 37 = {
-	name="‘Š”n"
+	name=".‘Š”n"
 	color = { 249  206  173 }
 	coat_of_arms = {
 		template = 0
@@ -554,7 +554,7 @@
 }
 
 38 = {
-	name="•“c"
+	name=".•“c"
 	color = { 178  103  5 }
 	coat_of_arms = {
 		template = 0
@@ -569,7 +569,7 @@
 }
 
 39 = {
-	name="•xŠ~"
+	name=".•xŠ~"
 	color = { 103  62  185 }
 	coat_of_arms = {
 		template = 0
@@ -584,7 +584,7 @@
 }
 
 40 = {
-	name="“yŠò"
+	name=".“yŠò"
 	color = { 193  171  8 }
 	coat_of_arms = {
 		template = 0
@@ -599,7 +599,7 @@
 }
 
 41 = {
-	name="ŒË‘ò"
+	name=".ŒË‘ò"
 	color = { 156  179  189 }
 	coat_of_arms = {
 		template = 0
@@ -614,7 +614,7 @@
 }
 
 42 = {
-	name="ã™"
+	name=".ã™"
 	color = { 164  217  127 }
 	coat_of_arms = {
 		template = 0
@@ -629,7 +629,7 @@
 }
 
 43 = {
-	name="‰F‹v"
+	name=".‰F‹v"
 	color = { 152  85  92 }
 	coat_of_arms = {
 		template = 0
@@ -644,7 +644,7 @@
 }
 
 44 = {
-	name="‰F“s‹{"
+	name=".‰F“s‹{"
 	color = { 104  137  140 }
 	coat_of_arms = {
 		template = 0
@@ -659,7 +659,7 @@
 }
 
 45 = {
-	name="R–¼"
+	name=".R–¼"
 	color = { 117  165  188 }
 	coat_of_arms = {
 		template = 0
@@ -674,7 +674,7 @@
 }
 
 46 = {
-	name="âÊ“c"
+	name=".âÊ“c"
 	color = { 78  75  39 }
 	coat_of_arms = {
 		template = 0
@@ -689,7 +689,7 @@
 }
 
 47 = {
-	name="Œ‹é"
+	name=".Œ‹é"
 	color = { 173  176  113 }
 	coat_of_arms = {
 		template = 0
@@ -704,7 +704,7 @@
 }
 
 48 = {
-	name="”’‰Í"
+	name=".”’‰Í"
 	color = { 138  193  231 }
 	coat_of_arms = {
 		template = 0
@@ -719,7 +719,7 @@
 }
 
 49 = {
-	name="¬R"
+	name=".¬R"
 	color = { 54  167  156 }
 	coat_of_arms = {
 		template = 0
@@ -734,7 +734,7 @@
 }
 
 50 = {
-	name="ğˆä"
+	name=".ğˆä"
 	color = { 183  176  194 }
 	coat_of_arms = {
 		template = 0
@@ -749,7 +749,7 @@
 }
 
 51 = {
-	name="Ôˆä"
+	name=".Ôˆä"
 	color = { 4  144  178 }
 	coat_of_arms = {
 		template = 0
@@ -764,7 +764,7 @@
 }
 
 52 = {
-	name="ÔŒŠ"
+	name=".ÔŒŠ"
 	color = { 212  211  151 }
 	coat_of_arms = {
 		template = 0
@@ -779,7 +779,7 @@
 }
 
 53 = {
-	name="HŒ"
+	name=".HŒ"
 	color = { 97  98  195 }
 	coat_of_arms = {
 		template = 0
@@ -794,8 +794,8 @@
 }
 
 54 = {
-	name="“òq"
-	color = { 163  5  77 }
+	name=".“òq"
+	color = { 220  171  77 }
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -809,7 +809,7 @@
 }
 
 55 = {
-	name="“V–ì"
+	name=".“V–ì"
 	color = { 26  27  154 }
 	coat_of_arms = {
 		template = 0
@@ -824,7 +824,7 @@
 }
 
 56 = {
-	name="ŒŠR"
+	name=".ŒŠR"
 	color = { 48  149  21 } 
 	coat_of_arms = {
 		template = 0
@@ -839,7 +839,7 @@
 }
 
 57 = {
-	name="o¬˜H"
+	name=".o¬˜H"
 	color = { 201  97  74 }
 	coat_of_arms = {
 		template = 0
@@ -854,7 +854,7 @@
 }
 
 58 = {
-	name="ˆÀ’†"
+	name=".ˆÀ’†"
 	color = { 36  109  194 }
 	coat_of_arms = {
 		template = 0
@@ -869,7 +869,7 @@
 }
 
 59 = {
-	name="—L”n"
+	name=".Û’Ã—L”n"
 	color = { 93  180  76 }
 	coat_of_arms = {
 		template = 0
@@ -884,7 +884,7 @@
 }
 
 60 = {
-	name="İ“c"
+	name=".İ“c"
 	color = { 100  94  125 }
 	coat_of_arms = {
 		template = 0
@@ -899,7 +899,7 @@
 }
 
 61 = {
-	name="’©”ä“Ş"
+	name=".’©”ä“Ş"
 	color = { 129  177  125 }
 	coat_of_arms = {
 		template = 0
@@ -914,7 +914,7 @@
 }
 
 62 = {
-	name="’©‘q"
+	name=".’©‘q"
 	color = { 41  89  174 }
 	coat_of_arms = {
 		template = 0
@@ -929,7 +929,7 @@
 }
 
 63 = {
-	name="ˆ¢‘h"
+	name=".ˆ¢‘h"
 	color = { 23  114  143 }
 	coat_of_arms = {
 		template = 0
@@ -944,7 +944,7 @@
 }
 
 64 = {
-	name="ˆÀ‘î"
+	name=".ˆÀ‘î"
 	color = { 94  117  55 }
 	coat_of_arms = {
 		template = 0
@@ -959,7 +959,7 @@
 }
 
 65 = {
-	name="ˆ¾‰®"
+	name=".ˆ¾‰®"
 	color = { 213  132  76 }
 	coat_of_arms = {
 		template = 0
@@ -974,7 +974,7 @@
 }
 
 66 = {
-	name="óˆä"
+	name=".óˆä"
 	color = { 139  131  162 }
 	coat_of_arms = {
 		template = 0
@@ -989,7 +989,7 @@
 }
 
 67 = {
-	name="•ÊŠ"
+	name=".•ÊŠ"
 	color = { 87  92  104 }
 	coat_of_arms = {
 		template = 0
@@ -1004,7 +1004,7 @@
 }
 
 68 = {
-	name="’·"
+	name=".’·"
 	color = { 89  140  176 }
 	coat_of_arms = {
 		template = 0
@@ -1019,7 +1019,7 @@
 }
 
 69 = {
-	name="’·@‰ä•”"
+	name=".’·@‰ä•”"
 	color = { 108  139  208 }
 	coat_of_arms = {
 		template = 0
@@ -1034,7 +1034,7 @@
 }
 
 70 = {
-	name="‘å"
+	name=".‘å"
 	color = { 157  200  42 }
 	coat_of_arms = {
 		template = 0
@@ -1049,7 +1049,7 @@
 }
 
 71 = {
-	name="]ŒË"
+	name=".]ŒË"
 	color = { 17  16  203 }
 	coat_of_arms = {
 		template = 0
@@ -1064,7 +1064,7 @@
 }
 
 72 = {
-	name="Š—¶"
+	name=".Š—¶"
 	color = { 102  128  52 } 
 	coat_of_arms = {
 		template = 0
@@ -1079,7 +1079,7 @@
 }
 
 73 = {
-	name="Œã“¡"
+	name=".Œã“¡"
 	color = { 191  110  62 }
 	coat_of_arms = {
 		template = 0
@@ -1094,7 +1094,7 @@
 }
 
 74 = {
-	name="–I{‰ê"
+	name=".–I{‰ê"
 	color = { 43  141  172 }
 	coat_of_arms = {
 		template = 0
@@ -1109,7 +1109,7 @@
 }
 
 75 = {
-	name="Œ´“c"
+	name=".Œ´“c"
 	color = { 153  21  202 }
 	coat_of_arms = {
 		template = 0
@@ -1124,7 +1124,7 @@
 }
 
 76 = {
-	name="”g‘½–ì"
+	name=".”g‘½–ì"
 	color = { 193  179  127 }
 	coat_of_arms = {
 		template = 0
@@ -1139,7 +1139,7 @@
 }
 
 77 = {
-	name="Œ´“c"
+	name=".Œ´“c"
 	color = { 231  224  107 }
 	coat_of_arms = {
 		template = 0
@@ -1154,7 +1154,7 @@
 }
 
 78 = {
-	name="ˆíŒ©"
+	name=".ˆíŒ©"
 	color = { 139  179  207 }
 	coat_of_arms = {
 		template = 0
@@ -1169,7 +1169,7 @@
 }
 
 79 = {
-	name="–k‹½"
+	name=".–k‹½"
 	color = { 83  167  56 }
 	coat_of_arms = {
 		template = 0
@@ -1184,7 +1184,7 @@
 }
 
 80 = {
-	name="–{¯"
+	name=".–{¯"
 	color = { 80  165  10 }
 	coat_of_arms = {
 		template = 0
@@ -1199,7 +1199,7 @@
 }
 
 81 = {
-	name="–x‰z"
+	name=".–x‰z"
 	color = { 178  139  60 }
 	coat_of_arms = {
 		template = 0
@@ -1214,7 +1214,7 @@
 }
 
 82 = {
-	name="–x“à"
+	name=".–x“à"
 	color = { 125  92  110 }
 	coat_of_arms = {
 		template = 0
@@ -1229,7 +1229,7 @@
 }
 
 83 = {
-	name="¯–ì"
+	name=".¯–ì"
 	color = { 153  138  161 }
 	coat_of_arms = {
 		template = 0
@@ -1244,7 +1244,7 @@
 }
 
 84 = {
-	name="ˆÉ’ë"
+	name=".ˆÉ’ë"
 	color = { 79  89  182 }
 	coat_of_arms = {
 		template = 0
@@ -1259,7 +1259,7 @@
 }
 
 85 = {
-	name="ˆê‹{"
+	name=".ˆê‹{"
 	color = { 194  53  60 }
 	coat_of_arms = {
 		template = 0
@@ -1274,7 +1274,7 @@
 }
 
 86 = {
-	name="ˆäˆÉ"
+	name=".ˆäˆÉ"
 	color = { 30  131  162 }
 	coat_of_arms = {
 		template = 0
@@ -1289,7 +1289,7 @@
 }
 
 87 = {
-	name="ˆÉW‰@"
+	name=".ˆÉW‰@"
 	color = { 153  141  117 }
 	coat_of_arms = {
 		template = 0
@@ -1304,7 +1304,7 @@
 }
 
 88 = {
-	name="’r“c"
+	name=".’r“c"
 	color = { 63  150  30 }
 	coat_of_arms = {
 		template = 0
@@ -1319,7 +1319,7 @@
 }
 
 89 = {
-	name="¡ˆä"
+	name=".¡ˆä"
 	color = { 112  194  63 }
 	coat_of_arms = {
 		template = 0
@@ -1334,7 +1334,7 @@
 }
 
 90 = {
-	name="ˆî—t"
+	name=".ˆî—t"
 	color = { 97  102  135 }
 	coat_of_arms = {
 		template = 0
@@ -1349,7 +1349,7 @@
 }
 
 91 = {
-	name="“ü]"
+	name=".“ü]"
 	color = { 138  151  103 }
 	coat_of_arms = {
 		template = 0
@@ -1364,7 +1364,7 @@
 }
 
 92 = {
-	name="ˆÉ’O"
+	name=".ˆÉ’O"
 	color = { 121  159  109 } 
 	coat_of_arms = {
 		template = 0
@@ -1379,7 +1379,7 @@
 }
 
 93 = {
-	name="ˆÉ“Œ"
+	name=".ˆÉ“Œ"
 	color = { 130  168  224 }
 	coat_of_arms = {
 		template = 0
@@ -1394,7 +1394,7 @@
 }
 
 94 = {
-	name="_•Û"
+	name="._•Û"
 	color = { 106  127  183 }
 	coat_of_arms = {
 		template = 0
@@ -1409,7 +1409,7 @@
 }
 
 95 = {
-	name="ì"
+	name=".ì"
 	color = { 98  140  84 }
 	coat_of_arms = {
 		template = 0
@@ -1424,7 +1424,7 @@
 }
 
 96 = {
-	name="b”ã"
+	name=".b”ã"
 	color = { 199  160  139}
 	coat_of_arms = {
 		template = 0
@@ -1439,7 +1439,7 @@
 }
 
 97 = {
-	name="Š`è"
+	name=".Š`è"
 	color = { 26  53  177 }
 	coat_of_arms = {
 		template = 0
@@ -1454,7 +1454,7 @@
 }
 
 98 = {
-	name="Š—’r"
+	name=".Š—’r"
 	color = { 121  162  109 }
 	coat_of_arms = {
 		template = 0
@@ -1469,7 +1469,7 @@
 }
 
 99 = {
-	name="‹àq"
+	name=".‹àq"
 	color = { 74  92  128 }
 	coat_of_arms = {
 		template = 0
@@ -1484,7 +1484,7 @@
 }
 
 100 = {
-	name="­“‡"
+	name=".­“‡"
 	color = { 210  46  28 }
 	coat_of_arms = {
 		template = 0
@@ -1499,7 +1499,7 @@
 }
 
 101 = {
-	name="éˆä"
+	name=".éˆä"
 	color = { 101  102  163 }
 	coat_of_arms = {
 		template = 0
@@ -1514,7 +1514,7 @@
 }
 
 102 = {
-	name="‹gì"
+	name=".‹gì"
 	color = { 179  29  100 }
 	coat_of_arms = {
 		template = 0
@@ -1529,7 +1529,7 @@
 }
 
 103 = {
-	name="ŠÌ•t"
+	name=".ŠÌ•t"
 	color = { 200  202  85 }
 	coat_of_arms = {
 		template = 0
@@ -1544,7 +1544,7 @@
 }
 
 104 = {
-	name="‹g—Ç"
+	name=".‹g—Ç"
 	color = { 93  147  88 }
 	coat_of_arms = {
 		template = 0
@@ -1559,7 +1559,7 @@
 }
 
 105 = {
-	name="‹Ë¶"
+	name=".‹Ë¶"
 	color = { 190  180  93 }
 	coat_of_arms = {
 		template = 0
@@ -1574,7 +1574,7 @@
 }
 
 106 = {
-	name="–Ø‘]"
+	name=".–Ø‘]"
 	color = { 67  124  181 }
 	coat_of_arms = {
 		template = 0
@@ -1589,8 +1589,8 @@
 }
 
 107 = {
-	name="–k”©"
-	color = { 201  28  54 }
+	name=".–k”©"
+	color = { 59  133  181 }
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -1604,7 +1604,7 @@
 }
 
 108 = {
-	name="–Ø‘ò"
+	name=".–Ø‘ò"
 	color = { 117  179  128 }
 	coat_of_arms = {
 		template = 0
@@ -1619,7 +1619,7 @@
 }
 
 109 = {
-	name="¬R“c"
+	name=".¬R“c"
 	color = { 100  96  197 }
 	coat_of_arms = {
 		template = 0
@@ -1634,7 +1634,7 @@
 }
 
 110 = {
-	name="¼"
+	name=".¼"
 	color = { 165  80  10 }
 	coat_of_arms = {
 		template = 0
@@ -1649,7 +1649,7 @@
 }
 
 111 = {
-	name="‹ã‹S"
+	name=".‹ã‹S"
 	color = { 215  135  125 }
 	coat_of_arms = {
 		template = 0
@@ -1664,7 +1664,7 @@
 }
 
 112 = {
-	name="‹€–Ô"
+	name=".‹€–Ô"
 	color = { 165  132  57 }
 	coat_of_arms = {
 		template = 0
@@ -1679,7 +1679,7 @@
 }
 
 113 = {
-	name="‰v“c"
+	name=".‰v“c"
 	color = { 227  162  94 }
 	coat_of_arms = {
 		template = 0
@@ -1694,7 +1694,7 @@
 }
 
 114 = {
-	name="¼“c"
+	name=".¼“c"
 	color = { 94  136  191 }
 	coat_of_arms = {
 		template = 0
@@ -1709,7 +1709,7 @@
 }
 
 115 = {
-	name="¼•½"
+	name=".¼•½"
 	color = { 195  149  155 }
 	coat_of_arms = {
 		template = 0
@@ -1724,7 +1724,7 @@
 }
 
 116 = {
-	name="¼‰Y"
+	name=".¼‰Y"
 	color = { 219  124  139 }
 	coat_of_arms = {
 		template = 0
@@ -1739,7 +1739,7 @@
 }
 
 117 = {
-	name="O–Ø"
+	name=".O–Ø"
 	color = { 179  128  104 }
 	coat_of_arms = {
 		template = 0
@@ -1754,7 +1754,7 @@
 }
 
 118 = {
-	name="O‘º"
+	name=".O‘º"
 	color = { 108  153  65 }
 	coat_of_arms = {
 		template = 0
@@ -1769,7 +1769,7 @@
 }
 
 120 = {
-	name="OD"
+	name=".OD"
 	color = { 154  133  153 }
 	coat_of_arms = {
 		template = 0
@@ -1784,7 +1784,7 @@
 }
 
 121 = {
-	name="–Ñ—˜"
+	name=".–Ñ—˜"
 	color = { 35  110  195 }
 	coat_of_arms = {
 		template = 0
@@ -1799,7 +1799,7 @@
 }
 
 122 = {
-	name="@‘œ"
+	name=".@‘œ"
 	color = { 186  164  78 }
 	coat_of_arms = {
 		template = 0
@@ -1814,7 +1814,7 @@
 }
 
 123 = {
-	name="‘ºã"
+	name=".‘ºã"
 	color = { 184  193  89 }
 	coat_of_arms = {
 		template = 0
@@ -1829,7 +1829,7 @@
 }
 
 124 = {
-	name="’·–ì"
+	name=".’·–ì"
 	color = { 175  122  10 }
 	coat_of_arms = {
 		template = 0
@@ -1844,7 +1844,7 @@
 }
 
 125 = {
-	name="’·”ö"
+	name=".’·”ö"
 	color = { 107  94  169 }
 	coat_of_arms = {
 		template = 0
@@ -1859,7 +1859,7 @@
 }
 
 126 = {
-	name="“à“¡"
+	name=".’·–å“à“¡"
 	color = { 176  72  77 }
 	coat_of_arms = {
 		template = 0
@@ -1874,7 +1874,7 @@
 }
 
 127 = {
-	name="“ìğ"
+	name=".“ìğ"
 	color = { 204  184  177 }
 	coat_of_arms = {
 		template = 0
@@ -1889,7 +1889,7 @@
 }
 
 128 = {
-	name="m–Ø"
+	name=".m–Ø"
 	color = { 98  134  153 }
 	coat_of_arms = {
 		template = 0
@@ -1904,7 +1904,7 @@
 }
 
 129 = {
-	name="m‰È"
+	name=".m‰È"
 	color = { 122  179  97 }
 	coat_of_arms = {
 		template = 0
@@ -1919,7 +1919,7 @@
 }
 
 130 = {
-	name="”\¨"
+	name=".”\¨"
 	color = { 211  184  179 }
 	coat_of_arms = {
 		template = 0
@@ -1934,7 +1934,7 @@
 }
 
 131 = {
-	name="‰·ˆä"
+	name=".‰·ˆä"
 	color = { 211  220  178 }
 	coat_of_arms = {
 		template = 0
@@ -1949,7 +1949,7 @@
 }
 
 132 = {
-	name="ÀŠÔ"
+	name=".ÀŠÔ"
 	color = { 75  188  60 }
 	coat_of_arms = {
 		template = 0
@@ -1964,7 +1964,7 @@
 }
 
 133 = {
-	name="¬”¦"
+	name=".¬”¦"
 	color = { 162  134  164 }
 	coat_of_arms = {
 		template = 0
@@ -1979,7 +1979,7 @@
 }
 
 134 = {
-	name="D“c"
+	name=".D“c"
 	color = { 199  177  128 }
 	coat_of_arms = {
 		template = 0
@@ -1994,7 +1994,7 @@
 }
 
 135 = {
-	name="‘åŒ´"
+	name=".‘åŒ´"
 	color = { 124  140  162 }
 	coat_of_arms = {
 		template = 0
@@ -2009,7 +2009,7 @@
 }
 
 136 = {
-	name="‘å•½"
+	name=".‘å•½"
 	color = { 255  213  51 }
 	coat_of_arms = {
 		template = 0
@@ -2024,7 +2024,7 @@
 }
 
 137 = {
-	name="‘å‘º"
+	name=".‘å‘º"
 	color = { 187  79  86 }
 	coat_of_arms = {
 		template = 0
@@ -2039,7 +2039,7 @@
 }
 
 138 = {
-	name="‘å‹´"
+	name=".‘å‹´"
 	color = { 116  153  8 } 
 	coat_of_arms = {
 		template = 0
@@ -2054,7 +2054,7 @@
 }
 
 139 = {
-	name="‘åˆä"
+	name=".‘åˆä"
 	color = { 82  135  124 }
 	coat_of_arms = {
 		template = 0
@@ -2069,7 +2069,7 @@
 }
 
 140 = {
-	name="—´‘¢›"
+	name=".—´‘¢›"
 	color = { 140  169  183 }
 	coat_of_arms = {
 		template = 0
@@ -2084,7 +2084,7 @@
 }
 
 141 = {
-	name="²”Œ"
+	name=".²”Œ"
 	color = { 194  140  86 }
 	coat_of_arms = {
 		template = 0
@@ -2099,7 +2099,7 @@
 }
 
 142 = {
-	name="‘Š—Ç"
+	name=".‘Š—Ç"
 	color = { 119  151  122 }
 	coat_of_arms = {
 		template = 0
@@ -2114,7 +2114,7 @@
 }
 
 143 = {
-	name="¼‹½"
+	name=".¼‹½"
 	color = { 138  126  53 } 
 	coat_of_arms = {
 		template = 0
@@ -2129,7 +2129,7 @@
 }
 
 144 = {
-	name="¼‰€›"
+	name=".¼‰€›"
 	color = { 39  100  157 }
 	coat_of_arms = {
 		template = 0
@@ -2144,7 +2144,7 @@
 }
 
 145 = {
-	name="Ö“¡"
+	name=".Ö“¡"
 	color = { 121  106  108 }
 	coat_of_arms = {
 		template = 0
@@ -2159,7 +2159,7 @@
 }
 
 146 = {
-	name="²¡"
+	name=".²¡"
 	color = { 90  138  133 }
 	coat_of_arms = {
 		template = 0
@@ -2174,7 +2174,7 @@
 }
 
 147 = {
-	name="ŠÖ"
+	name=".ŠÖ"
 	color = { 97  209  251 }
 	coat_of_arms = {
 		template = 0
@@ -2189,7 +2189,7 @@
 }
 
 148 = {
-	name="V”­“c"
+	name=".V”­“c"
 	color = { 0  123  12 }
 	coat_of_arms = {
 		template = 0
@@ -2204,7 +2204,7 @@
 }
 
 149 = {
-	name="“Œ‹½"
+	name=".“Œ‹½"
 	color = { 62  122  189 }
 	coat_of_arms = {
 		template = 0
@@ -2219,7 +2219,7 @@
 }
 
 150 = {
-	name="u‰ê"
+	name=".u‰ê"
 	color = { 153  122  108 }
 	coat_of_arms = {
 		template = 0
@@ -2234,7 +2234,7 @@
 }
 
 151 = {
-	name="’Å–¼"
+	name=".’Å–¼"
 	color = { 189  123  130 }
 	coat_of_arms = {
 		template = 0
@@ -2249,7 +2249,7 @@
 }
 
 152 = {
-	name="‰––è"
+	name=".‰––è"
 	color = { 64  120  172 }
 	coat_of_arms = {
 		template = 0
@@ -2264,7 +2264,7 @@
 }
 
 153 = {
-	name="¯"
+	name=".¯"
 	color = { 212  105  118 } 
 	coat_of_arms = {
 		template = 0
@@ -2279,7 +2279,7 @@
 }
 
 154 = {
-	name="“©"
+	name=".“©"
 	color = { 89  134  166 } 
 	coat_of_arms = {
 		template = 0
@@ -2294,7 +2294,7 @@
 }
 
 155 = {
-	name="™"
+	name=".™"
 	color = { 135  104  85 }
 	coat_of_arms = {
 		template = 0
@@ -2309,7 +2309,7 @@
 }
 
 156 = {
-	name="“cŒ´"
+	name=".“cŒ´"
 	color = { 55  108  158 }
 	coat_of_arms = {
 		template = 0
@@ -2324,7 +2324,7 @@
 }
 
 157 = {
-	name="‘½‰ê"
+	name=".‘½‰ê"
 	color = { 201  19  70 }
 	coat_of_arms = {
 		template = 0
@@ -2339,7 +2339,7 @@
 }
 
 158 = {
-	name="‚‹´"
+	name=".‚‹´"
 	color = { 60  133  142 }
 	coat_of_arms = {
 		template = 0
@@ -2354,7 +2354,7 @@
 }
 
 159 = {
-	name="‹Ê’u"
+	name=".‹Ê’u"
 	color = { 89  164  144 }
 	coat_of_arms = {
 		template = 0
@@ -2369,7 +2369,7 @@
 }
 
 160 = {
-	name="’W—Ö"
+	name=".’W—Ö"
 	color = { 81  141  85 }
 	coat_of_arms = {
 		template = 0
@@ -2384,7 +2384,7 @@
 }
 
 161 = {
-	name="“Œ"
+	name=".“Œ"
 	color = { 35  220  30   }
 	coat_of_arms = {
 		template = 0
@@ -2399,7 +2399,7 @@
 }
 
 163 = {
-	name="‰“R"
+	name=".‰“R"
 	color = { 242  149  0 }
 	coat_of_arms = {
 		template = 0
@@ -2414,7 +2414,7 @@
 }
 
 164 = {
-	name="“y"
+	name=".“y"
 	color = { 165  151  80 }
 	coat_of_arms = {
 		template = 0
@@ -2429,7 +2429,7 @@
 }
 
 165 = {
-	name="“àƒ–“‡"
+	name=".“àƒ–“‡"
 	color = { 146  155  156}
 	coat_of_arms = {
 		template = 0
@@ -2444,7 +2444,7 @@
 }
 
 166 = {
-	name="‰Æ"
+	name=".‰Æ"
 	color = { 177  207  205 }
 	coat_of_arms = {
 		template = 0
@@ -2459,7 +2459,7 @@
 }
 
 167 = {
-	name="ŠCã"
+	name=".ŠCã"
 	color = { 81  144  126 }
 	coat_of_arms = {
 		template = 0
@@ -2474,7 +2474,7 @@
 }
 
 168 = {
-	name="‰Yã"
+	name=".‰Yã"
 	color = { 211  207  173 }
 	coat_of_arms = {
 		template = 0
@@ -2489,7 +2489,7 @@
 }
 
 169 = {
-	name="‰Pˆä"
+	name=".‰Pˆä"
 	color = { 134  166  117 }
 	coat_of_arms = {
 		template = 0
@@ -2504,7 +2504,7 @@
 }
 
 171 = {
-	name="–î•”"
+	name=".–î•”"
 	color = { 131  101  85 }
 	coat_of_arms = {
 		template = 0
@@ -2519,7 +2519,7 @@
 }
 
 172 = {
-	name="–òt›"
+	name=".–òt›"
 	color = { 202 202 202}
 	coat_of_arms = {
 		template = 0
@@ -2534,7 +2534,7 @@
 }
 
 173 = {
-	name="R“à"
+	name=".R“à"
 	color = { 204  186  201 }
 	coat_of_arms = {
 		template = 0
@@ -2549,7 +2549,7 @@
 }
 
 174 = {
-	name="ˆÀŒ©"
+	name=".ˆÀŒ©"
 	color = { 61  152  180 }
 	coat_of_arms = {
 		template = 0
@@ -2564,7 +2564,7 @@
 }
 
 175 = {
-	name="ˆÀ•x"
+	name=".ˆÀ•x"
 	color = { 69  157  208 }
 	coat_of_arms = {
 		template = 0
@@ -2579,7 +2579,7 @@
 }
 
 176 = {
-	name="‹gŒ©"
+	name=".‹gŒ©"
 	color = { 213  82  109 }
 	coat_of_arms = {
 		template = 0
@@ -2594,7 +2594,7 @@
 }
 
 177 = {
-	name="“’ì"
+	name=".“’ì"
 	color = { 151  174  28 }
 	coat_of_arms = {
 		template = 0
@@ -2609,7 +2609,7 @@
 }
 
 179 = {
-	name="—V²"
+	name=".—V²"
 	color = { 166  189  199 }
 	coat_of_arms = {
 		template = 0
@@ -2624,7 +2624,7 @@
 }
 
 180 = {
-	name="Ô¼"
+	name=".Ô¼"
 	color = { 20  50  210 }
 	coat_of_arms = {
 		template = 0
@@ -2639,7 +2639,7 @@
 }
 
 181 = {
-	name="‘¾“c"
+	name=".‘¾“c"
 	color = { 161  126  128 }
 	coat_of_arms = {
 		template = 0
@@ -2654,7 +2654,7 @@
 }
 
 182 = {
-	name="‘åÎ"
+	name=".‘åÎ"
 	color = { 231  230  138 }
 	coat_of_arms = {
 		template = 0
@@ -2669,7 +2669,7 @@
 }
 
 183 = {
-	name="¬“c"
+	name=".¬“c"
 	color = { 209  212  126 }
 	coat_of_arms = {
 		template = 0
@@ -2684,7 +2684,7 @@
 }
 
 184 = {
-	name="‚—œ"
+	name=".‚—œ"
 	color = { 111  162  128 }
 	coat_of_arms = {
 		template = 0
@@ -2699,7 +2699,7 @@
 }
 
 185 = {
-	name="‘åX"
+	name=".‘åX"
 	color = { 147  146  106 }
 	coat_of_arms = {
 		template = 0
@@ -2714,7 +2714,7 @@
 }
 
 186 = {
-	name="O“c"
+	name=".O“c"
 	color = { 140  183  154 }
 	coat_of_arms = {
 		template = 0
@@ -2729,7 +2729,7 @@
 }
 
 187 = {
-	name="–L“‡"
+	name=".–L“‡"
 	color = { 131  141  142 }
 	coat_of_arms = {
 		template = 0
@@ -2744,7 +2744,7 @@
 }
 
 188 = {
-	name="ŒÃ‰Í‘«—˜"
+	name=".ŒÃ‰Í‘«—˜"
 	color = { 156  96  100 }
 	coat_of_arms = {
 		template = 0
@@ -2759,7 +2759,7 @@
 }
 
 189 = {
-	name="Œ´"
+	name=".Œ´"
 	color = { 213  155  81 }
 	coat_of_arms = {
 		template = 0
@@ -2774,7 +2774,7 @@
 }
 
 190 = {
-	name="•x‰i"
+	name=".•x‰i"
 	color = { 107  170  77 }
 	coat_of_arms = {
 		template = 0
@@ -2789,7 +2789,7 @@
 }
 
 191 = {
-	name="ë–ì"
+	name=".ë–ì"
 	color = { 117  112  131 }
 	coat_of_arms = {
 		template = 0
@@ -2804,8 +2804,8 @@
 }
 
 192 = {
-	name="“›ˆä"
-	color = { 20  100  220 }
+	name=".“›ˆä"
+	color = { 197  92  106 }
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -2819,7 +2819,7 @@
 }
 
 193 = {
-	name="\s"
+	name=".\s"
 	color = { 154  69  116 }
 	coat_of_arms = {
 		template = 0
@@ -2834,7 +2834,7 @@
 }
 
 194 = {
-	name="ŒÃs"
+	name=".ŒÃs"
 	color = { 224  146  113 } 
 	coat_of_arms = {
 		template = 0
@@ -2849,7 +2849,7 @@
 }
 
 195 = {
-	name="‰z’q"
+	name=".‰z’q"
 	color = { 102  105  104 }
 	coat_of_arms = {
 		template = 0
@@ -2864,7 +2864,7 @@
 }
 
 196 = {
-	name="¬›"
+	name=".¬›"
 	color = { 158  118  120 }
 	coat_of_arms = {
 		template = 0
@@ -2879,7 +2879,7 @@
 }
 
 197 = {
-	name="ŒË“c"
+	name=".ŒË“c"
 	color = { 170 43 21 }
 	coat_of_arms = {
 		template = 0
@@ -2894,7 +2894,7 @@
 }
 
 198 = {
-	name="“Œğ"
+	name=".“Œğ"
 	color = { 127  170  146 }
 	coat_of_arms = {
 		template = 0
@@ -2909,7 +2909,7 @@
 }
 
 199 = {
-	name="›À"
+	name=".›À"
 	color = { 211  207  173 }
 	coat_of_arms = {
 		template = 0
@@ -2924,7 +2924,7 @@
 }
 
 200 = {
-	name="H“¡"
+	name=".H“¡"
 	color = { 149  119  9 }
 	coat_of_arms = {
 		template = 0
@@ -2939,7 +2939,7 @@
 }
 
 201 = {
-	name="z–K"
+	name=".z–K"
 	color = { 117  146  167 }
 	coat_of_arms = {
 		template = 0
@@ -2954,7 +2954,7 @@
 }
 
 202 = {
-	name="ˆÉ¨"
+	name=".ˆÉ¨"
 	color = { 61  136  66 }
 	coat_of_arms = {
 		template = 0
@@ -2969,7 +2969,7 @@
 }
 
 203 = {
-	name="åì"
+	name=".åì"
 	color = { 177  150  109 }
 	coat_of_arms = {
 		template = 0
@@ -2983,7 +2983,7 @@
 	}
 }
 204 = {
-	name="“ú–ì"
+	name=".“ú–ì"
 	color = { 255  213  51 }
 	coat_of_arms = {
 		template = 0
@@ -2998,7 +2998,7 @@
 }
 
 205 = {
-	name="œ”ç"
+	name=".œ”ç"
 	color = { 57  151  142 }
 	coat_of_arms = {
 		template = 0
@@ -3013,7 +3013,7 @@
 }
 
 206 = {
-	name="•§‹³O"
+	name="‘m•º"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -3028,7 +3028,7 @@
 }
 
 207 = {
-	name="_“¹O"
+	name="_l"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -3068,6 +3068,1312 @@
 			color = -1 # Background
 			color = -1
 			emblem = 6
+		}
+	}
+}
+
+210 = {
+	name=".ˆ¢‘]À"
+	color = { 117  112  131 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 0 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+211 = {
+	name=".]”n"
+	color = { 165  189  206 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+212 = {
+	name=".—L”n"
+	color = { 219  137  87 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+213 = {
+	name=".–kğ"
+	color = { 199  133  207 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+214 = {
+	name=".ˆêğ"
+	color = { 60  144  30 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 46
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+215 = {
+	name=".ˆö“‡‘ºã"
+	color = { 126  125  9 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 92
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+216 = {
+	name=".Šâé"
+	color = { 182  230  221 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 54
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+217 = {
+	name="._ŒË"
+	color = { 111  207  149 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 133
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+218 = {
+	name=".¬‘ì"
+	color = { 60  167  23 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+219 = {
+	name=".‘•ª"
+	color = { 179  251  167 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+220 = {
+	name=".–{R"
+	color = { 157  221  253 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 94
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+221 = {
+	name=".”\“o”©R"
+	color = { 26  63  59 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+222 = {
+	name=".—¯ç"
+	color = { 100  168  235 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 2
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+225 = {
+	name=".’ÑA"
+	color = { 240  15  240 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56
+			color = 1 # Crest
+			color = 8 # Background
+			color = 0
+		}
+	}
+}
+
+226 = {
+	name=".˜a’q"
+	color = { 48  212  179 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 53
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+227 = {
+	name=".˜a‰ê"
+	color = { 108  118  189 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 65
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+228 = {
+	name=".á‹·•“c"
+	color = { 147  31  62 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 111
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+229 = {
+	name=".\‰Í"
+	color = { 114  124  146 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 55
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+230 = {
+	name=".¼‰i"
+	color = { 13  42  26 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 80
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+231 = {
+	name=".’O”g“à“¡"
+	color = { 89  38  160 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 56
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+232 = {
+	name=".‘å“¹›"
+	color = { 214  59  93 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 133
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+233 = {
+	name=".‹k"
+	color = { 122  193  254 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 154
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+234 = {
+	name=".Š}Œ´"
+	color = { 207  243  196 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 161
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+235 = {
+	name=".²£"
+	color = { 229  138  191 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 147
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+236 = {
+	name=".²‹vŠÔ"
+	color = { 200  84  58 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 66
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+237 = {
+	name=".Ä“c"
+	color = { 223  231  100 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 134
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+238 = {
+	name=".‘O“c"
+	color = { 87  211  37 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 76
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+240 = {
+	name=".‰ª•”"
+	color = { 240  41  199 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 56
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+241 = {
+	name=".‰L“a"
+	color = { 64  70  119 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 158
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+242 = {
+	name=".‰P‹n"
+	color = { 145  147  25 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 118
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+243 = {
+	name=".“c–k"
+	color = { 239  136  151 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 118
+			color = 1 # Crest
+			color = 7 # Background
+			color = 0
+		}
+	}
+}
+
+244 = {
+	name=".–Ø‘¢"
+	color = { 195  116  159 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 111
+			color = 2 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+245 = {
+	name=".“¡•û"
+	color = { 126  80  29 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 65
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+246 = {
+	name=".’Ã“c"
+	color = { 255  100  119 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 75
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+247 = {
+	name=".G‰ê"
+	color = { 118  59  91 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 57
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+248 = {
+	name=".ˆäŒË"
+	color = { 183  97  87 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 58
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+249 = {
+	name=".é"
+	color = { 111  141  52 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 67
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+250 = {
+	name=".“ç“‡"
+	color = { 81  89  115 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 59
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+251 = {
+	name=".ìã"
+	color = { 248  42  80 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 60
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+252 = {
+	name=".V”["
+	color = { 41  112  250 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 61
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+253 = {
+	name=".ˆÉ—\‰F“s‹{"
+	color = { 167  201  3 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 2 # Crest
+			color = 0 # Background
+			color = 0
+		}
+	}
+}
+
+254 = {
+	name=".¬–ì"
+	color = { 245  156  123 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 43
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+255 = {
+	name=".‰F–ì"
+	color = { 82 58 123 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 1 # Crest
+			color = 0 # Background
+			color = 0
+		}
+	}
+}
+
+256 = {
+	name=".‰FŠì‘½"
+	color = { 62 225 128 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 62
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+257 = {
+	name=".•“c"
+	color = { 110 154 170 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 110
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+258 = {
+	name=".–¾Î"
+	color = { 135 191 51 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 63
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+259 = {
+	name=".‰BŠò"
+	color = { 204 181 38 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 222
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+260 = {
+	name=".™Œ´"
+	color = { 56 38 136 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 64
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+261 = {
+	name=".íq“‡"
+	color = { 243 111 90 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+300 = {
+	name=".–x]"
+	color = { 57  126  49 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			color = 9 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+301 = {
+	name=".Ô”ö"
+	color = { 159  47  50 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 66
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+302 = {
+	name=".ˆé–ì"
+	color = { 46  162  50 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 84
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+303 = {
+	name=".‹€–Ø"
+	color = { 37  141  64 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 63
+			color = 7 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+304 = {
+	name=".O‰_"
+	color = { 170  64  36 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 67
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+305 = {
+	name=".‹ß]Š—¶"
+	color = { 156  96  50 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 68
+			color = 11 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+306 = {
+	name=".ˆî—¯"
+	color = { 32  136  120 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 69
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+307 = {
+	name=".’¼]"
+	color = { 184  103  50 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 70
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+308 = {
+	name=".‰zŒãV”­“c"
+	color = { 184  103  50 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 19
+			color = 0 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+309 = {
+	name=".R‹g"
+	color = { 184  103  50 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 71
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+310 = {
+	name=".–¾’q"
+	color = { 193  171  8 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 156
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+311 = {
+	name=".”ü”ZˆÀ“¡"
+	color = { 193  171  8 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 72
+			color = 8 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+312 = {
+	name=".‘å‰Y"
+	color = { 56  98  173 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 73
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+313 = {
+	name=".Îì"
+	color = { 159  167  63 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 100
+			color = 1 # Crest
+			color = 3 # Background
+			color = 0
+		}
+	}
+}
+
+314 = {
+	name=".–k"
+	color = { 155  55  67 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 100
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+315 = {
+	name=".‹ãŒË"
+	color = { 81  176  53 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 100
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+316 = {
+	name=".‚…›z”g"
+	color = { 61  112  69 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 74
+			color = 3 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+317 = {
+	name=".‹àã"
+	color = { 172  95  57 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 133
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+318 = {
+	name=".’–•c‘ã"
+	color = { 193  171  8 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 18
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+319 = {
+	name=".•ì"
+	color = { 117  112  131 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 74
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+320 = {
+	name=".”R"
+	color = { 178  139  60 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 75
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+321 = {
+	name=".—R—Ç"
+	color = { 75  184  49 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 1 # Crest
+			color = 6 # Background
+			color = 0
+		}
+	}
+}
+
+322 = {
+	name=".À“c"
+	color = { 73  62 163 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 14
+			color = 1 # Crest
+			color = 4 # Background
+			color = 0
+		}
+	}
+}
+
+323 = {
+	name=".²–ì"
+	color = { 164  75 83 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 121
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+
+324 = {
+	name=".³–Ø"
+	color = { 82  153  124 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 66
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+325 = {
+	name=".^“c"
+	color = { 163  64  77 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 130
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+326 = {
+	name=".ã–ìÔˆä"
+	color = { 41  254  92 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+327 = {
+	name=".í—¤‘¾“c"
+	color = { 163  169  185 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 226
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+328 = {
+	name=".ã“c"
+	color = { 82  25  93 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 135
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+329 = {
+	name=".“¡“c"
+	color = { 18  178  46 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 72
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+330 = {
+	name=".Š‹R"
+	color = { 34  152  76 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 76
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+331 = {
+	name=".¼ˆä"
+	color = { 102  215  169 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 77
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+332 = {
+	name=".’|’†"
+	color = { 122  195  129 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 78
+			color = 1 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+333 = {
+	name=".²“¡"
+	color = { 109  95  29 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 79
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+334 = {
+	name=".^•¿"
+	color = { 153  135  81 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 221
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+335 = {
+	name="._¼"
+	color = { 51  48  243 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 2 # Crest
+			color = 5 # Background
+			color = 0
+		}
+	}
+}
+
+336 = {
+	name=".O’†"
+	color = { 205  12  127 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 168
+			color = 4 # Crest
+			color = 1 # Background
+			color = 0
+		}
+	}
+}
+
+337 = {
+	name=".‰HÄ"
+	color = { 102  60  201 }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 126
+			color = 5 # Crest
+			color = 1 # Background
+			color = 0
 		}
 	}
 }
