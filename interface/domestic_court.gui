@@ -1,0 +1,397 @@
+guiTypes = {
+
+	windowType = {
+		name = "domestic_court"
+		backGround =""
+		position = { x = 0 y = 94 }
+		size = { x = 576 y = 512 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		upsound = click
+		
+		iconType = {
+			name ="bg_court_view"
+			spriteType = "GFX_court_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =	{
+			name = "button_close"
+			position = { x=478 y=10 }
+			quadTextureSprite ="GFX_default_close_button"	
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+		
+		instantTextBoxType = {
+			name = "headline"
+			position = { x = 230 y = 45 }
+			textureFile = ""
+			font = "vic_22_black"
+			borderSize = {x = 0 y = 0}
+			text = "Court"	
+			maxWidth = 256
+			maxHeight =24
+			fixedsize = yes
+			format = left
+		}
+		
+		guiButtonType =	{
+				name ="king"
+				quadTextureSprite= "GFX_char_95"
+				position = { x= 150 y = 137 }
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="charframe_150"
+				quadTextureSprite = "GFX_charframe_95"
+				position = { x= 103 y = 88}
+				Orientation = "UPPER_LEFT"
+			}
+		
+		instantTextBoxType = {
+			name = "label_king"
+			position = { x = 125 y = 83 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "King"	
+			maxWidth = 128
+			maxHeight = 20
+			format = left
+		}
+		instantTextBoxType = {
+			name = "name_king"
+			position = { x = 170 y = 83 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "gunnar"	
+			maxWidth = 220
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "label_spouse"
+			position = { x = 281 y = 128 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "FAM_SPOUSE"	
+			maxWidth = 100
+			maxHeight = 32
+			format = centre
+		}
+		
+
+		guiButtonType =	{
+			name ="spouse"
+			quadTextureSprite = "GFX_char_75"
+			position = { x= 299 y = 172 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="spouse_frame"
+			quadTextureSprite = "GFX_charframe_75"
+			position = { x= 266 y = 138 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="label_regent_banner"
+			spriteType = "GFX_label_banner_small"
+			position = { x = 394 y = 123 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "label_regent"
+			position = { x = 381 y = 128 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "REGENT"	
+			maxWidth = 100
+			maxHeight = 32
+			format = centre
+		}
+	
+		guiButtonType =	{
+			name ="regent"
+			quadTextureSprite = "GFX_char_75"
+			position = { x= 399 y = 172 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="regent_frame"
+			quadTextureSprite = "GFX_charframe_75"
+			position = { x= 366 y = 138 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		listboxType = {
+			name = "councillor_box"
+			position = { x = 10 y = 280 }
+			size = { x=470 y=335 }
+			Orientation = "UPPER_LEFT"
+			horisontal = 0
+			spacing = 1
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 10 y = 10}
+		}
+	}
+	
+	#####TO HERE####
+	
+	windowType = {
+		name = "councillor_entry"
+		backGround =""
+		position = { x=0 y=10 }
+		size = { x=303 y=110 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		guiButtonType =	{
+			name ="portrait"
+			quadTextureSprite= "GFX_char_75"
+			position = { x= 26 y = -5 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+				name ="portrait_frame"
+				quadTextureSprite = "GFX_charframe_75"
+				position = { x= -7 y = -39 }
+				Orientation = "UPPER_LEFT"
+			}
+		iconType = {
+			name ="opinion_bg"
+			spriteType = "GFX_opinion_bg"
+			position = { x= 187 y = 52 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+				name = "opinion"
+				position = { x = 166 y = 56 }
+				textureFile = ""
+				font = "Arial12_black_color"
+				borderSize = {x = 0 y = 0}
+				text = "-30"
+				maxWidth = 100
+				maxHeight = 18
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+			name = "label"
+			position = { x = 119 y = -21 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 3}
+			text = "JobName"	
+			maxWidth = 135
+			maxHeight = 20
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 110 y = -1 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "Nisse III"	
+			maxWidth = 205
+			maxHeight = 16
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "currentjob"
+			position = { x = 110 y = 13 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "Training troops in Västergötland"	
+			maxWidth = 205
+			maxHeight = 16
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "jobdescription"
+			position = { x = 110 y = 27 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "Description"	
+			maxWidth = 205
+			maxHeight = 16
+			format = left
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name ="relevant_attribute_icon"
+			spriteType = "GFX_attribute_strip"
+			position = { x= 254 y = 25 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "relevant_attribute"
+			position = { x = 254 y = 54 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "14"	
+			maxWidth = 28
+			maxHeight = 26
+			format = centre
+			fixedsize = yes
+		}
+		
+		guiButtonType = {
+			name ="appoint_button"
+			quadTextureSprite = "GFX_standard_button_112"
+			position = { x= 108 y = 42 }
+			buttonText = "APPOINT"
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+			}
+							
+		listboxType = 
+		{
+			name = "action_box"
+			position = { x=284 y = -20 }
+			backGround=""
+			size = { x = 198 y = 425 }
+			Orientation = "UPPER_LEFT"
+			horisontal = 0
+			scrollbartype = "standardlistbox_slider"
+		}
+	}
+	
+
+	windowType = {
+			name = "action_entry"
+			backGround =""
+			position = { x=0 y=0 }
+			size = { x=160 y=32 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+		
+			guiButtonType = {
+			name ="action_button"
+			quadTextureSprite = "GFX_standard_wood_button_169"
+			position = { x= 0 y = 0 }
+			buttonText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+			}
+			
+		instantTextBoxType = {
+			name = "action"
+			position = { x = 4 y = 6 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "Description"	
+			maxWidth = 160
+			maxHeight = 16
+			format = center
+			fixedsize = yes
+		}
+	}
+			
+	windowType = {
+		name = "courtier_entry"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=60 y=60 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType = {
+			name ="charview_list_bg"
+			spriteType = "GFX_charview_list_bg"
+			position = { x= 0 y = -13 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =	{
+			name ="courtier_portrait"
+			quadTextureSprite= "GFX_char_50"
+			position = { x= 6 y = -7 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="charframe_50"
+			quadTextureSprite = "GFX_charframe_50"
+			position = { x= -14 y = -7 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+				name = "name"
+				position = { x = 54 y = -6 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "Bosse II"
+				maxWidth = 134
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "title"
+				position = { x = 55 y = 9 }
+				textureFile = ""
+				font = "Arial12_black"
+				borderSize = {x = 0 y = 0}
+				text = "Duke of Uppland"
+				maxWidth = 134
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+			}
+		iconType = {
+			name ="opinion_bg"
+			spriteType = "GFX_opinion_bg"
+			position = { x= 2159 y = 20 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+				name = "opinion"
+				position = { x = 151 y = 46 }
+				textureFile = ""
+				font = "Arial12"
+				borderSize = {x = 0 y = 0}
+				text = "-30"
+				maxWidth = 100
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+		}
+		guiButtonType = {
+			name ="shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 160 y = 21 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+}
+		
