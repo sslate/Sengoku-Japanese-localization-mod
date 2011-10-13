@@ -181,7 +181,7 @@ guiTypes = {
 			name = "gold"
 			position = { x =147 y = 42 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_18_color"
 			borderSize = {x = 0 y = 0}
 			text = "§W 99999"	
 			maxWidth = 50
@@ -203,7 +203,7 @@ guiTypes = {
 			name = "demesne"
 			position = { x =243 y = 42 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_18_color"
 			borderSize = {x = 0 y = 0}
 			text = "§W 99999"	
 			maxWidth = 50
@@ -224,7 +224,7 @@ guiTypes = {
 			name = "top_honor"
 			position = { x =339 y = 42 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_18_color"
 			borderSize = {x = 0 y = 0}
 			text = "0"	
 			maxWidth = 50
