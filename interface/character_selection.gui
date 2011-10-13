@@ -1,0 +1,415 @@
+guiTypes = {
+
+	windowType = {
+		name = "character_selection"
+		backGround = "bg_domestic_overview"
+		position = { x=200 y=140 }	
+		size = { x=604 y=552 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation="UPPER_LEFT"
+		
+		guiButtonType = {
+			name = "bg_domestic_overview"
+			quadTextureSprite = "GFX_charselect_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =	{
+			name = "button_close"
+			position = { x=523 y=1 }
+			quadTextureSprite ="GFX_main_close_button"	
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+	
+		windowType = {
+			name = "previous_character"
+			backGround =""
+			position = { x=10 y=15 }
+			size = { x=790 y=512 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+				
+			guiButtonType = {
+				name = "character_fire_button"
+				position = { x = 226 y = 45}
+				quadTextureSprite ="GFX_standard_button_112"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "RESIGN"
+				buttonFont = "vic_18"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = RESIGN_INSTANT
+			}
+		}
+	
+		windowType = {
+			name = "sort_buttons"
+			backGround =""
+			position = { x=28 y=96 }
+			size = { x=870 y=512 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+
+			guiButtonType =	{
+				name = "sortbutton_opinion"
+				position = { x=-1 y=0}
+				quadTextureSprite ="GFX_standard_black_button_63"	
+				buttonText = "OPINION"
+				buttonFont = "vic_18"
+				pdx_tooltip = SORT_OPINION
+			}
+			guiButtonType =	{
+				name = "sortbutton_name"
+				position = { x=60 y=0}
+				quadTextureSprite ="GFX_standard_black_button_63"
+				buttonText = "CHAR_NAME"
+				buttonFont = "vic_18"
+				pdx_tooltip = SORT_NAME
+			}
+			guiButtonType =	{
+				name = "sortbutton_dynasty"
+				position = { x=121 y=0}
+				quadTextureSprite ="GFX_standard_black_button_63"
+				buttonText = "DYNASTIC_MENU"
+				buttonFont = "vic_18"
+				pdx_tooltip = SORT_DYNASTY
+			}
+
+			guiButtonType =	{
+				name = "sortbutton_liege"
+				position = { x=182 y=0}
+				quadTextureSprite ="GFX_standard_black_button_63"	
+				buttonText = "CLAN"
+				buttonFont = "vic_18"
+				pdx_tooltip = SORT_CLAN
+			}
+	
+			guiButtonType =	{
+				name = "sortbutton_diplomacy"
+				position = { x=362 y=-1}
+				quadTextureSprite ="GFX_icon_diplomacy"	
+				buttonText = "L"
+				buttonFont = "vic_18_black"
+				pdx_tooltip = SORT_DIPLOMACY
+			}
+			guiButtonType =	{
+				name = "sortbutton_military"
+				position = { x=407 y=-2}
+				quadTextureSprite ="GFX_icon_martial"	
+				buttonText = "M"
+				buttonFont = "vic_18_black"
+				pdx_tooltip = SORT_MARTIAL
+			}
+			guiButtonType =	{
+				name = "sortbutton_intrigue"
+				position = { x=455 y=-1}
+				quadTextureSprite ="GFX_icon_intrigue"	
+				buttonText = "P"
+				buttonFont = "vic_18_black"
+				pdx_tooltip = SORT_INTRIGUE
+			}
+			guiButtonType =	{
+				# 32 px wide
+				name = "sortbutton_honor"
+				position = { x=314 y=-1}
+				quadTextureSprite ="GFX_icon_honor"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "small"
+				pdx_tooltip = SORT_HONOR
+			}
+					guiButtonType =	{
+				# 32 px wide
+				name = "sortbutton_age"
+				position = { x=269 y=1}
+				quadTextureSprite ="GFX_icon_age"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "small"
+				pdx_tooltip = SORT_AGE
+			}
+		}
+		
+		
+		###  list scroll
+		
+		scrollbarType = {
+			name = "external_scroll_slider"	
+			slider = "listboxSliderButton"
+			track= "listboxTrackButton"
+			leftbutton = "upButton"
+			rightbutton = "downButton"
+			size = { x=19 y=467 }
+			position = { x=529 y=128 }
+			priority = 100			
+			borderSize = {x = 24 y = 24}	
+			maxValue =100
+			minValue =0
+			stepSize =1
+			startValue = 0
+			horizontal = 0
+
+
+			guiButtonType = {
+				name = "listboxSliderButton"	
+				quadTextureSprite = "GFX_scroll"
+				position = { x=0 y =0}
+			}
+
+			guiButtonType = {
+				name = "listboxTrackButton"
+				quadTextureSprite = "GFX_scroll_bg"
+				position = { x=0 y =0}	
+			}	
+
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "upButton"
+				quadTextureSprite = "GFX_scroll_down"
+				position = { x=0 y =0}	
+			}
+			
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "downButton"
+				quadTextureSprite = "GFX_scroll_up"
+				position = { x=0 y =0}	
+			}
+		}
+
+		### list position
+		windowType = {
+			name = "character_list"
+			backGround =""
+			position = { x=9 y=137 }
+			size = { x=540 y=450 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+		}
+					
+	}
+	
+	windowType = {
+		name = "character_select_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=556 y=64 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+	
+		iconType = {
+			name ="charbrowser_entry_bg"
+			spriteType = "GFX_charselect_entry_bg"
+			position = { x= 10 y = -2 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+		guiButtonType =	{
+			name ="portrait_button"
+			quadTextureSprite= "GFX_char_50"
+			position = { x= 25 y = 11 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+				name ="liege_charframe_50"
+				quadTextureSprite = "GFX_charframe_50"
+				position = { x= 5 y = -11 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		guiButtonType =	{
+			name ="portrait_dynastic_button"
+			quadTextureSprite= "GFX_tool_tip"
+			position = { x= 140 y = 43 }
+			Orientation = "UPPER_LEFT"
+    
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			pdx_tooltip = GOTO_DYNASTIC_VIEW
+		}
+		
+		iconType = {
+			name ="opinion_bg"
+			spriteType = "GFX_opinion_bg"
+			position = { x= 75 y = 42 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+				name = "character_opinion"
+				position = { x = 70 y = 46 }
+				textureFile = ""
+				font = "Arial12_black_color"
+				borderSize = {x = 0 y = 0}
+				text = "-30"
+				maxWidth = 70
+				maxHeight = 18
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+			name = "character_name"
+			position = { x = 85 y = 2 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "ºbJulius Caesar"
+			maxWidth = 175
+			maxHeight = 18
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "character_age"
+			position = { x = 272 y = 3 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 35
+			maxHeight = 18
+			format = right 
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "LEDGER_AGE"
+		}
+	
+		iconType = {
+			name ="dynasty_shield"
+			spriteType = "GFX_shield_small"
+			position = { x = 75 y = 19 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "character_dynasty"
+			position = { x = 105 y = 25 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "family"	
+			maxWidth = 185
+			maxHeight = 16
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		
+		### stats
+		instantTextBoxType = {
+			name = "character_diplomacy"
+			position = { x = 376 y = 3 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 20
+			format = centre 
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "STAT_DIPLOMACY"
+		}
+		instantTextBoxType = {
+			name = "character_military"
+			position = { x = 423 y = 3 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 20
+			format = centre 
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "STAT_MARTIAL"
+		}
+	
+		instantTextBoxType = {
+			name = "character_intrigue"
+			position = { x = 470 y = 3 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 20
+			format = centre 
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "STAT_INTRIGUE"
+		}
+		instantTextBoxType = {
+			name = "character_honor"
+			position = { x = 331 y = 3 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 30
+			maxHeight = 20
+			format = centre 
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "STAT_HONOR"
+		}
+		###
+
+	
+		OverlappingElementsBoxType = {
+			name = "traits"
+			position = { x = 315 y = 25 }
+			size = { x=185 y=32 }
+			format = right
+		}
+		OverlappingElementsBoxType = {
+			name = "shields"
+			position = { x = 115 y = 25 }
+			size = { x=100 y=32 }
+			format = right
+		}
+		
+		
+	}
+	
+	windowType = {
+		name = "shields_entry"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=39 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType = {
+			name ="liege_crown"
+			spriteType = "GFX_shield_crown_strip_small"
+			position = { x= 9479 y = 2 } 
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="liege_shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 9468 y = 18 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+}

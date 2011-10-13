@@ -1,0 +1,726 @@
+guiTypes = {
+
+	windowType = {
+		name = "domestic_characters"
+		backGround =""
+		position = { x = 0 y = 94 }
+		size = { x = 576 y = 512 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		upsound = click
+		
+		iconType = {
+			name ="bg_domestic_characters"
+			spriteType = "GFX_charbrowser_bg"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "headline"
+			position = { x = 120 y = 45 }
+			textureFile = ""
+			font = "vic_22_black"
+			borderSize = {x = 0 y = 0}
+			text = "CHAR_CHARACTERS"	
+			maxWidth = 256
+			maxHeight =24
+			fixedsize = yes
+			format = centre
+		}
+		
+		guiButtonType =	{
+			name = "button_close"
+			position = { x=478 y=10 }
+			quadTextureSprite ="GFX_main_close_button"	
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+		
+		## SEARCH BUTTONS
+		windowType = {
+			name = "search_buttons"
+			backGround =""
+			position = { x=0 y=55 }
+			size = { x=860 y=512 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+
+			checkboxType =	{
+				name = "search_button_all"
+				position = { x=32 y=50 }
+				quadTextureSprite ="GFX_checkbox_standard_button_164"	
+			}
+			
+			instantTextBoxType = {
+				position = { x=-2 y =57 }
+				name = "search_button_all_text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 164
+				maxHeight = 20
+				text = "SEARCH_ALL"	
+				orientation = "UPPER_LEFT"
+				format = center
+				fixedsize = yes
+				allwaystransparent = yes
+			}
+			
+			checkboxType =	{
+				name = "search_button_realm"
+				position = { x=32 y=77 }
+				quadTextureSprite ="GFX_checkbox_standard_button_164"	
+			}
+			
+			instantTextBoxType = {
+				position = { x=-2 y =84 }
+				name = "search_button_realm_text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 164
+				maxHeight = 20
+				text = "SEARCH_REALM"	
+				orientation = "UPPER_LEFT"
+				format = center
+				fixedsize = yes
+				allwaystransparent = yes
+			}
+
+			checkboxType =	{
+				name = "search_button_vassals"
+				position = { x=32 y=104 }
+				quadTextureSprite ="GFX_checkbox_standard_button_164"	
+			}
+			
+			instantTextBoxType = {
+				position = { x=-2 y =112 }
+				name = "search_button_vassals_text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 164
+				maxHeight = 20
+				text = "SEARCH_VASSALS"	
+				orientation = "UPPER_LEFT"
+				format = center
+				fixedsize = yes
+				allwaystransparent = yes
+			}
+		}
+		
+		### FILTER BUTTONS
+		windowType = {
+			name = "filter_buttons"
+			backGround =""
+			position = { x=0 y=20 }
+			size = { x=860 y=512 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			instantTextBoxType = {
+				position = { x=135 y =72 }
+				name = "employed_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 85
+				maxHeight = 20
+				text = "FILTER_EMPLOYMENT"	
+				orientation = "UPPER_LEFT"
+				format = centre
+				fixedsize = yes
+			}
+			
+			checkboxType =	{
+				name = "filterbutton_employed"
+				position = { x=135 y=95 }
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_EMPLOYED"
+			}
+			
+			instantTextBoxType = {
+				position = { x=162 y =104 }
+				name = "employed_y_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_YES"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			
+			checkboxType =	{
+				name = "filterbutton_unemployed"
+				position = { x=135 y=125 }
+				quadTextureSprite ="GFX_checkbox_default"
+				pdx_tooltip = "FILTER_UNEMPLOYED"
+			}
+			instantTextBoxType = {
+				position = { x=162 y =134 }
+				name = "employed_n_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_NO"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_any_employed"
+				position = { x=135 y=155 }
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_EMPLOYED_ALL"
+			}
+			instantTextBoxType = {
+				position = { x=162 y =164 }
+				name = "employed_any_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_ANY"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			
+			###
+			instantTextBoxType = {
+				position = { x=222 y =72 }
+				name = "is_plotting_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 85
+				maxHeight = 20
+				text = "FILTER_IS_PLOTTING"	
+				orientation = "UPPER_LEFT"
+				format = centre
+				fixedsize = yes
+			}
+					
+			checkboxType =	{
+				name = "filterbutton_is_plotting"
+				position = { x=222 y=95}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_PLOTERS"
+			}
+			instantTextBoxType = {
+				position = { x=249 y =104}
+				name = "is_plotting_yes"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_YES"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_not_plotting"
+				position = { x=222 y=125}
+				quadTextureSprite ="GFX_checkbox_default"
+				pdx_tooltip = "FILTER_NONPLOTERS"
+			}
+			instantTextBoxType = {
+				position = { x=249 y =134}
+				name = "is_plotting_no"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_NO"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_any_plotting"
+				position = { x=222 y=155}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_ANYPLOTERS"
+			}
+			
+			instantTextBoxType = {
+				position = { x=249 y =164}
+				name = "is_plotting_any"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_ANY"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			#####
+			instantTextBoxType = {
+				position = { x=309 y =72 }
+				name = "gender_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 85
+				maxHeight = 20
+				text = "FILTER_GENDER"	
+				orientation = "UPPER_LEFT"
+				format = centre
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_men"
+				position = { x=309 y=95}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_MEN"
+			}
+			instantTextBoxType = {
+				position = { x=336 y =104}
+				name = "gender_men_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_MEN"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_women"
+				position = { x=309 y=125}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_WOMEN"
+			}
+			instantTextBoxType = {
+				position = { x=336 y =134}
+				name = "gender_women_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_WOMEN"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			
+			checkboxType =	{
+				name = "filterbutton_any_gender"
+				position = { x=309 y=155}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_GENDER"
+			}
+			
+			instantTextBoxType = {
+				position = { x=336 y =164}
+				name = "gender_any_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_ANY"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			
+			###
+			instantTextBoxType = {
+				position = { x=396 y =72 }
+				name = "marriage_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 85
+				maxHeight = 20
+				text = "FILTER_MARRIAGE"	
+				orientation = "UPPER_LEFT"
+				format = centre
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_married"
+				position = { x=396 y=95}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_MARRIED"
+			}
+			instantTextBoxType = {
+				position = { x=423 y =104}
+				name = "married_y_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_YES"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+            checkboxType =	{
+				name = "filterbutton_unmarried"
+				position = { x=396 y=125}
+				quadTextureSprite ="GFX_checkbox_default"
+				pdx_tooltip = "FILTER_UNMARRIED"
+			}
+			instantTextBoxType = {
+				position = { x=423 y =134}
+				name = "married_n_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_NO"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+			checkboxType =	{
+				name = "filterbutton_any_married"
+				position = { x=396 y=155}
+				quadTextureSprite ="GFX_checkbox_default"	
+				pdx_tooltip = "FILTER_ANYMARRIED"
+			}
+			instantTextBoxType = {
+				position = { x=423 y =164}
+				name = "married_any_title"
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 60
+				maxHeight = 20
+				text = "FILTER_ANY"	
+				orientation = "UPPER_LEFT"
+				format = left
+				fixedsize = yes
+			}
+		}
+		    
+		### SORTBUTTONS		
+		windowType = {
+			name = "sort_buttons"
+			backGround =""
+			position = { x=20 y=231 }
+			size = { x=860 y=512 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+
+			guiButtonType =	{
+				name = "sortbutton_name"
+				position = { x=9 y=0}
+				quadTextureSprite ="GFX_sort_92"	
+				buttonText = "CHAR_NAME"
+				buttonFont = "vic_18_black"
+				pdx_tooltip = "CHARVIEW_SORT_BY_NAME"
+			}
+
+			guiButtonType =	{
+				name = "sortbutton_dynasty"
+				position = { x=101 y=0}
+				quadTextureSprite ="GFX_sort_92"
+				buttonText = "CHAR_FAMILY"
+				buttonFont = "vic_18_black"
+				pdx_tooltip = "CHARVIEW_SORT_BY_DYNASTY"
+			}
+			
+			guiButtonType =	{
+				name = "sortbutton_objective"
+				position = { x=193 y=0}
+				quadTextureSprite ="GFX_sort_92"
+				buttonText = "CHAR_OBJECTIVE"
+				buttonFont = "vic_18_black"
+				pdx_tooltip = "CHARVIEW_SORT_BY_OBJECTIVES"
+			}
+			
+			guiButtonType =	{
+				name = "sortbutton_military"
+				position = { x=287 y=-3}
+				quadTextureSprite ="GFX_icon_martial"	
+				buttonText = "M"
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHARVIEW_SORT_BY_MARTIAL"
+			}
+			guiButtonType =	{
+				name = "sortbutton_diplomacy"
+				position = { x=318 y=-3}
+				quadTextureSprite ="GFX_icon_diplomacy"	
+				buttonText = "L"
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHARVIEW_SORT_BY_DIPLOMACY"
+			}
+			guiButtonType =	{
+				name = "sortbutton_intrigue"
+				position = { x=347 y=-3}
+				quadTextureSprite ="GFX_icon_intrigue"	
+				buttonText = "P"
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHARVIEW_SORT_BY_INTRIGUE"
+			}
+			guiButtonType =	{
+				name = "sortbutton_age"
+				position = { x=376 y=-3}
+				quadTextureSprite ="GFX_icon_age"	
+				buttonText = "C"
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHARVIEW_SORT_BY_AGE"
+			}
+			guiButtonType =	{
+				name = "sortbutton_opinion"
+				position = { x=403 y=-2}
+				quadTextureSprite ="GFX_icon_opinion"	
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHARVIEW_SORT_BY_OPINION"
+			}
+			guiButtonType =	{
+				name = "sortbutton_honor"
+				position = { x=433 y=-3}
+				quadTextureSprite ="GFX_icon_honor"	
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHARVIEW_SORT_BY_HONOR"
+			}
+			
+		}
+		
+		### SCROLL!
+		scrollbarType = {
+			name = "external_scroll_slider"	
+			slider = "listboxSliderButton"
+			track= "listboxTrackButton"
+			rightbutton = "upButton"
+			leftbutton = "downButton"
+			size = { x=6 y=390 }
+			position = { x=482 y=254 }
+			priority = 100			
+			borderSize = {x = 0 y = 0}	
+			maxValue =100
+			minValue =0
+			stepSize =1
+			startValue = 0
+			horizontal = 0
+
+
+			guiButtonType = {
+				name = "listboxSliderButton"	
+				quadTextureSprite = "GFX_scroll"
+				position = { x=0 y =0}
+			}
+
+			guiButtonType = {
+				name = "listboxTrackButton"
+				quadTextureSprite = "GFX_scroll_bg"
+				position = { x=0 y =0}	
+
+			}	
+
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "upButton"
+				quadTextureSprite = "GFX_scroll_up"
+				position = { x=0 y =0}	
+			}
+			
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "downButton"
+				quadTextureSprite = "GFX_scroll_down"
+				position = { x=0 y =120}	
+			}
+		}
+
+		### character list
+		windowType = {
+			name = "character_list"
+			backGround =""
+			position = { x=32 y=258 }
+			size = { x=443 y=390 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+		}
+
+	}
+	
+	### charview entry
+	windowType = {
+		name = "charview_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=556 y=78 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+	iconType = {
+			name ="charview_list_bg"
+			spriteType = "GFX_charbrowser_entry_bg"
+			position = { x= 275 y = 0 }
+			Orientation = "UPPER_LEFT"
+			}
+	
+		guiButtonType =	{
+			name ="portrait_button"
+			quadTextureSprite= "GFX_char_47"
+			position = { x= 7 y = 16 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="frame"
+			quadTextureSprite = "GFX_charframe_47"
+			position = { x= -15 y = -4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+				name ="character_plot"
+				spriteType = "GFX_icon_plotTypes"
+				position = { x= 31 y = 8 }
+				Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="dynasty_shield"
+			spriteType = "GFX_shield_medium"
+			position = { x = 52 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "character_name"
+			position = { x = 125 y = 3 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "§bJulius Caesar"
+			maxWidth = 145
+			maxHeight = 18
+			format = left
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "character_dynasty"
+			position = { x = 125 y = 20 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "family"	
+			maxWidth = 145
+			maxHeight = 16
+			format = left
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "character_objective"
+			position = { x = 125 y = 35 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 145
+			maxHeight = 60
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+				
+		instantTextBoxType = {
+			name = "character_military"
+			position = { x = 274 y = 7 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 16
+			format = centre 
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "character_diplomacy"
+			position = { x = 303 y = 7 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 16
+			format = centre 
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "character_intrigue"
+			position = { x = 332 y = 7 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 16
+			format = centre 
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "character_age"
+			position = { x = 361 y = 7 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 30
+			maxHeight = 16
+			format = centre 
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "character_opinion"
+			position = { x = 390 y = 7 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 30
+			maxHeight = 16
+			format = centre 
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "character_honor"
+			position = { x = 419 y = 7 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 30
+			maxHeight = 16
+			format = centre 
+			Orientation = "UPPER_LEFT"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "traits"
+			position = { x = 263 y = 32 }
+			size = { x=175 y=32 }
+			format = right
+		}
+		
+	}
+}
+		

@@ -1,0 +1,828 @@
+guiTypes = {
+
+	windowType = {
+		name = "dynastic_view"
+		backGround =""
+		position = { x = 0 y = 94 }	
+		size = { x = 508 y = 672 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+		
+		iconType ={
+			name ="bg_dynastic"
+			spriteType = "GFX_charview_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+					
+		### CHARACTER LABELS
+				
+		instantTextBoxType = {
+			name = "children_text"
+			position = { x = 21 y = 480 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "FAM_CHILDREN"
+			maxWidth = 85
+			maxHeight = 24
+			format = centre
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "parents_text"
+			position = { x = 21 y = 397 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "FAM_PARENTS"
+			maxWidth = 85
+			maxHeight = 24
+			format = centre
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "siblings_text"
+			position = { x = 21 y = 562 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "FAM_SIBLINGS"
+			maxWidth = 85
+			maxHeight = 24
+			format = centre
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		### CHARACTER PORTRAITS
+		
+		OverlappingElementsBoxType = {
+				name = "children"
+				position = { x = 40 y = 503 }
+				size = { x=283 y=51 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 0
+			}
+		OverlappingElementsBoxType = {
+				name = "parents"
+				position = { x = 40 y = 421 }
+				size = { x=283 y=51 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 0
+			}
+		OverlappingElementsBoxType = {
+				name = "siblings"
+				position = { x = 40 y = 586 }
+				size = { x=283 y=51 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 0
+			}
+			
+		### LIEGE
+		windowType = {
+			name = "liege_info"
+			backGround =""
+			position = { x=320 y=0 }
+			size = { x=300 y=200 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+				
+			guiButtonType =	{
+				name ="liege_portrait"
+				quadTextureSprite= "GFX_char_50"
+				position = { x= 54 y = 63 }
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="liege_charframe_50"
+				quadTextureSprite = "GFX_charframe_50"
+				position = { x= 34 y = 41 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType = {
+				name ="liege_character_dead"
+				spriteType = "GFX_overlay_char_dead_small"
+				position = { x= 96 y = 42 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+		
+
+		
+		instantTextBoxType = {
+			name = "liege_label"
+			position = { x = 344 y = 121 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "Liege"
+			maxWidth = 100
+			maxHeight = 24
+			format = centre
+			Orientation = "UPPER_LEFT"
+		}
+		
+		##### tabs
+		
+		guiButtonType =	{
+			name = "tab_1"
+			position = { x=310 y=141 }
+			quadTextureSprite ="GFX_charview_tab"	
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType =	{
+			name = "tab_2"
+			position = { x=390 y=141 }
+			quadTextureSprite ="GFX_charview_tab"	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "vassals_text"
+			position = { x = 315 y = 149 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "VASSALS"
+			maxWidth = 68
+			maxHeight = 24
+			format = centre
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "vassals_nr"
+			position = { x = 315 y = 164 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "(14)"
+			maxWidth = 68
+			maxHeight = 24
+			format = centre
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "courtiers_text"
+			position = { x = 386 y = 149 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "COURT_MENU"
+			maxWidth = 68
+			maxHeight = 24
+			format = centre
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "courtiers_nr"
+			position = { x = 386 y = 164 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "(14)"
+			maxWidth = 68
+			maxHeight = 24
+			format = centre
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		
+		
+		### sorts
+		guiButtonType =	{
+			name = "sort_tier"
+			position = { x=308 y=187 }
+			quadTextureSprite ="GFX_standard_button_black_58"	
+			buttonText = "TIER"
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType =	{
+			name = "sort_name"
+			position = { x=367 y=187 }
+			quadTextureSprite ="GFX_standard_button_black_58"	
+			buttonText = "CHAR_NAME"
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType =	{
+			name = "sort_opinion"
+			position = { x=425 y=187 }
+			quadTextureSprite ="GFX_standard_button_black_58"	
+			buttonText = "OPINION"
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		listboxType = 
+		{
+			name = "vassal_listbox"
+			position = { x=285 y = 217 }
+			backGround=""
+			size = { x = 198 y = 444 }
+			Orientation = "UPPER_LEFT"
+			horisontal = 0
+			spacing = 1
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 10 y = 10}
+		}
+		
+		###########
+		
+		guiButtonType =	{
+			name = "button_close"
+			position = { x=478 y=10 }
+			quadTextureSprite ="GFX_default_close_button"	
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+		
+		### Character Info
+		windowType = {
+			name = "character_info"
+			backGround =""
+			position = { x=0 y=30 }	
+			size = { x=200 y=400 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+		
+			guiButtonType =	{
+				name ="portrait"
+				quadTextureSprite= "GFX_char_100"
+				position = { x= 102 y = 19 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			guiButtonType = {
+				name ="charframe_150"
+				quadTextureSprite = "GFX_charframe_100"
+				position = { x= 55 y = -30 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="character_dead"
+				spriteType = "GFX_overlay_char_dead"
+				position = { x= 98 y = 19 }
+				Orientation = "UPPER_LEFT"
+			}
+					
+			iconType = {
+				name ="character_plot"
+				spriteType = "GFX_icon_plotTypes"
+				position = { x= 175 y = 14 }
+				Orientation = "UPPER_LEFT"
+			}
+		
+			instantTextBoxType = {
+				name = "liege_opinion"
+				position = { x = 292 y = 71 }
+				textureFile = ""
+				font = "Arial12_black_color"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 70
+				maxHeight = 20
+				format = centre
+				Orientation = "UPPER_LEFT"
+			}
+			
+			guiButtonType = {
+				name ="shield"
+				quadTextureSprite = "GFX_shield_big"
+				position = { x= 1 y = 21 }
+				Orientation = "UPPER_LEFT"
+			}
+						
+			instantTextBoxType = {
+				name = "spouse_text"
+				position = { x = 151 y = 367 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "FAM_SPOUSE"
+				maxWidth = 80
+				maxHeight = 20
+				format = centre
+				Orientation = "UPPER_LEFT"
+			}
+ 		
+			OverlappingElementsBoxType = {
+				name = "other_wives"
+				position = { x = 172 y = 391 }
+				size = { x=160 y=51 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 0
+				first_on_top = yes
+			}
+			guiButtonType =	{
+				name ="portrait_heir"
+				quadTextureSprite = "GFX_char_50"
+				position = { x= 230 y = 52 }
+				Orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="heir_frame"
+				quadTextureSprite = "GFX_charframe_50"
+				position = { x= 210 y = 30 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "heir_label"
+				position = { x = 210 y = 16 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "LABEL_HEIR"
+				maxWidth = 80
+				maxHeight = 20
+				format = centre
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "name"
+				position = { x =22 y = 140 }
+				textureFile = ""
+				font = "vic_22_black"
+				borderSize = {x = 0 y = 0}
+				text = "§WJulius Caesar"	
+				maxWidth = 270
+				maxHeight = 24	
+				format = centre
+			}
+			iconType = {
+				name ="dynastic_shield"
+				spriteType = "GFX_shield_medium"
+				position = { x= 39 y = 171 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "dynasty"
+				position = { x = 110 y = 175 }
+				textureFile = ""
+				font = "Arial12_black"
+				borderSize = {x = 0 y = 0}
+				text = "af Stenkilsätten"
+				fixedsize = yes
+				maxWidth = 190
+				maxHeight = 16	
+				format = left
+			}
+			instantTextBoxType = {
+				name = "main_title"
+				position = { x = 110 y = 191 }
+				textureFile = ""
+				font = "Arial12_black"
+				borderSize = {x = 0 y = 0}
+				text = "King of Sweden"
+				fixedsize = yes
+				maxWidth = 190
+				maxHeight = 16	
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "activity"
+				position = { x = 110 y = 206 }
+				textureFile = ""
+				font = "Arial12_black"
+				borderSize = {x = 0 y = 0}
+				text = "Leading troops in Uppland"
+				fixedsize = yes
+				maxWidth = 190
+				maxHeight = 16	
+				format = left
+			}
+			
+			iconType = {
+				name ="opinion_bg2"
+				spriteType = "GFX_opinion_bg"
+				position = { x= 105 y = 218 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "opinion_text"
+				position = { x = 100 y = 222 }
+				textureFile = ""
+				font = "Arial12_black_color"
+				borderSize = {x = 0 y = 0}
+				text = "§G5§b / §G5"
+				fixedsize = yes
+				maxWidth = 70
+				maxHeight = 16	
+				format = center
+			}
+			
+			## icons + stats
+			
+			iconType = {
+				name ="icon_age"
+				spriteType = "GFX_icon_age"
+				position = { x= 45 y = 264 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "born"
+				position = { x = 68 y = 272 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 70
+				maxHeight = 20	
+				format = right
+			}
+			iconType = {
+				name ="icon_wealth"
+				spriteType = "GFX_icon_wealth"
+				position = { x= 45 y = 287 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "wealth"
+				position = { x = 70 y = 295 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 70
+				maxHeight = 20	
+				format = right
+			}
+						
+			iconType = {
+				name ="icon_honor"
+				spriteType = "GFX_icon_piety"
+				position = { x= 45 y = 310 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "honor"
+				position = { x = 70 y = 318 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 70
+				maxHeight = 20	
+				format = right
+			}
+			iconType = {
+				name ="icon_diplomacy"
+				spriteType = "GFX_icon_diplomacy"
+				position = { x= 171 y = 264 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "diplomacy"
+				position = { x = 212 y = 273 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 26
+				maxHeight = 20	
+				format = center
+			}
+			instantTextBoxType = {
+				name = "diplomacy2"
+				position = { x = 244 y = 273 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 26
+				maxHeight = 20
+				format = right
+			}
+			iconType = {
+				name ="icon_martial"
+				spriteType = "GFX_icon_martial"
+				position = { x= 170 y = 287 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "martial"
+				position = { x = 212 y = 294 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "14"
+				maxWidth = 26
+				maxHeight = 20	
+				format = center
+			}
+			instantTextBoxType = {
+				name = "martial2"
+				position = { x = 244 y = 295 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "(18)"
+				maxWidth = 26
+				maxHeight = 20	
+				format = right
+			}
+			
+			guiButtonType = {
+				name ="icon_seppuku"
+				spriteType = "GFX_icon_seppuku"
+				position = { x= 227 y = 111 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			guiButtonType = {
+				name ="arrange_marriage"
+				quadTextureSprite = "GFX_standard_button_164"
+				position = { x=178 y =210 }
+				buttonFont = "vic_18"
+				buttonText = "ARRANGE_MARRIAGE"
+			}
+		
+			iconType = {
+				name ="icon_intrigue"
+				spriteType = "GFX_icon_intrigue"
+				position = { x= 170 y = 309 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "intrigue"
+				position = { x = 212 y = 316 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 26
+				maxHeight = 20	
+				format = center
+			}
+			instantTextBoxType = {
+				name = "intrigue2"
+				position = { x = 244 y = 316 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "42"
+				maxWidth = 26
+				maxHeight = 20	
+				format = right
+			
+			}
+				
+			#titles
+			iconType = {
+				name ="clan_leader"
+				spriteType = "GFX_icon_clan"
+				position = { x= 44 y = 336 }
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "CLAN_LEADER_TITLES"
+			}
+
+			iconType = {
+				name ="daimyo"
+				spriteType = "GFX_icon_daimyo"
+				position = { x= 132 y = 335 }
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "DAIMYO_TITLES"
+				pdx_tooltip_delayed = "DAIMYO_TITLES_DELAYED"
+		}
+
+			instantTextBoxType = {
+				name = "daimyo_titles"
+				position = { x = 164 y = 343 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 50
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+				pdx_tooltip = "DAIMYO_TITLES"
+				pdx_tooltip_delayed = "DAIMYO_TITLES_DELAYED"
+			}
+			iconType = {
+				name ="hatamoto"
+				spriteType = "GFX_icon_kokujin"
+				position = { x= 220 y = 335 }
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "HATAMOTO_TITLES"
+				pdx_tooltip_delayed = "HATAMOTO_TITLES_DELAYED"
+			}
+			
+			instantTextBoxType = {
+				name = "hatamoto_titles"
+				position = { x = 250 y = 343 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 50
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+				pdx_tooltip = "HATAMOTO_TITLES"
+				pdx_tooltip_delayed = "HATAMOTO_TITLES_DELAYED"
+			}
+			
+			## overlapping boxes					
+			OverlappingElementsBoxType = {
+				name = "traits"
+				position = { x = 45 y = 231 }
+				size = { x=238 y=32 }
+			}
+		}
+	}
+	
+	## char entry
+	windowType = {
+		name = "character_50"
+		backGround =""
+		position = { x=0 y=-30 }	
+		size = { x = 64 y = 64 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		guiButtonType =	{
+			name ="portrait"
+			quadTextureSprite= "GFX_char_50"
+			position = { x= 3 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name ="charframe_50"
+			quadTextureSprite = "GFX_charframe_50"
+			position = { x= -18 y = -18 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="character_dead"
+			spriteType = "GFX_overlay_char_dead_small"
+			position = { x= -9 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	### vassal entry
+	windowType = {
+		name = "vassal_entry"
+		backGround =""
+		position = { x=6 y=20 }	
+		size = { x = 200 y = 85 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType = {
+			name ="charview_list_bg"
+			spriteType = "GFX_charview_list_bg"
+			position = { x= 7 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =	{
+			name ="portrait"
+			quadTextureSprite= "GFX_char_50"
+			position = { x= 19 y = 24 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="charframe_50"
+			quadTextureSprite = "GFX_charframe_50"
+			position = { x= -1 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="character_dead"
+			spriteType = "GFX_overlay_char_dead_small"
+			position = { x= 0 y = 18 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+				name = "name"
+				position = { x = 13 y = -6 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "Bosse II"
+				maxWidth = 134
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "title"
+				position = { x = 77 y = 12 }
+				textureFile = ""
+				font = "Arial12_black"
+				borderSize = {x = 0 y = 0}
+				text = "Duke of Uppland"
+				maxWidth = 134
+				maxHeight = 18
+				fixedsize = yes
+				format = left
+			}
+		iconType = {
+			name ="opinion_bg"
+			spriteType = "GFX_opinion_bg"
+			position = { x= 118 y = 51 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+				name = "opinion"
+				position = { x = 100 y = 55 }
+				textureFile = ""
+				font = "Arial12_black_color"
+				borderSize = {x = 0 y = 0}
+				text = "-30"
+				maxWidth = 100
+				maxHeight = 18
+				fixedsize = yes
+				format = centre
+			}
+			
+		guiButtonType = {
+			name ="shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 71 y = 45 }
+			Orientation = "UPPER_LEFT"
+		}		
+	}
+	
+	## trait entry
+	windowType = {
+		name = "character_traits_entry"
+		backGround =""
+		position = { x= 0 y= 0 }	
+		size = { x = 26 y = 26 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType = {
+			name ="trait_icon"
+			spriteType = "GFX_trait_scholar"
+			position = { x= 10 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	## title entry
+	windowType = {
+		name = "character_title_entry" 
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x = 25 y = 25 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name ="title_icon"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}
+		

@@ -1,0 +1,899 @@
+guiTypes = {
+
+	windowType = {
+		name = "domestic_military"
+		backGround =""
+		position = { x = 0 y = 94 }
+		size = { x = 576 y = 512 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType = {
+			name ="bg_domestic_military"
+			spriteType = "GFX_milview_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =	{
+			name = "button_close"
+			position = { x=478 y=10 }
+			quadTextureSprite ="GFX_main_close_button"	
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE"
+		}
+	
+		instantTextBoxType = {
+			name = "headline"
+			position = { x = 0 y = 45 }
+			textureFile = ""
+			font = "vic_22_black"
+			borderSize = {x = 0 y = 0}
+			text = "MILITARY_MENU"	
+			maxWidth = 490
+			maxHeight =24	
+			format = centre
+			#Orientation = "UPPER_RIGHT"
+		}
+		### Stats
+		
+				
+		guiButtonType = {
+			name ="character_portrait"
+			quadTextureSprite = "GFX_char_75"
+			position = { x= 48 y = 67 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+		guiButtonType =
+		{
+			name = "character_portrait_frame"
+			quadTextureSprite = "GFX_charframe_75"
+			position = { x= 15 y = 32 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "ruler_name"
+			position = { x = 25 y = 157 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "Ishiro Ishirajan"	
+			maxWidth = 110
+			maxHeight =24	
+			format = centre
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "infantry_shock_icon"
+				position = { x=139 y= 80}
+				spriteType ="GFX_mil_infantry_shock_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "infantry_shock_value"
+			position = { x = 160 y = 81 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "infantry_fire_icon"
+				position = { x=183 y=80}
+				spriteType ="GFX_mil_infantry_fire_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "infantry_fire_value"
+			position = { x = 205 y = 81 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "cavalry_shock_icon"
+				position = { x=139 y=101}
+				spriteType ="GFX_mil_cavalry_shock_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "cavalry_shock_value"
+			position = { x = 160 y = 102 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "cavalry_fire_icon"
+				position = { x=183 y=101}
+				spriteType ="GFX_mil_cavalry_fire_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "cavalry_fire_value"
+			position = { x = 205 y = 102 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "arquebusier_shock_icon"
+				position = { x=139 y=122}
+				spriteType ="GFX_mil_arquebusier_shock_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "arquebusier_shock_value"
+			position = { x = 160 y = 123 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "arquebusier_fire_icon"
+				position = { x=183 y=122}
+				spriteType ="GFX_mil_arquebusier_fire_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "arquebusier_fire_value"
+			position = { x = 205 y = 123 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "morale_icon"
+				position = { x=228 y=122}
+				spriteType ="GFX_mil_morale_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "morale_value"
+			position = { x = 250 y = 123 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 40
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "forces_icon"
+				position = { x=228 y=80}
+				spriteType ="GFX_mil_forces_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "forces_value"
+			position = { x = 250 y = 81 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 60
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =	{
+				name = "musket_icon"
+				position = { x=228 y=101}
+				spriteType ="GFX_mil_musket_icon"
+			}
+		
+		instantTextBoxType = {
+			name = "musket_value"
+			position = { x = 250 y = 102 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 60
+			maxHeight =24	
+			format = left
+			Orientation = "UPPER_LEFT"
+		}		
+
+		instantTextBoxType = {
+			name = "total_army"
+			position = { x = 325 y = 81 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "MILVIEW_TOTAL_ARMY"	
+			maxWidth = 100
+			maxHeight =24	
+			format = left
+			#Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "MIL_TOTAL_ARMY"
+			}
+		
+		instantTextBoxType = {
+			name = "total_army_value"
+			position = { x = 422 y = 81 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 45
+			maxHeight =24	
+			format = right
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "MIL_TOTAL_ARMY"
+		}
+		
+		instantTextBoxType = {
+			name = "total_army_raised"
+			position = { x = 325 y = 102 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "MILVIEW_TOTAL_ARMY_RAISED"	
+			maxWidth = 100
+			maxHeight =24	
+			format = left
+			#Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "MIL_TOTAL_ARMY_RAISED"
+		}
+		
+		instantTextBoxType = {
+			name = "total_army_raised_value"
+			position = { x = 422 y = 102 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			maxWidth = 45
+			maxHeight =24	
+			format = right
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "MIL_TOTAL_ARMY_RAISED"
+		}
+		
+		instantTextBoxType = {
+			name = "total_army_retinue"
+			position = { x = 325 y = 123 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "MIL_RETINUE"	
+			maxWidth = 100
+			maxHeight =24	
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "total_army_retinue_value"
+			position = { x = 422 y = 123 }
+			textureFile = ""
+			font = "vic_18_black_color"
+			borderSize = {x = 0 y = 0}
+			text = "0/2"	
+			maxWidth = 45
+			maxHeight =24	
+			format = right
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="icon_type_inf_retinue"
+			spriteType = "GFX_unitview_unitstrip"
+			position = { x= 320 y = 138 }
+		}
+		
+		guiButtonType = {
+			name = "remove_retinue_inf_button"
+			position = { x=345 y =146 }
+			quadTextureSprite ="GFX_mil_removeret"	
+		}
+		
+		iconType =
+		{
+			name ="icon_type_cav_retinue"
+			spriteType = "GFX_unitview_unitstrip"
+			position = { x= 375 y = 138 }
+		}
+		
+		guiButtonType = {
+			name = "remove_retinue_cav_button"
+			position = { x=405 y =146 }
+			quadTextureSprite ="GFX_mil_removeret"	
+		}
+		
+		iconType =
+		{
+			name ="icon_type_arq_retinue"
+			spriteType = "GFX_unitview_unitstrip"
+			position = { x= 430 y = 138 }
+		}
+		
+		guiButtonType = {
+			name = "remove_retinue_arq_button"
+			position = { x=455 y =146 }
+			quadTextureSprite ="GFX_mil_removeret"	
+		}
+			
+		guiButtonType = {
+				name = "construction_switch"
+				position = { x=306 y =171 }
+				quadTextureSprite ="GFX_standard_wood_button_169"	
+				tooltip = ""
+				tooltipText =""
+				buttonText = "ARMY_RECRUITMENT"
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				pdx_tooltip = "ARMY_RECRUITMENT"
+			}
+			
+		guiButtonType = {
+				name = "raise_levies"
+				position = { x=159 y =171 }
+				quadTextureSprite ="button_type_9"	
+				tooltip = ""
+				tooltipText =""
+				buttonText = "MILVIEW_LEVIES"
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				pdx_tooltip = "LEVY_TAB"
+			}
+			
+		guiButtonType = {
+				name = "raise_army"
+				position = { x=227 y =171 }
+				quadTextureSprite ="button_type_9"	
+				tooltip = ""
+				tooltipText =""
+				buttonText = "MILVIEW_UNITS"
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				pdx_tooltip = "ARMY_TAB"
+			}
+			
+		instantTextBoxType = {
+			name = "levy_button_lable"
+			position = { x = 163 y = 179 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			text = "LEVY_BUTTON_LABLE"	
+
+			maxWidth = 62
+			maxHeight =24	
+			format = center
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}	
+			
+		instantTextBoxType = {
+			name = "army_button_lable"
+			position = { x = 228 y = 179 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "99.0"	
+			text = "ARMY_BUTTON_LABLE"	
+			maxWidth = 62
+			maxHeight =24	
+			format = center
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		
+
+
+
+			
+		guiButtonType = {
+				name = "raise_all"
+				position = { x=306 y =627 }
+				quadTextureSprite ="GFX_standard_wood_button_169"	
+				tooltip = ""
+				tooltipText =""
+				buttonText = "MILVIEW_RAISE_ALL"
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				pdx_tooltip = MILVIEW_RAISE_ALL
+			}
+			
+		guiButtonType = {
+				name = "disband_all"
+				position = { x=126 y =627 }
+				quadTextureSprite ="GFX_standard_wood_button_169"	
+				tooltip = ""
+				tooltipText =""
+				buttonText = "MILVIEW_DISBAND_ALL"
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				pdx_tooltip = MILVIEW_DISBAND_ALL
+		}
+			
+		
+		### Total Troops and support limits
+			
+		### Unit Listing
+		windowType = {
+			name = "unit_list"
+			backGround =""
+			position = { x=13 y=186 }	
+			size = { x=530 y=450 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+		
+			guiButtonType =	{
+				name = "sortbutton_name"
+				position = { x=48 y=21}
+				quadTextureSprite ="GFX_standard_button_black_137"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "NAME"
+				buttonFont = "vic_18"
+				pdx_tooltip = "MIL_SORT_NAME"
+			}
+			
+			guiButtonType =	{
+				name = "sortbutton_size"	
+				position = { x=184 y=21}
+				quadTextureSprite ="GFX_standard_button_black_94"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "SIZE"
+				buttonFont = "vic_18"
+				pdx_tooltip = "MIL_SORT_SIZE"
+			}
+			
+			guiButtonType =	{
+				name = "sortbutton_location"
+				position = { x=277 y=21}
+				quadTextureSprite ="GFX_standard_button_black_94"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "LOCATION"
+				pdx_tooltip = "MIL_SORT_LOCATION"
+				buttonFont = "vic_18"
+			}
+			
+			guiButtonType =	{
+				name = "sortbutton_morale"
+				position = { x=370 y=21}
+				quadTextureSprite ="GFX_standard_button_black_94"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				#pdx_tooltip = "MIL_SORT_MORALE"
+				buttonText = "UNIT_MORALE"
+				buttonFont = "vic_18"
+			}
+			
+			### remove
+			guiButtonType =	{
+				name = "sortbutton_status"
+				position = { x=9432 y=21}
+				quadTextureSprite ="GFX_standard_button_black_29"
+				pdx_tooltip = "MIL_SORT_STATUS"
+				buttonText = ""
+				buttonFont = "vic_18"
+			}
+			###
+			
+
+			
+			listboxType = {
+				name = "list"
+				position = { x = 0 y = 0 }
+				backGround = ""
+				position = { x=3 y=50 }
+				size = { x=462 y=390 }
+				Orientation = "UPPER_LEFT"
+				horisontal = 0
+				spacing = 1.5
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+	}
+	
+	windowType = {
+		name = "military_levy_entry"
+		backGround =""
+		position = { x=2 y=0 }	
+		size = { x=480 y=65 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		
+		iconType =
+			{
+				name ="army_entry_bg"
+				spriteType = "GFX_military_unit_entry"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
+			
+	
+		guiButtonType =	{
+			name ="leader_portrait"
+			quadTextureSprite= "GFX_char_50"
+			position = { x= 9 y = 10 }
+			Orientation = "UPPER_LEFT"
+    
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		guiButtonType =	{
+			name = "army_name"
+			quadTextureSprite= ""
+			position = { x= 57 y = 24 }
+			buttonText = "Armyname"
+			buttonFont = "vic_18_black"
+			format = left
+			size = { x=125 y=20 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		instantTextBoxType = {
+			name = "leader_name"
+			position = { x = 57 y = 4 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 125
+			maxHeight = 20	
+			format = left
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "size"
+			position = { x = 198 y = 7 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "200"	
+			maxWidth = 200
+			maxHeight = 16	
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "num_raised"
+			position = { x = 382 y = 7 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "200"	
+			maxWidth = 32
+			maxHeight = 16	
+			format = center
+		}
+				
+		guiButtonType =	{
+			name = "location"
+			quadTextureSprite= ""
+			position = { x= 285 y = 7 }
+			size = { x = 100 y = 16 }
+			buttonText = "Provincename"
+			buttonFont = "vic_18_black"
+			format = left
+			
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			pdx_tooltip = ARMY_LOCATION
+			pdx_tooltip_delayed = MIL_GOTO_ARMY_DELAYED
+		}
+				
+				
+				
+		guiButtonType = {
+			name = "raise_button"
+			position = { x=380 y =26 }
+			quadTextureSprite ="button_type_9"	
+			tooltip = ""
+			tooltipText =""
+			buttonText = "TEXT"
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+		}
+		
+		instantTextBoxType = {
+			name = "raise_button_lable"
+			position = { x = 365 y = 34 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "RAISE_BUTTON_LABLE"	
+			maxWidth = 100
+			maxHeight =24	
+			format = Center
+			#Orientation = "UPPER_RIGHT"
+		}
+		
+		iconType =
+			{
+				name ="icon_type_inf"
+				spriteType = "GFX_unitview_unitstrip"
+				position = { x= 192 y = 25 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+		instantTextBoxType = {
+				name = "subunit_amount_inf"
+				position = { x = 213 y = 33 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "10000"	
+				maxWidth = 40
+				maxHeight = 20
+				format = right	
+				Orientation = "UPPER_LEFT"
+			}
+			
+		iconType =
+			{
+				name ="icon_type_cav"
+				spriteType = "GFX_unitview_unitstrip"
+				position = { x= 274 y = 25 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		instantTextBoxType = {
+				name = "subunit_amount_cav"
+				position = { x = 293 y = 33 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "10000"	
+				maxWidth = 40
+				maxHeight = 20
+				format = right	
+				Orientation = "UPPER_LEFT"
+			}
+	}
+		
+	windowType = {
+		name = "military_unit_entry"
+		backGround =""
+		position = { x=2 y=0 }	
+		size = { x=480 y=65 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+	
+		iconType =
+			{
+				name ="army_entry_bg"
+				spriteType = "GFX_military_unit_entry"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
+	
+		guiButtonType =	{
+			name ="leader_portrait"
+			quadTextureSprite= "GFX_char_50"
+			position = { x= 9 y = 10 }
+			Orientation = "UPPER_LEFT"
+    
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		instantTextBoxType = {
+			name = "leader_name"
+			position = { x = 57 y = 4 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 125
+			maxHeight = 20	
+			format = left
+			fixedsize = yes
+		}
+		
+		guiButtonType =	{
+			name = "army_name"
+			quadTextureSprite= ""
+			position = { x= 57 y = 24 }
+			buttonText = "Armyname"
+			buttonFont = "vic_18_black"
+			format = left
+			size = { x=125 y=20 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			pdx_tooltip = ARMY_NAME
+			pdx_tooltip_delayed = MIL_SELECT_ARMY_DELAYED
+		}
+		
+		instantTextBoxType = {
+			name = "size"
+			position = { x = 150 y = 7 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "100"	
+			maxWidth = 200
+			maxHeight = 16	
+			format = center
+		}
+				
+		guiButtonType =	{
+			name = "location"
+			quadTextureSprite= ""
+			position = { x= 285 y = 7 }
+			size = { x = 100 y = 16 }
+			buttonText = "Provincename"
+			buttonFont = "vic_18_black"
+			format = left
+			
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			pdx_tooltip = ARMY_LOCATION
+			pdx_tooltip_delayed = MIL_GOTO_ARMY_DELAYED
+		}
+				
+				
+				
+		instantTextBoxType = {
+			name = "morale"
+			position = { x = 370 y = 7 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "67"	
+			maxWidth = 100
+			maxHeight = 16
+			format = left
+		}
+		
+		### remove
+		instantTextBoxType = {
+			name = "army status"
+			position = { x = 9355 y = 34 }
+			textureFile = ""
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "Status"	
+			maxWidth = 100
+			maxHeight =24	
+			format = Center
+			#Orientation = "UPPER_RIGHT"
+		}
+		###
+		
+		
+		iconType =
+		{
+			name ="icon_type_inf"
+			spriteType = "GFX_unitview_unitstrip"
+			position = { x= 192 y = 25 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+		instantTextBoxType = {
+				name = "subunit_amount_inf"
+				position = { x = 213 y = 33 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "10000"	
+				maxWidth = 40
+				maxHeight = 20
+				format = right	
+				Orientation = "UPPER_LEFT"
+			}
+			
+		iconType =
+			{
+				name ="icon_type_cav"
+				spriteType = "GFX_unitview_unitstrip"
+				position = { x= 274 y = 25 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		instantTextBoxType = {
+				name = "subunit_amount_cav"
+				position = { x = 293 y = 33 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "10000"	
+				maxWidth = 40
+				maxHeight = 20
+				format = right	
+				Orientation = "UPPER_LEFT"
+			}
+		
+			iconType =
+			{
+				name ="icon_type_arq"
+				spriteType = "GFX_unitview_unitstrip"
+				position = { x= 354 y = 25 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "subunit_amount_arq"
+				position = { x = 373 y = 33 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "10000"	
+				maxWidth = 40
+				maxHeight = 20
+				format = right	
+				Orientation = "UPPER_LEFT"
+			}
+
+		
+		
+		
+	}
+}
+		
